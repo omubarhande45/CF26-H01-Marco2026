@@ -30,7 +30,8 @@ export default function Federation() {
           <text x="320" y="28" textAnchor="middle" fill="#667085" fontSize="12">Coordinator</text>
           <circle cx="320" cy="48" r="10" fill="#2563EB" />
           {(nodes || []).map((n, i) => {
-            const x = 80 + (i * 480) / Math.max(1, (nodes || []).length - 1);
+            const count = (nodes || []).length;
+            const x = count <= 1 ? 320 : 80 + (i * 480) / (count - 1);
             return (
               <g key={n.node_id}>
                 <line x1="320" y1="58" x2={x} y2="120" stroke="#E4E7EC" />

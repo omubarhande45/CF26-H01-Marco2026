@@ -439,6 +439,7 @@ def _envelope(qid: str, spec: dict, rec: dict | None = None) -> dict:
         "lab_op": spec.get("lab_op") or ">",
         "lab_value": spec.get("lab_value"),
         "window_months": spec.get("window_months") or 12,
+        "year": spec.get("year"),
     }
 
 
@@ -882,6 +883,13 @@ def activate_institution(iid: str, user: dict = Depends(require("admin"))):
     return {"id": iid, "status": "ACTIVE", "schema": compat}
 
 
+@app.post("/auth/logout")
+def logout():
+    resp = JSONResponse({"ok": True})
+    resp.delete_cookie("fcqf_access", path="/")
+    return resp
+
+
 @app.get("/auth/me")
 def auth_me(user: dict = Depends(current_user)):
     return {
@@ -978,16 +986,37 @@ def audit_detail(eid: int, user: dict = Depends(require("read_audit"))):
 @app.get("/institutions/{iid}")
 def institution_detail(iid: str, user: dict = Depends(require("read_nodes", "query"))):
     n = next((x for x in NODES if x["id"] == iid), None)
-    if not n:
+    catalog_row = None
+    try:
+        con = _catalog()
+        catalog_row = con.execute(
+            "SELECT institution_id, institution_name, institution_type, location, node_id FROM institutions WHERE institution_id=? OR node_id=?",
+            (iid, iid),
+        ).fetchone()
+        con.close()
+    except HTTPException:
+        catalog_row = None
+    if not n and catalog_row and catalog_row["node_id"]:
+        n = next((x for x in NODES if x["id"] == catalog_row["node_id"]), None)
+    if not n and not catalog_row:
         raise HTTPException(404, "unknown institution")
-    probe = _probe(n)
-    prof = PROFILES.get(iid, {})
+    probe = _probe(n) if n else {"healthy": False, "status": "UNASSIGNED", "name": iid}
+    nid = (n or {}).get("id", iid)
+    prof = PROFILES.get(nid, {})
+    name = (catalog_row["institution_name"] if catalog_row else None) or probe.get("name") or iid
+    itype = (catalog_row["institution_type"] if catalog_row else None) or (
+        "laboratory" if "lab" in iid else "hospital" if "hospital" in iid else "research"
+    )
     return {
         **probe,
         "id": iid,
-        "type": "laboratory" if "lab" in iid else "hospital" if "hospital" in iid else "research",
+        "name": name,
+        "type": itype,
+        "location": catalog_row["location"] if catalog_row else None,
+        "institution_id": catalog_row["institution_id"] if catalog_row else iid,
+        "node_id": (catalog_row["node_id"] if catalog_row else None) or nid,
         "profile": prof,
-        "schema_compatibility": _schema_status_for(n),
+        "schema_compatibility": _schema_status_for(n) if n else "UNKNOWN",
         "canonical_model_version": prof.get("canonical_model_version"),
         "agent_version": "1.0",
         "allowed_query_types": prof.get("allowed_query_types", []),

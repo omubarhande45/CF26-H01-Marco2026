@@ -21,7 +21,7 @@ import {
 import { useAuth } from "../auth";
 import { can, type NavKey } from "../roles";
 import { gatewayHealth, stats } from "../api/federation";
-import { publicConfig } from "../api/auth";
+import { logout as apiLogout, publicConfig } from "../api/auth";
 import Brand from "../components/Brand";
 
 const NAV: { key: NavKey; to: string; label: string; group: string | null; icon: typeof Search }[] = [
@@ -177,6 +177,7 @@ export default function AppShell() {
                   <button
                     className="w-full px-3 py-1.5 text-left hover:bg-[#F9FAFC]"
                     onClick={() => {
+                      void apiLogout();
                       setUser(null);
                       nav("/login");
                     }}

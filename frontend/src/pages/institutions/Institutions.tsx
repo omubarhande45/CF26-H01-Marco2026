@@ -22,7 +22,7 @@ export default function Institutions() {
       {!rows && !err && <LoadingSkeleton />}
       <div className="grid md:grid-cols-3 gap-3">
         {(rows || []).map((c) => (
-          <Link key={c.institution_id} to={`/institutions/${c.node_id || c.institution_id}`} className="card block">
+          <Link key={c.institution_id} to={`/institutions/${c.institution_id}`} className="card block">
             <div className="flex justify-between items-start">
               <h3 className="font-semibold text-sm">{c.institution_name}</h3>
               <StatusBadge status="LOCAL" />

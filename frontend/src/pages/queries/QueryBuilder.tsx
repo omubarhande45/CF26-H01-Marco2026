@@ -35,7 +35,7 @@ export default function QueryBuilder() {
       age_max: 120,
       conditions,
       medications: [],
-      lab_test: null as unknown as string,
+      lab_test: null,
       lab_op: ">",
       lab_value: null,
       window_months: 12,

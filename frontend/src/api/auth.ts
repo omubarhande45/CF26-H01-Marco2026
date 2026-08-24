@@ -15,3 +15,7 @@ export function me(token: string) {
 export function publicConfig() {
   return api<{ environment: string; demo_accounts: boolean; min_cohort: number; version: string }>("/config");
 }
+
+export function logout() {
+  return api<{ ok: boolean }>("/auth/logout", null, { method: "POST" }).catch(() => ({ ok: false }));
+}
