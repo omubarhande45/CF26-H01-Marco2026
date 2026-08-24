@@ -31,19 +31,18 @@ Production hardening: policy engine, Laplace DP + budget, OIDC-ready auth, secur
 | steward | steward123 | node ops |
 | admin | admin123 | all |
 
-## Deploy (Vercel UI + separate gateway)
+## Deploy
 
-The React app on Vercel is **static**. Login calls `/api/auth/login`. That path only exists if you:
+See **[DEPLOY.md](DEPLOY.md)** for the production layout (`deploy/docker-compose.yml`).
 
-1. Deploy the FastAPI gateway (and nodes) on Railway, Render, Fly.io, or a VPS — **not** on Vercel.
-2. In the Vercel project: **Settings → Environment Variables**
-   - `GATEWAY_URL` = public gateway URL, e.g. `https://fcqf-gateway.up.railway.app` (no trailing slash)
-3. Redeploy. Serverless `api/[...path]` proxies `/api/*` to that gateway.
-4. On the gateway, set `ALLOWED_ORIGINS` to include `https://your-app.vercel.app` if you ever call the gateway directly.
+Quick all-in-one:
 
-Without `GATEWAY_URL`, sign-in shows a clear configuration error instead of a raw Vercel 404.
+```bash
+docker compose -f deploy/docker-compose.yml up -d --build
+# open http://localhost  → researcher / research123
+```
 
-Local demo still uses Vite proxy → `http://127.0.0.1:8080` (`VITE_API_BASE_URL=/api`).
+Vercel hosts **UI only**. Set `GATEWAY_URL` to a public gateway. Nodes stay private.
 
 ## Run locally
 

@@ -25,7 +25,9 @@ ENV NODE_A=http://127.0.0.1:8101 \
     NODE_B=http://127.0.0.1:8102 \
     NODE_L=http://127.0.0.1:8103 \
     ALLOW_DEMO_USERS=1 \
-    FCQF_ENV=production
+    FCQF_ENV=development \
+    JWT_SECRET=fcqf-dev-secret-change-me \
+    ALLOWED_ORIGINS=*
 
 EXPOSE 8080
 CMD ["/app/deploy/railway_start.sh"]

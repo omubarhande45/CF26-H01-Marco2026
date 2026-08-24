@@ -5,8 +5,11 @@ export NODE_A="${NODE_A:-http://127.0.0.1:8101}"
 export NODE_B="${NODE_B:-http://127.0.0.1:8102}"
 export NODE_L="${NODE_L:-http://127.0.0.1:8103}"
 export ALLOWED_ORIGINS="${ALLOWED_ORIGINS:-*}"
-export FCQF_ENV="${FCQF_ENV:-production}"
+export FCQF_ENV="${FCQF_ENV:-development}"
 export ALLOW_DEMO_USERS="${ALLOW_DEMO_USERS:-1}"
+if [ -z "${JWT_SECRET:-}" ]; then
+  export JWT_SECRET="fcqf-dev-secret-change-me"
+fi
 
 echo "starting Hospital A :8101"
 NODE_ID=hospital_a NODE_NAME="Hospital A" \

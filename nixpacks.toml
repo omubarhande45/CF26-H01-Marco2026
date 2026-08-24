@@ -1,3 +1,13 @@
-# Fallback if Docker is disabled — still start the full local federation.
+# Fallback if Docker is disabled.
+[phases.setup]
+nixPkgs = ["python312"]
+
+[phases.build]
+cmds = [
+  "pip install -r requirements.txt",
+  "python3 institutional_nodes/generate_data.py --patients 4000",
+  "python3 scripts/load_epidemiology.py",
+]
+
 [start]
 cmd = "sh deploy/railway_start.sh"
