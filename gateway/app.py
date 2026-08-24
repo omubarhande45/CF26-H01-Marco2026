@@ -1072,3 +1072,85 @@ def catalog_institutions(user: dict = Depends(require("read_nodes", "query", "re
 @app.get("/catalog/years")
 def catalog_years(user: dict = Depends(require("query", "read_result", "read_nodes"))):
     return {"years": list(range(2015, 2027))}
+
+
+def _node_get(n: dict, path: str) -> dict | None:
+    try:
+        r = httpx.get(f"{n['url']}{path}", headers=svc_auth.issue(n["id"]), timeout=4.0)
+        if r.status_code != 200:
+            return None
+        data = r.json()
+        if isinstance(data, dict) and any(k in data for k in ("patients", "rows", "records")):
+            return None
+        return data if isinstance(data, dict) else None
+    except Exception:
+        return None
+
+
+@app.get("/analytics/overview")
+def analytics_overview(
+    disease: str = "Type 2 diabetes mellitus",
+    user: dict = Depends(require("query", "read_result", "read_nodes")),
+):
+    from urllib.parse import quote
+
+    nodes = []
+    series_by_year: dict[int, dict[str, Any]] = {}
+    top_merge: dict[str, dict[str, Any]] = {}
+    for n in _active_nodes():
+        summary = _node_get(n, "/epi/summary") or {}
+        trend = _node_get(n, "/epi/trend?disease=" + quote(disease)) or {}
+        healthy = bool(summary.get("node_id") or trend.get("node_id"))
+        nodes.append(
+            {
+                "node_id": n["id"],
+                "name": n["name"],
+                "healthy": healthy,
+                "k": summary.get("k"),
+                "year_min": summary.get("year_min"),
+                "year_max": summary.get("year_max"),
+                "top_diseases": summary.get("top_diseases") or [],
+                "trend": trend.get("series") or [],
+            }
+        )
+        for item in summary.get("top_diseases") or []:
+            key = str(item.get("disease_name") or item.get("disease_id"))
+            rec = top_merge.setdefault(
+                key,
+                {
+                    "disease_name": item.get("disease_name"),
+                    "icd10_code": item.get("icd10_code"),
+                    "category": item.get("category"),
+                    "count": 0,
+                    "nodes": 0,
+                },
+            )
+            rec["count"] += int(item.get("count") or 0)
+            rec["nodes"] += 1
+        for pt in trend.get("series") or []:
+            y = int(pt.get("year"))
+            bucket = series_by_year.setdefault(y, {"year": y, "total": 0})
+            val = pt.get("count")
+            bucket[n["id"]] = val
+            if isinstance(val, int):
+                bucket["total"] = int(bucket.get("total") or 0) + val
+    top = sorted(top_merge.values(), key=lambda x: int(x["count"]), reverse=True)[:10]
+    timeline = [series_by_year[y] for y in sorted(series_by_year)]
+    return {
+        "disease": disease,
+        "nodes": nodes,
+        "timeline": timeline,
+        "top_diseases": top,
+        "completeness_note": "Yearly counts are node-local aggregates with k-suppression. No patient rows.",
+    }
+
+
+@app.get("/analytics/node/{node_id}")
+def analytics_node(node_id: str, user: dict = Depends(require("query", "read_result", "read_nodes"))):
+    n = next((x for x in NODES if x["id"] == node_id), None)
+    if not n:
+        raise HTTPException(404, "unknown node")
+    summary = _node_get(n, "/epi/summary")
+    if not summary:
+        raise HTTPException(503, "node analytics unavailable")
+    return summary

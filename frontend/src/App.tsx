@@ -10,11 +10,13 @@ import QueryDetails from "./pages/queries/QueryDetails";
 import Federation from "./pages/federation/Federation";
 import Institutions from "./pages/institutions/Institutions";
 import InstitutionDetail from "./pages/institutions/InstitutionDetail";
+import { HospitalA, HospitalB } from "./pages/institutions/HospitalNode";
 import PrivacyCenter from "./pages/privacy/PrivacyCenter";
 import Audit from "./pages/audit/Audit";
 import AuditDetail from "./pages/audit/AuditDetail";
 import Provenance from "./pages/provenance/Provenance";
 import Benchmarks from "./pages/benchmarks/Benchmarks";
+import Analytics from "./pages/analytics/Analytics";
 import SystemHealth from "./pages/health/SystemHealth";
 import Docs from "./pages/docs/Docs";
 import Settings from "./pages/settings/Settings";
@@ -53,6 +55,10 @@ export default function App() {
         <Route path="/query/:queryId" element={<Guard allow="dashboard"><QueryDetails /></Guard>} />
         <Route path="/federation" element={<Guard allow="federation"><Federation /></Guard>} />
         <Route path="/institutions" element={<Guard allow="institutions"><Institutions /></Guard>} />
+        <Route path="/hospital-a" element={<Guard allow="institutions"><HospitalA /></Guard>} />
+        <Route path="/hospital-b" element={<Guard allow="institutions"><HospitalB /></Guard>} />
+        <Route path="/institutions/hospital_a" element={<Guard allow="institutions"><HospitalA /></Guard>} />
+        <Route path="/institutions/hospital_b" element={<Guard allow="institutions"><HospitalB /></Guard>} />
         <Route path="/institutions/:institutionId" element={<Guard allow="institutions"><InstitutionDetail /></Guard>} />
         <Route path="/system-health" element={<Guard allow="system-health"><SystemHealth /></Guard>} />
         <Route path="/privacy" element={<Guard allow="privacy"><PrivacyCenter /></Guard>} />
@@ -60,6 +66,7 @@ export default function App() {
         <Route path="/audit/:eventId" element={<Guard allow="audit"><AuditDetail /></Guard>} />
         <Route path="/provenance" element={<Guard allow="provenance"><Provenance /></Guard>} />
         <Route path="/benchmarks" element={<Guard allow="benchmarks"><Benchmarks /></Guard>} />
+        <Route path="/analytics" element={<Guard allow="analytics"><Analytics /></Guard>} />
         <Route path="/docs" element={<Guard allow="docs"><Docs /></Guard>} />
         <Route path="/settings" element={<Guard allow="settings"><Settings /></Guard>} />
         <Route path="/403" element={<Forbidden />} />

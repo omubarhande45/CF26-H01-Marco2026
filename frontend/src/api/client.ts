@@ -1,4 +1,4 @@
-const BASE = "/api";
+const BASE = (import.meta.env.VITE_API_BASE_URL || "/api").replace(/\/$/, "");
 
 export class ApiError extends Error {
   status: number;
@@ -54,11 +54,24 @@ export async function api<T = unknown>(path: string, token?: string | null, init
     /* keep text */
   }
   if (!res.ok) {
-    const detail =
-      typeof body === "object" && body && "detail" in body
-        ? String((body as { detail: unknown }).detail)
-        : text || res.statusText;
-    throw new ApiError(res.status, detail);
+    throw new ApiError(res.status, humanizeError(res.status, body, text));
   }
   return body as T;
+}
+
+function humanizeError(status: number, body: unknown, text: string): string {
+  if (body && typeof body === "object") {
+    const rec = body as { detail?: unknown; error?: { message?: string; code?: string } };
+    if (typeof rec.detail === "string" && rec.detail.trim()) return rec.detail;
+    if (rec.error?.message) {
+      if (String(rec.error.code) === "404" || /could not be found/i.test(rec.error.message)) {
+        return "The API gateway is not on this Vercel site. Deploy the FastAPI backend and set GATEWAY_URL, or sign in on the local Dashboard (port 5173).";
+      }
+      return rec.error.message;
+    }
+  }
+  if (status === 404) {
+    return "Login API was not found (404). This static host has no /api/auth/login unless GATEWAY_URL is set.";
+  }
+  return text || "Request failed";
 }

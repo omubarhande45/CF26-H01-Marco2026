@@ -396,6 +396,92 @@ def query(q: LocalQuery, request: Request):
     }
 
 
+def _disease_ids_for(con: sqlite3.Connection, name: str) -> list[str]:
+    diseases = con.execute("SELECT disease_id, disease_name, icd10_code FROM epi_diseases").fetchall()
+    return [
+        d["disease_id"]
+        for d in diseases
+        if names_match(name, d["disease_name"]) or names_match(name, d["icd10_code"] or "")
+    ]
+
+
+@app.get("/epi/summary")
+def epi_summary():
+    """Local disease aggregates only. Counts below k are omitted."""
+    if OFFLINE:
+        raise HTTPException(503, "node forced offline")
+    if not Path(DB_PATH).exists():
+        raise HTTPException(503, "database unavailable")
+    con = sqlite3.connect(DB_PATH)
+    con.row_factory = sqlite3.Row
+    try:
+        con.execute("SELECT 1 FROM epi_records LIMIT 1")
+    except sqlite3.Error:
+        con.close()
+        raise HTTPException(503, "epidemiology not loaded")
+    years = con.execute("SELECT MIN(year), MAX(year), COUNT(*) FROM epi_records").fetchone()
+    rows = con.execute(
+        """
+        SELECT d.disease_id, d.disease_name, d.icd10_code, d.disease_category, SUM(r.disease_count) AS c
+        FROM epi_records r JOIN epi_diseases d ON d.disease_id = r.disease_id
+        GROUP BY d.disease_id
+        ORDER BY c DESC
+        LIMIT 12
+        """
+    ).fetchall()
+    con.close()
+    top = []
+    for r in rows:
+        c = int(r["c"] or 0)
+        if c < NODE_K:
+            continue
+        top.append(
+            {
+                "disease_id": r["disease_id"],
+                "disease_name": r["disease_name"],
+                "icd10_code": r["icd10_code"],
+                "category": r["disease_category"],
+                "count": c,
+            }
+        )
+    return {
+        "node_id": NODE_ID,
+        "node_name": NODE_NAME,
+        "k": NODE_K,
+        "year_min": years[0],
+        "year_max": years[1],
+        "record_rows": years[2],
+        "top_diseases": top,
+    }
+
+
+@app.get("/epi/trend")
+def epi_trend(disease: str = "Type 2 diabetes mellitus"):
+    if OFFLINE:
+        raise HTTPException(503, "node forced offline")
+    con = sqlite3.connect(DB_PATH)
+    con.row_factory = sqlite3.Row
+    try:
+        ids = _disease_ids_for(con, disease)
+        if not ids:
+            con.close()
+            return {"node_id": NODE_ID, "node_name": NODE_NAME, "disease": disease, "series": []}
+        ph = ",".join("?" * len(ids))
+        rows = con.execute(
+            f"SELECT year, SUM(disease_count) AS c FROM epi_records WHERE disease_id IN ({ph}) GROUP BY year ORDER BY year",
+            ids,
+        ).fetchall()
+    except sqlite3.Error:
+        con.close()
+        raise HTTPException(503, "epidemiology not loaded")
+    con.close()
+    series = []
+    for r in rows:
+        c = int(r["c"] or 0)
+        series.append({"year": int(r["year"]), "count": None if c < NODE_K else c, "suppressed": c < NODE_K})
+    return {"node_id": NODE_ID, "node_name": NODE_NAME, "disease": disease, "series": series}
+
+
 @app.post("/validate")
 def validate():
     h = health()

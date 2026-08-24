@@ -30,10 +30,13 @@ const NAV: { key: NavKey; to: string; label: string; group: string | null; icon:
   { key: "query-history", to: "/query-history", label: "Query History", group: "QUERY", icon: History },
   { key: "federation", to: "/federation", label: "Federation Monitor", group: "FEDERATION", icon: GitBranch },
   { key: "institutions", to: "/institutions", label: "Institutions", group: "FEDERATION", icon: Building2 },
+  { key: "institutions", to: "/hospital-a", label: "Hospital A", group: "FEDERATION", icon: Building2 },
+  { key: "institutions", to: "/hospital-b", label: "Hospital B", group: "FEDERATION", icon: Building2 },
   { key: "system-health", to: "/system-health", label: "System Health", group: "FEDERATION", icon: Activity },
   { key: "privacy", to: "/privacy", label: "Privacy Center", group: "PRIVACY & SECURITY", icon: ShieldCheck },
   { key: "audit", to: "/audit", label: "Audit Log", group: "PRIVACY & SECURITY", icon: FileSearch },
   { key: "provenance", to: "/provenance", label: "Provenance", group: "PRIVACY & SECURITY", icon: Lock },
+  { key: "analytics", to: "/analytics", label: "Analytics", group: "ANALYTICS", icon: BarChart3 },
   { key: "benchmarks", to: "/benchmarks", label: "Benchmarks", group: "ANALYTICS", icon: BarChart3 },
   { key: "docs", to: "/docs", label: "Documentation", group: "RESOURCES", icon: BookOpen },
 ];

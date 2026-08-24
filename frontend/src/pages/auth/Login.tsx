@@ -44,7 +44,7 @@ export default function Login() {
             Password
             <input className="mt-1" type="password" autoComplete="current-password" value={pass} onChange={(e) => setP(e.target.value)} />
           </label>
-          {err && <p className="text-sm text-[var(--danger)]">{err}</p>}
+          {err && <p className="text-sm text-[var(--danger)] whitespace-pre-wrap">{err}</p>}
           <button className="btn-primary w-full" type="submit">
             Sign in
           </button>

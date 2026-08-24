@@ -11,6 +11,7 @@ export type NavKey =
   | "audit"
   | "provenance"
   | "benchmarks"
+  | "analytics"
   | "docs"
   | "settings";
 
@@ -25,6 +26,7 @@ const ALL: NavKey[] = [
   "audit",
   "provenance",
   "benchmarks",
+  "analytics",
   "docs",
   "settings",
 ];

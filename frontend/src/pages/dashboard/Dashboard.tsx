@@ -190,7 +190,17 @@ export default function Dashboard() {
               {s.nodes.map((n: NodeInfo) => {
                 const Icon = nodeIcon(n.name);
                 return (
-                  <div key={n.node_id} className="rounded-xl border border-[var(--border)] p-4">
+                  <Link
+                    key={n.node_id}
+                    to={
+                      n.node_id === "hospital_a"
+                        ? "/hospital-a"
+                        : n.node_id === "hospital_b"
+                          ? "/hospital-b"
+                          : `/institutions/${n.node_id}`
+                    }
+                    className="rounded-xl border border-[var(--border)] p-4 block hover:border-[#2563EB]/40"
+                  >
                     <div className="flex items-start justify-between gap-2">
                       <div className="flex items-center gap-2">
                         <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-[var(--primary-soft)] text-[var(--primary)]">
@@ -224,7 +234,7 @@ export default function Dashboard() {
                         <dd className="font-medium text-[var(--text-primary)]">{n.healthy ? "Reachable" : "Offline"}</dd>
                       </div>
                     </dl>
-                  </div>
+                  </Link>
                 );
               })}
             </div>
@@ -327,6 +337,7 @@ export default function Dashboard() {
           <section className="mt-5">
             <h2 className="mb-3">Quick Actions</h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
+              <Quick to="/analytics" icon={<Activity size={16} />} title="Disease analytics" sub="Trends across hospitals" />
               <Quick to="/query-builder" icon={<Plus size={16} />} title="Create New Query" sub="Build a federated query" />
               <Quick to="/federation" icon={<GitBranch size={16} />} title="Federation Monitor" sub="View node status" />
               <Quick to="/privacy" icon={<ShieldCheck size={16} />} title="Privacy Center" sub="Privacy settings & budget" />
