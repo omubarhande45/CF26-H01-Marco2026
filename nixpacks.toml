@@ -1,0 +1,3 @@
+# Fallback if Docker is disabled — still start the full local federation.
+[start]
+cmd = "sh deploy/railway_start.sh"

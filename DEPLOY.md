@@ -15,7 +15,30 @@ Do **not** put nodes or SQLite on Vercel.
 
 ---
 
-## 1. Recommended: one VPS / laptop with Docker
+## Railway (one GitHub service)
+
+Railway failed before because there was **no root Dockerfile** and Nixpacks did not know how to start four processes.
+
+This repo now has:
+
+- `Dockerfile` — builds data + Python deps
+- `deploy/railway_start.sh` — Hospital A/B + Lab on localhost, gateway on `$PORT`
+- `railway.toml` — tells Railway to use that Dockerfile
+
+**In Railway**
+
+1. Open the failed service → **Settings**
+2. Builder: **Dockerfile** (or leave default; `railway.toml` sets it)
+3. Variables (optional):
+   - `JWT_SECRET` = long random string
+   - `ALLOW_DEMO_USERS` = `1`
+   - `ALLOWED_ORIGINS` = `https://cf-26-h01-marco2026-one.vercel.app`
+4. **Generate domain** (Settings → Networking → Public domain)
+5. Redeploy (push to `main` or Deploy → Redeploy)
+6. Open `https://YOUR-SERVICE.up.railway.app/health`
+7. Vercel env `GATEWAY_URL` = that URL (no trailing slash) → Redeploy Vercel
+
+Nodes are **not** public; only the gateway port Railway assigns is public.
 
 From the **repo root**:
 
