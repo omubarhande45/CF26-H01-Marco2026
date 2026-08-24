@@ -29,10 +29,11 @@ This repo now has:
 
 1. Open the failed service → **Settings**
 2. Builder: **Dockerfile** (or leave default; `railway.toml` sets it)
-3. Variables (optional):
+3. Variables (optional but recommended):
    - `JWT_SECRET` = long random string
-   - `ALLOW_DEMO_USERS` = `1`
+   - `ALLOW_DEMO_USERS` = `1` (required for researcher / research123)
    - `ALLOWED_ORIGINS` = `https://cf-26-h01-marco2026-one.vercel.app`
+   - Leave `FCQF_ENV` unset (defaults to `development` so the image boots even without JWT_SECRET)
 4. **Generate domain** (Settings → Networking → Public domain)
 5. Redeploy (push to `main` or Deploy → Redeploy)
 6. Open `https://YOUR-SERVICE.up.railway.app/health`
