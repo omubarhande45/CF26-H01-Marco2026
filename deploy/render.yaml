@@ -1,0 +1,63 @@
+# render.com Blueprint — New → Blueprint → this repo
+# After deploy, copy the gateway URL into Vercel GATEWAY_URL.
+
+services:
+  - type: web
+    name: fcqf-gateway
+    runtime: docker
+    dockerfilePath: deploy/Dockerfile.app
+    dockerCommand: uvicorn gateway.app:app --host 0.0.0.0 --port 8080
+    envVars:
+      - key: FCQF_ENV
+        value: production
+      - key: JWT_SECRET
+        generateValue: true
+      - key: NODE_A
+        value: http://fcqf-hospital-a:8101
+      - key: NODE_B
+        value: http://fcqf-hospital-b:8102
+      - key: NODE_L
+        value: http://fcqf-diagnostic-lab:8103
+      - key: ALLOWED_ORIGINS
+        value: https://cf-26-h01-marco2026-one.vercel.app
+      - key: ALLOW_DEMO_USERS
+        value: "1"
+
+  - type: pserv
+    name: fcqf-hospital-a
+    runtime: docker
+    dockerfilePath: deploy/Dockerfile.app
+    dockerCommand: uvicorn institutional_nodes.node_app:app --host 0.0.0.0 --port 8101
+    envVars:
+      - key: NODE_ID
+        value: hospital_a
+      - key: NODE_NAME
+        value: Hospital A
+      - key: DB_PATH
+        value: /app/institutional_nodes/data/hospital_a.db
+
+  - type: pserv
+    name: fcqf-hospital-b
+    runtime: docker
+    dockerfilePath: deploy/Dockerfile.app
+    dockerCommand: uvicorn institutional_nodes.node_app:app --host 0.0.0.0 --port 8102
+    envVars:
+      - key: NODE_ID
+        value: hospital_b
+      - key: NODE_NAME
+        value: Hospital B
+      - key: DB_PATH
+        value: /app/institutional_nodes/data/hospital_b.db
+
+  - type: pserv
+    name: fcqf-diagnostic-lab
+    runtime: docker
+    dockerfilePath: deploy/Dockerfile.app
+    dockerCommand: uvicorn institutional_nodes.node_app:app --host 0.0.0.0 --port 8103
+    envVars:
+      - key: NODE_ID
+        value: diagnostic_lab
+      - key: NODE_NAME
+        value: Diagnostic Laboratory
+      - key: DB_PATH
+        value: /app/institutional_nodes/data/diagnostic_lab.db
