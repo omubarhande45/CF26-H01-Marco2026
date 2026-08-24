@@ -1,0 +1,51 @@
+disease_id,disease_name,disease_category,icd10_code
+D001,Essential (primary) hypertension,Cardiovascular,I10
+D002,Type 2 diabetes mellitus,Endocrine,E11
+D003,Ischemic heart disease,Cardiovascular,I25
+D004,Heart failure,Cardiovascular,I50
+D005,Asthma,Respiratory,J45
+D006,Chronic obstructive pulmonary disease,Respiratory,J44
+D007,Pneumonia,Infectious/Respiratory,J18
+D008,Chronic kidney disease,Kidney,N18
+D009,Acute kidney injury,Kidney,N17
+D010,Chronic liver disease,Liver,K76
+D011,Cirrhosis of liver,Liver,K74
+D012,Gastroesophageal reflux disease,Gastrointestinal,K21
+D013,Peptic ulcer disease,Gastrointestinal,K27
+D014,Iron deficiency anemia,Blood,D50
+D015,Hyperlipidemia,Endocrine,E78
+D016,Obesity,Metabolic,E66
+D017,Hypothyroidism,Endocrine,E03
+D018,Major depressive disorder,Mental Health,F32
+D019,Generalized anxiety disorder,Mental Health,F41
+D020,Osteoarthritis,Musculoskeletal,M15
+D021,Rheumatoid arthritis,Autoimmune,M06
+D022,Osteoporosis,Musculoskeletal,M81
+D023,Migraine,Neurological,G43
+D024,Epilepsy,Neurological,G40
+D025,Alzheimer disease,Neurological,G30
+D026,Parkinson disease,Neurological,G20
+D027,Stroke,Neurological/Cardiovascular,I63
+D028,Breast cancer,Oncology,C50
+D029,Lung cancer,Oncology,C34
+D030,Colorectal cancer,Oncology,C18
+D031,Prostate cancer,Oncology,C61
+D032,Tuberculosis,Infectious,A15
+D033,Dengue,Infectious,A90
+D034,Hepatitis B,Infectious/Liver,B16
+D035,Hepatitis C,Infectious/Liver,B18
+D036,HIV disease,Infectious,B20
+D037,COVID-19,Infectious/Respiratory,U07.1
+D038,Influenza,Infectious/Respiratory,J11
+D039,Psoriasis,Skin/Autoimmune,L40
+D040,Atopic dermatitis,Skin,L20
+D041,Glaucoma,Eye,H40
+D042,Cataract,Eye,H25
+D043,Hearing loss,Ear,H91
+D044,Polycystic ovary syndrome,Reproductive/Endocrine,E28
+D045,Endometriosis,Reproductive,N80
+D046,Benign prostatic hyperplasia,Urological,N40
+D047,Urinary tract infection,Infectious/Urological,N39
+D048,Sepsis,Infectious,A41
+D049,Thalassemia,Blood/Genetic,D56
+D050,Sickle-cell disease,Blood/Genetic,D57

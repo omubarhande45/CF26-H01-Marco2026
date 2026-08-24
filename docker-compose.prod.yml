@@ -1,0 +1,62 @@
+# Local production-mode simulation — not a hosted healthcare platform.
+services:
+  hospital_a:
+    image: python:3.12-slim
+    working_dir: /app
+    volumes: [.:/app]
+    command: bash -c "pip install -q -r requirements.txt && uvicorn institutional_nodes.node_app:app --host 0.0.0.0 --port 8101"
+    environment:
+      NODE_ID: hospital_a
+      NODE_NAME: Hospital A
+      DB_PATH: /app/institutional_nodes/data/hospital_a.db
+      SERVICE_TOKEN: ${SERVICE_TOKEN:-prod-sim-service-token}
+      REQUIRE_SERVICE_AUTH: "1"
+      FCQF_ENV: production
+      ALLOWED_ORIGINS: http://localhost:5173
+    ports: ["8101:8101"]
+
+  hospital_b:
+    image: python:3.12-slim
+    working_dir: /app
+    volumes: [.:/app]
+    command: bash -c "pip install -q -r requirements.txt && uvicorn institutional_nodes.node_app:app --host 0.0.0.0 --port 8102"
+    environment:
+      NODE_ID: hospital_b
+      NODE_NAME: Hospital B
+      DB_PATH: /app/institutional_nodes/data/hospital_b.db
+      SERVICE_TOKEN: ${SERVICE_TOKEN:-prod-sim-service-token}
+      REQUIRE_SERVICE_AUTH: "1"
+      FCQF_ENV: production
+    ports: ["8102:8102"]
+
+  diagnostic_lab:
+    image: python:3.12-slim
+    working_dir: /app
+    volumes: [.:/app]
+    command: bash -c "pip install -q -r requirements.txt && uvicorn institutional_nodes.node_app:app --host 0.0.0.0 --port 8103"
+    environment:
+      NODE_ID: diagnostic_lab
+      NODE_NAME: Diagnostic Laboratory
+      DB_PATH: /app/institutional_nodes/data/diagnostic_lab.db
+      SERVICE_TOKEN: ${SERVICE_TOKEN:-prod-sim-service-token}
+      REQUIRE_SERVICE_AUTH: "1"
+      FCQF_ENV: production
+    ports: ["8103:8103"]
+
+  gateway:
+    image: python:3.12-slim
+    working_dir: /app
+    volumes: [.:/app]
+    command: bash -c "pip install -q -r requirements.txt && uvicorn gateway.app:app --host 0.0.0.0 --port 8080"
+    environment:
+      NODE_A: http://hospital_a:8101
+      NODE_B: http://hospital_b:8102
+      NODE_L: http://diagnostic_lab:8103
+      JWT_SECRET: ${JWT_SECRET:-please-set-a-long-random-production-secret}
+      SERVICE_TOKEN: ${SERVICE_TOKEN:-prod-sim-service-token}
+      REQUIRE_SERVICE_AUTH: "1"
+      FCQF_ENV: production
+      ALLOW_DEMO_USERS: ${ALLOW_DEMO_USERS:-0}
+      ALLOWED_ORIGINS: http://localhost:5173
+    ports: ["8080:8080"]
+    depends_on: [hospital_a, hospital_b, diagnostic_lab]

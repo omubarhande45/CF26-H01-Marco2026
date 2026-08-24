@@ -1,0 +1,15 @@
+institution: hospital_a
+name: Hospital A
+privacy:
+  minimum_cohort: 10
+  differential_privacy: false
+  epsilon: 1.0
+allowed_roles:
+  - researcher
+  - clinician
+  - admin
+allowed_query_types:
+  - aggregate_count
+  - aggregate_statistics
+canonical_model_version: "1.0"
+schema_version: "1.2"

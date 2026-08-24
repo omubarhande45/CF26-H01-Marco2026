@@ -1,0 +1,13 @@
+institution_id,institution_name,institution_type,location
+INST001,HealthCare Institute 001,Hospital,Pune
+INST002,HealthCare Institute 002,Diagnostic Laboratory,Nagpur
+INST003,HealthCare Institute 003,Research Institute,Mumbai
+INST004,HealthCare Institute 004,Medical Center,Nashik
+INST005,HealthCare Institute 005,Teaching Hospital,Aurangabad
+INST006,HealthCare Institute 006,Hospital,Bengaluru
+INST007,HealthCare Institute 007,Diagnostic Laboratory,Hyderabad
+INST008,HealthCare Institute 008,Research Institute,Delhi
+INST009,HealthCare Institute 009,Medical Center,Ahmedabad
+INST010,HealthCare Institute 010,Teaching Hospital,Jaipur
+INST011,HealthCare Institute 011,Hospital,Indore
+INST012,HealthCare Institute 012,Diagnostic Laboratory,Kochi

@@ -1,0 +1,54 @@
+{
+  "live_institutions": 3,
+  "runs": [
+    {
+      "status": "COMPLETE",
+      "aggregate": 128,
+      "wall_ms": 206.92,
+      "executed_ms": 147.03,
+      "nodes_successful": 3,
+      "nodes_total": 3,
+      "node_latency": {
+        "diagnostic_lab": 48.04,
+        "hospital_a": 110.49,
+        "hospital_b": 62.7
+      },
+      "completeness": 100.0,
+      "institutions_live": 3,
+      "series": 1
+    },
+    {
+      "status": "COMPLETE",
+      "aggregate": 128,
+      "wall_ms": 185.02,
+      "executed_ms": 125.93,
+      "nodes_successful": 3,
+      "nodes_total": 3,
+      "node_latency": {
+        "diagnostic_lab": 29.3,
+        "hospital_a": 110.93,
+        "hospital_b": 84.74
+      },
+      "completeness": 100.0,
+      "institutions_live": 3,
+      "series": 2
+    },
+    {
+      "status": "COMPLETE",
+      "aggregate": 128,
+      "wall_ms": 193.22,
+      "executed_ms": 133.78,
+      "nodes_successful": 3,
+      "nodes_total": 3,
+      "node_latency": {
+        "diagnostic_lab": 41.15,
+        "hospital_a": 110.02,
+        "hospital_b": 73.81
+      },
+      "completeness": 100.0,
+      "institutions_live": 3,
+      "series": 3
+    }
+  ],
+  "note": "Scale series reuses the live topology; per-k isolation is simulated by reporting live n."
+}

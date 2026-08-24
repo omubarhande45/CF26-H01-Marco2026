@@ -1,0 +1,3601 @@
+institution_id,year,combination_id,disease_1,disease_2,disease_3,disease_4,patient_count
+INST001,2015,C001,Diabetes,Hypertension,,,90
+INST001,2015,C002,Diabetes,Chronic kidney disease,,,60
+INST001,2015,C003,Hypertension,Ischemic heart disease,,,111
+INST001,2015,C004,Diabetes,Obesity,,,104
+INST001,2015,C005,Diabetes,Hypertension,Obesity,,76
+INST001,2015,C006,COPD,Hypertension,,,58
+INST001,2015,C007,Asthma,Allergic/atopic disease,,,28
+INST001,2015,C008,Heart failure,Chronic kidney disease,,,38
+INST001,2015,C009,Diabetes,Hyperlipidemia,Hypertension,,59
+INST001,2015,C010,Hypertension,Stroke,,,16
+INST001,2015,C011,Chronic liver disease,Type 2 diabetes mellitus,,,18
+INST001,2015,C012,Depression,Generalized anxiety disorder,,,52
+INST001,2015,C013,Osteoarthritis,Obesity,,,38
+INST001,2015,C014,Rheumatoid arthritis,Osteoporosis,,,29
+INST001,2015,C015,Pneumonia,Diabetes,,,48
+INST001,2015,C016,COVID-19,Diabetes,,,23
+INST001,2015,C017,COVID-19,Hypertension,,,24
+INST001,2015,C018,COVID-19,Diabetes,Hypertension,,15
+INST001,2015,C019,Tuberculosis,Diabetes,,,22
+INST001,2015,C020,Urinary tract infection,Diabetes,,,74
+INST001,2015,C021,Diabetes,Chronic kidney disease,Hypertension,,43
+INST001,2015,C022,Ischemic heart disease,Diabetes,Hypertension,,56
+INST001,2015,C023,Asthma,Obesity,,,96
+INST001,2015,C024,COPD,Diabetes,,,20
+INST001,2015,C025,Hyperlipidemia,Hypertension,,,58
+INST001,2016,C001,Diabetes,Hypertension,,,116
+INST001,2016,C002,Diabetes,Chronic kidney disease,,,103
+INST001,2016,C003,Hypertension,Ischemic heart disease,,,96
+INST001,2016,C004,Diabetes,Obesity,,,66
+INST001,2016,C005,Diabetes,Hypertension,Obesity,,119
+INST001,2016,C006,COPD,Hypertension,,,54
+INST001,2016,C007,Asthma,Allergic/atopic disease,,,18
+INST001,2016,C008,Heart failure,Chronic kidney disease,,,25
+INST001,2016,C009,Diabetes,Hyperlipidemia,Hypertension,,55
+INST001,2016,C010,Hypertension,Stroke,,,17
+INST001,2016,C011,Chronic liver disease,Type 2 diabetes mellitus,,,15
+INST001,2016,C012,Depression,Generalized anxiety disorder,,,58
+INST001,2016,C013,Osteoarthritis,Obesity,,,93
+INST001,2016,C014,Rheumatoid arthritis,Osteoporosis,,,11
+INST001,2016,C015,Pneumonia,Diabetes,,,72
+INST001,2016,C016,COVID-19,Diabetes,,,21
+INST001,2016,C017,COVID-19,Hypertension,,,21
+INST001,2016,C018,COVID-19,Diabetes,Hypertension,,14
+INST001,2016,C019,Tuberculosis,Diabetes,,,13
+INST001,2016,C020,Urinary tract infection,Diabetes,,,44
+INST001,2016,C021,Diabetes,Chronic kidney disease,Hypertension,,99
+INST001,2016,C022,Ischemic heart disease,Diabetes,Hypertension,,99
+INST001,2016,C023,Asthma,Obesity,,,57
+INST001,2016,C024,COPD,Diabetes,,,49
+INST001,2016,C025,Hyperlipidemia,Hypertension,,,81
+INST001,2017,C001,Diabetes,Hypertension,,,194
+INST001,2017,C002,Diabetes,Chronic kidney disease,,,59
+INST001,2017,C003,Hypertension,Ischemic heart disease,,,51
+INST001,2017,C004,Diabetes,Obesity,,,86
+INST001,2017,C005,Diabetes,Hypertension,Obesity,,120
+INST001,2017,C006,COPD,Hypertension,,,65
+INST001,2017,C007,Asthma,Allergic/atopic disease,,,29
+INST001,2017,C008,Heart failure,Chronic kidney disease,,,23
+INST001,2017,C009,Diabetes,Hyperlipidemia,Hypertension,,84
+INST001,2017,C010,Hypertension,Stroke,,,28
+INST001,2017,C011,Chronic liver disease,Type 2 diabetes mellitus,,,14
+INST001,2017,C012,Depression,Generalized anxiety disorder,,,43
+INST001,2017,C013,Osteoarthritis,Obesity,,,32
+INST001,2017,C014,Rheumatoid arthritis,Osteoporosis,,,13
+INST001,2017,C015,Pneumonia,Diabetes,,,62
+INST001,2017,C016,COVID-19,Diabetes,,,21
+INST001,2017,C017,COVID-19,Hypertension,,,13
+INST001,2017,C018,COVID-19,Diabetes,Hypertension,,24
+INST001,2017,C019,Tuberculosis,Diabetes,,,31
+INST001,2017,C020,Urinary tract infection,Diabetes,,,57
+INST001,2017,C021,Diabetes,Chronic kidney disease,Hypertension,,67
+INST001,2017,C022,Ischemic heart disease,Diabetes,Hypertension,,42
+INST001,2017,C023,Asthma,Obesity,,,41
+INST001,2017,C024,COPD,Diabetes,,,89
+INST001,2017,C025,Hyperlipidemia,Hypertension,,,75
+INST001,2018,C001,Diabetes,Hypertension,,,60
+INST001,2018,C002,Diabetes,Chronic kidney disease,,,25
+INST001,2018,C003,Hypertension,Ischemic heart disease,,,44
+INST001,2018,C004,Diabetes,Obesity,,,83
+INST001,2018,C005,Diabetes,Hypertension,Obesity,,72
+INST001,2018,C006,COPD,Hypertension,,,44
+INST001,2018,C007,Asthma,Allergic/atopic disease,,,34
+INST001,2018,C008,Heart failure,Chronic kidney disease,,,17
+INST001,2018,C009,Diabetes,Hyperlipidemia,Hypertension,,35
+INST001,2018,C010,Hypertension,Stroke,,,16
+INST001,2018,C011,Chronic liver disease,Type 2 diabetes mellitus,,,24
+INST001,2018,C012,Depression,Generalized anxiety disorder,,,86
+INST001,2018,C013,Osteoarthritis,Obesity,,,96
+INST001,2018,C014,Rheumatoid arthritis,Osteoporosis,,,17
+INST001,2018,C015,Pneumonia,Diabetes,,,85
+INST001,2018,C016,COVID-19,Diabetes,,,11
+INST001,2018,C017,COVID-19,Hypertension,,,8
+INST001,2018,C018,COVID-19,Diabetes,Hypertension,,24
+INST001,2018,C019,Tuberculosis,Diabetes,,,35
+INST001,2018,C020,Urinary tract infection,Diabetes,,,32
+INST001,2018,C021,Diabetes,Chronic kidney disease,Hypertension,,62
+INST001,2018,C022,Ischemic heart disease,Diabetes,Hypertension,,66
+INST001,2018,C023,Asthma,Obesity,,,75
+INST001,2018,C024,COPD,Diabetes,,,23
+INST001,2018,C025,Hyperlipidemia,Hypertension,,,106
+INST001,2019,C001,Diabetes,Hypertension,,,79
+INST001,2019,C002,Diabetes,Chronic kidney disease,,,41
+INST001,2019,C003,Hypertension,Ischemic heart disease,,,95
+INST001,2019,C004,Diabetes,Obesity,,,113
+INST001,2019,C005,Diabetes,Hypertension,Obesity,,143
+INST001,2019,C006,COPD,Hypertension,,,84
+INST001,2019,C007,Asthma,Allergic/atopic disease,,,47
+INST001,2019,C008,Heart failure,Chronic kidney disease,,,66
+INST001,2019,C009,Diabetes,Hyperlipidemia,Hypertension,,142
+INST001,2019,C010,Hypertension,Stroke,,,12
+INST001,2019,C011,Chronic liver disease,Type 2 diabetes mellitus,,,25
+INST001,2019,C012,Depression,Generalized anxiety disorder,,,79
+INST001,2019,C013,Osteoarthritis,Obesity,,,96
+INST001,2019,C014,Rheumatoid arthritis,Osteoporosis,,,16
+INST001,2019,C015,Pneumonia,Diabetes,,,66
+INST001,2019,C016,COVID-19,Diabetes,,,17
+INST001,2019,C017,COVID-19,Hypertension,,,21
+INST001,2019,C018,COVID-19,Diabetes,Hypertension,,30
+INST001,2019,C019,Tuberculosis,Diabetes,,,14
+INST001,2019,C020,Urinary tract infection,Diabetes,,,24
+INST001,2019,C021,Diabetes,Chronic kidney disease,Hypertension,,64
+INST001,2019,C022,Ischemic heart disease,Diabetes,Hypertension,,47
+INST001,2019,C023,Asthma,Obesity,,,61
+INST001,2019,C024,COPD,Diabetes,,,73
+INST001,2019,C025,Hyperlipidemia,Hypertension,,,82
+INST001,2020,C001,Diabetes,Hypertension,,,56
+INST001,2020,C002,Diabetes,Chronic kidney disease,,,89
+INST001,2020,C003,Hypertension,Ischemic heart disease,,,123
+INST001,2020,C004,Diabetes,Obesity,,,138
+INST001,2020,C005,Diabetes,Hypertension,Obesity,,150
+INST001,2020,C006,COPD,Hypertension,,,67
+INST001,2020,C007,Asthma,Allergic/atopic disease,,,18
+INST001,2020,C008,Heart failure,Chronic kidney disease,,,24
+INST001,2020,C009,Diabetes,Hyperlipidemia,Hypertension,,76
+INST001,2020,C010,Hypertension,Stroke,,,24
+INST001,2020,C011,Chronic liver disease,Type 2 diabetes mellitus,,,18
+INST001,2020,C012,Depression,Generalized anxiety disorder,,,53
+INST001,2020,C013,Osteoarthritis,Obesity,,,75
+INST001,2020,C014,Rheumatoid arthritis,Osteoporosis,,,29
+INST001,2020,C015,Pneumonia,Diabetes,,,68
+INST001,2020,C016,COVID-19,Diabetes,,,110
+INST001,2020,C017,COVID-19,Hypertension,,,132
+INST001,2020,C018,COVID-19,Diabetes,Hypertension,,88
+INST001,2020,C019,Tuberculosis,Diabetes,,,18
+INST001,2020,C020,Urinary tract infection,Diabetes,,,74
+INST001,2020,C021,Diabetes,Chronic kidney disease,Hypertension,,83
+INST001,2020,C022,Ischemic heart disease,Diabetes,Hypertension,,87
+INST001,2020,C023,Asthma,Obesity,,,56
+INST001,2020,C024,COPD,Diabetes,,,42
+INST001,2020,C025,Hyperlipidemia,Hypertension,,,115
+INST001,2021,C001,Diabetes,Hypertension,,,165
+INST001,2021,C002,Diabetes,Chronic kidney disease,,,36
+INST001,2021,C003,Hypertension,Ischemic heart disease,,,65
+INST001,2021,C004,Diabetes,Obesity,,,79
+INST001,2021,C005,Diabetes,Hypertension,Obesity,,164
+INST001,2021,C006,COPD,Hypertension,,,40
+INST001,2021,C007,Asthma,Allergic/atopic disease,,,22
+INST001,2021,C008,Heart failure,Chronic kidney disease,,,53
+INST001,2021,C009,Diabetes,Hyperlipidemia,Hypertension,,113
+INST001,2021,C010,Hypertension,Stroke,,,43
+INST001,2021,C011,Chronic liver disease,Type 2 diabetes mellitus,,,33
+INST001,2021,C012,Depression,Generalized anxiety disorder,,,70
+INST001,2021,C013,Osteoarthritis,Obesity,,,53
+INST001,2021,C014,Rheumatoid arthritis,Osteoporosis,,,16
+INST001,2021,C015,Pneumonia,Diabetes,,,89
+INST001,2021,C016,COVID-19,Diabetes,,,127
+INST001,2021,C017,COVID-19,Hypertension,,,208
+INST001,2021,C018,COVID-19,Diabetes,Hypertension,,146
+INST001,2021,C019,Tuberculosis,Diabetes,,,24
+INST001,2021,C020,Urinary tract infection,Diabetes,,,70
+INST001,2021,C021,Diabetes,Chronic kidney disease,Hypertension,,71
+INST001,2021,C022,Ischemic heart disease,Diabetes,Hypertension,,85
+INST001,2021,C023,Asthma,Obesity,,,85
+INST001,2021,C024,COPD,Diabetes,,,36
+INST001,2021,C025,Hyperlipidemia,Hypertension,,,91
+INST001,2022,C001,Diabetes,Hypertension,,,88
+INST001,2022,C002,Diabetes,Chronic kidney disease,,,38
+INST001,2022,C003,Hypertension,Ischemic heart disease,,,82
+INST001,2022,C004,Diabetes,Obesity,,,76
+INST001,2022,C005,Diabetes,Hypertension,Obesity,,49
+INST001,2022,C006,COPD,Hypertension,,,66
+INST001,2022,C007,Asthma,Allergic/atopic disease,,,30
+INST001,2022,C008,Heart failure,Chronic kidney disease,,,48
+INST001,2022,C009,Diabetes,Hyperlipidemia,Hypertension,,123
+INST001,2022,C010,Hypertension,Stroke,,,32
+INST001,2022,C011,Chronic liver disease,Type 2 diabetes mellitus,,,15
+INST001,2022,C012,Depression,Generalized anxiety disorder,,,33
+INST001,2022,C013,Osteoarthritis,Obesity,,,32
+INST001,2022,C014,Rheumatoid arthritis,Osteoporosis,,,19
+INST001,2022,C015,Pneumonia,Diabetes,,,55
+INST001,2022,C016,COVID-19,Diabetes,,,110
+INST001,2022,C017,COVID-19,Hypertension,,,122
+INST001,2022,C018,COVID-19,Diabetes,Hypertension,,182
+INST001,2022,C019,Tuberculosis,Diabetes,,,31
+INST001,2022,C020,Urinary tract infection,Diabetes,,,39
+INST001,2022,C021,Diabetes,Chronic kidney disease,Hypertension,,67
+INST001,2022,C022,Ischemic heart disease,Diabetes,Hypertension,,109
+INST001,2022,C023,Asthma,Obesity,,,103
+INST001,2022,C024,COPD,Diabetes,,,62
+INST001,2022,C025,Hyperlipidemia,Hypertension,,,118
+INST001,2023,C001,Diabetes,Hypertension,,,206
+INST001,2023,C002,Diabetes,Chronic kidney disease,,,28
+INST001,2023,C003,Hypertension,Ischemic heart disease,,,66
+INST001,2023,C004,Diabetes,Obesity,,,120
+INST001,2023,C005,Diabetes,Hypertension,Obesity,,116
+INST001,2023,C006,COPD,Hypertension,,,38
+INST001,2023,C007,Asthma,Allergic/atopic disease,,,27
+INST001,2023,C008,Heart failure,Chronic kidney disease,,,39
+INST001,2023,C009,Diabetes,Hyperlipidemia,Hypertension,,106
+INST001,2023,C010,Hypertension,Stroke,,,21
+INST001,2023,C011,Chronic liver disease,Type 2 diabetes mellitus,,,30
+INST001,2023,C012,Depression,Generalized anxiety disorder,,,68
+INST001,2023,C013,Osteoarthritis,Obesity,,,51
+INST001,2023,C014,Rheumatoid arthritis,Osteoporosis,,,19
+INST001,2023,C015,Pneumonia,Diabetes,,,52
+INST001,2023,C016,COVID-19,Diabetes,,,56
+INST001,2023,C017,COVID-19,Hypertension,,,42
+INST001,2023,C018,COVID-19,Diabetes,Hypertension,,44
+INST001,2023,C019,Tuberculosis,Diabetes,,,36
+INST001,2023,C020,Urinary tract infection,Diabetes,,,89
+INST001,2023,C021,Diabetes,Chronic kidney disease,Hypertension,,77
+INST001,2023,C022,Ischemic heart disease,Diabetes,Hypertension,,81
+INST001,2023,C023,Asthma,Obesity,,,80
+INST001,2023,C024,COPD,Diabetes,,,34
+INST001,2023,C025,Hyperlipidemia,Hypertension,,,60
+INST001,2024,C001,Diabetes,Hypertension,,,148
+INST001,2024,C002,Diabetes,Chronic kidney disease,,,81
+INST001,2024,C003,Hypertension,Ischemic heart disease,,,49
+INST001,2024,C004,Diabetes,Obesity,,,95
+INST001,2024,C005,Diabetes,Hypertension,Obesity,,106
+INST001,2024,C006,COPD,Hypertension,,,39
+INST001,2024,C007,Asthma,Allergic/atopic disease,,,33
+INST001,2024,C008,Heart failure,Chronic kidney disease,,,24
+INST001,2024,C009,Diabetes,Hyperlipidemia,Hypertension,,153
+INST001,2024,C010,Hypertension,Stroke,,,12
+INST001,2024,C011,Chronic liver disease,Type 2 diabetes mellitus,,,45
+INST001,2024,C012,Depression,Generalized anxiety disorder,,,100
+INST001,2024,C013,Osteoarthritis,Obesity,,,57
+INST001,2024,C014,Rheumatoid arthritis,Osteoporosis,,,18
+INST001,2024,C015,Pneumonia,Diabetes,,,105
+INST001,2024,C016,COVID-19,Diabetes,,,30
+INST001,2024,C017,COVID-19,Hypertension,,,44
+INST001,2024,C018,COVID-19,Diabetes,Hypertension,,35
+INST001,2024,C019,Tuberculosis,Diabetes,,,17
+INST001,2024,C020,Urinary tract infection,Diabetes,,,29
+INST001,2024,C021,Diabetes,Chronic kidney disease,Hypertension,,87
+INST001,2024,C022,Ischemic heart disease,Diabetes,Hypertension,,105
+INST001,2024,C023,Asthma,Obesity,,,36
+INST001,2024,C024,COPD,Diabetes,,,69
+INST001,2024,C025,Hyperlipidemia,Hypertension,,,84
+INST001,2025,C001,Diabetes,Hypertension,,,143
+INST001,2025,C002,Diabetes,Chronic kidney disease,,,72
+INST001,2025,C003,Hypertension,Ischemic heart disease,,,100
+INST001,2025,C004,Diabetes,Obesity,,,125
+INST001,2025,C005,Diabetes,Hypertension,Obesity,,136
+INST001,2025,C006,COPD,Hypertension,,,30
+INST001,2025,C007,Asthma,Allergic/atopic disease,,,28
+INST001,2025,C008,Heart failure,Chronic kidney disease,,,49
+INST001,2025,C009,Diabetes,Hyperlipidemia,Hypertension,,72
+INST001,2025,C010,Hypertension,Stroke,,,16
+INST001,2025,C011,Chronic liver disease,Type 2 diabetes mellitus,,,37
+INST001,2025,C012,Depression,Generalized anxiety disorder,,,55
+INST001,2025,C013,Osteoarthritis,Obesity,,,116
+INST001,2025,C014,Rheumatoid arthritis,Osteoporosis,,,15
+INST001,2025,C015,Pneumonia,Diabetes,,,38
+INST001,2025,C016,COVID-19,Diabetes,,,47
+INST001,2025,C017,COVID-19,Hypertension,,,22
+INST001,2025,C018,COVID-19,Diabetes,Hypertension,,54
+INST001,2025,C019,Tuberculosis,Diabetes,,,18
+INST001,2025,C020,Urinary tract infection,Diabetes,,,47
+INST001,2025,C021,Diabetes,Chronic kidney disease,Hypertension,,34
+INST001,2025,C022,Ischemic heart disease,Diabetes,Hypertension,,135
+INST001,2025,C023,Asthma,Obesity,,,49
+INST001,2025,C024,COPD,Diabetes,,,31
+INST001,2025,C025,Hyperlipidemia,Hypertension,,,129
+INST001,2026,C001,Diabetes,Hypertension,,,83
+INST001,2026,C002,Diabetes,Chronic kidney disease,,,37
+INST001,2026,C003,Hypertension,Ischemic heart disease,,,97
+INST001,2026,C004,Diabetes,Obesity,,,66
+INST001,2026,C005,Diabetes,Hypertension,Obesity,,143
+INST001,2026,C006,COPD,Hypertension,,,53
+INST001,2026,C007,Asthma,Allergic/atopic disease,,,19
+INST001,2026,C008,Heart failure,Chronic kidney disease,,,21
+INST001,2026,C009,Diabetes,Hyperlipidemia,Hypertension,,100
+INST001,2026,C010,Hypertension,Stroke,,,20
+INST001,2026,C011,Chronic liver disease,Type 2 diabetes mellitus,,,22
+INST001,2026,C012,Depression,Generalized anxiety disorder,,,95
+INST001,2026,C013,Osteoarthritis,Obesity,,,125
+INST001,2026,C014,Rheumatoid arthritis,Osteoporosis,,,14
+INST001,2026,C015,Pneumonia,Diabetes,,,67
+INST001,2026,C016,COVID-19,Diabetes,,,47
+INST001,2026,C017,COVID-19,Hypertension,,,62
+INST001,2026,C018,COVID-19,Diabetes,Hypertension,,49
+INST001,2026,C019,Tuberculosis,Diabetes,,,25
+INST001,2026,C020,Urinary tract infection,Diabetes,,,88
+INST001,2026,C021,Diabetes,Chronic kidney disease,Hypertension,,79
+INST001,2026,C022,Ischemic heart disease,Diabetes,Hypertension,,95
+INST001,2026,C023,Asthma,Obesity,,,105
+INST001,2026,C024,COPD,Diabetes,,,45
+INST001,2026,C025,Hyperlipidemia,Hypertension,,,44
+INST002,2015,C001,Diabetes,Hypertension,,,71
+INST002,2015,C002,Diabetes,Chronic kidney disease,,,23
+INST002,2015,C003,Hypertension,Ischemic heart disease,,,54
+INST002,2015,C004,Diabetes,Obesity,,,130
+INST002,2015,C005,Diabetes,Hypertension,Obesity,,100
+INST002,2015,C006,COPD,Hypertension,,,56
+INST002,2015,C007,Asthma,Allergic/atopic disease,,,39
+INST002,2015,C008,Heart failure,Chronic kidney disease,,,35
+INST002,2015,C009,Diabetes,Hyperlipidemia,Hypertension,,88
+INST002,2015,C010,Hypertension,Stroke,,,26
+INST002,2015,C011,Chronic liver disease,Type 2 diabetes mellitus,,,23
+INST002,2015,C012,Depression,Generalized anxiety disorder,,,67
+INST002,2015,C013,Osteoarthritis,Obesity,,,51
+INST002,2015,C014,Rheumatoid arthritis,Osteoporosis,,,23
+INST002,2015,C015,Pneumonia,Diabetes,,,71
+INST002,2015,C016,COVID-19,Diabetes,,,10
+INST002,2015,C017,COVID-19,Hypertension,,,15
+INST002,2015,C018,COVID-19,Diabetes,Hypertension,,18
+INST002,2015,C019,Tuberculosis,Diabetes,,,14
+INST002,2015,C020,Urinary tract infection,Diabetes,,,34
+INST002,2015,C021,Diabetes,Chronic kidney disease,Hypertension,,65
+INST002,2015,C022,Ischemic heart disease,Diabetes,Hypertension,,76
+INST002,2015,C023,Asthma,Obesity,,,49
+INST002,2015,C024,COPD,Diabetes,,,56
+INST002,2015,C025,Hyperlipidemia,Hypertension,,,53
+INST002,2016,C001,Diabetes,Hypertension,,,103
+INST002,2016,C002,Diabetes,Chronic kidney disease,,,42
+INST002,2016,C003,Hypertension,Ischemic heart disease,,,99
+INST002,2016,C004,Diabetes,Obesity,,,51
+INST002,2016,C005,Diabetes,Hypertension,Obesity,,101
+INST002,2016,C006,COPD,Hypertension,,,38
+INST002,2016,C007,Asthma,Allergic/atopic disease,,,26
+INST002,2016,C008,Heart failure,Chronic kidney disease,,,26
+INST002,2016,C009,Diabetes,Hyperlipidemia,Hypertension,,118
+INST002,2016,C010,Hypertension,Stroke,,,27
+INST002,2016,C011,Chronic liver disease,Type 2 diabetes mellitus,,,39
+INST002,2016,C012,Depression,Generalized anxiety disorder,,,31
+INST002,2016,C013,Osteoarthritis,Obesity,,,60
+INST002,2016,C014,Rheumatoid arthritis,Osteoporosis,,,35
+INST002,2016,C015,Pneumonia,Diabetes,,,87
+INST002,2016,C016,COVID-19,Diabetes,,,30
+INST002,2016,C017,COVID-19,Hypertension,,,10
+INST002,2016,C018,COVID-19,Diabetes,Hypertension,,11
+INST002,2016,C019,Tuberculosis,Diabetes,,,29
+INST002,2016,C020,Urinary tract infection,Diabetes,,,50
+INST002,2016,C021,Diabetes,Chronic kidney disease,Hypertension,,46
+INST002,2016,C022,Ischemic heart disease,Diabetes,Hypertension,,49
+INST002,2016,C023,Asthma,Obesity,,,57
+INST002,2016,C024,COPD,Diabetes,,,48
+INST002,2016,C025,Hyperlipidemia,Hypertension,,,43
+INST002,2017,C001,Diabetes,Hypertension,,,121
+INST002,2017,C002,Diabetes,Chronic kidney disease,,,79
+INST002,2017,C003,Hypertension,Ischemic heart disease,,,52
+INST002,2017,C004,Diabetes,Obesity,,,123
+INST002,2017,C005,Diabetes,Hypertension,Obesity,,134
+INST002,2017,C006,COPD,Hypertension,,,44
+INST002,2017,C007,Asthma,Allergic/atopic disease,,,11
+INST002,2017,C008,Heart failure,Chronic kidney disease,,,16
+INST002,2017,C009,Diabetes,Hyperlipidemia,Hypertension,,117
+INST002,2017,C010,Hypertension,Stroke,,,18
+INST002,2017,C011,Chronic liver disease,Type 2 diabetes mellitus,,,41
+INST002,2017,C012,Depression,Generalized anxiety disorder,,,56
+INST002,2017,C013,Osteoarthritis,Obesity,,,32
+INST002,2017,C014,Rheumatoid arthritis,Osteoporosis,,,19
+INST002,2017,C015,Pneumonia,Diabetes,,,51
+INST002,2017,C016,COVID-19,Diabetes,,,25
+INST002,2017,C017,COVID-19,Hypertension,,,10
+INST002,2017,C018,COVID-19,Diabetes,Hypertension,,23
+INST002,2017,C019,Tuberculosis,Diabetes,,,25
+INST002,2017,C020,Urinary tract infection,Diabetes,,,29
+INST002,2017,C021,Diabetes,Chronic kidney disease,Hypertension,,29
+INST002,2017,C022,Ischemic heart disease,Diabetes,Hypertension,,33
+INST002,2017,C023,Asthma,Obesity,,,53
+INST002,2017,C024,COPD,Diabetes,,,52
+INST002,2017,C025,Hyperlipidemia,Hypertension,,,71
+INST002,2018,C001,Diabetes,Hypertension,,,66
+INST002,2018,C002,Diabetes,Chronic kidney disease,,,59
+INST002,2018,C003,Hypertension,Ischemic heart disease,,,86
+INST002,2018,C004,Diabetes,Obesity,,,54
+INST002,2018,C005,Diabetes,Hypertension,Obesity,,73
+INST002,2018,C006,COPD,Hypertension,,,32
+INST002,2018,C007,Asthma,Allergic/atopic disease,,,11
+INST002,2018,C008,Heart failure,Chronic kidney disease,,,38
+INST002,2018,C009,Diabetes,Hyperlipidemia,Hypertension,,59
+INST002,2018,C010,Hypertension,Stroke,,,23
+INST002,2018,C011,Chronic liver disease,Type 2 diabetes mellitus,,,50
+INST002,2018,C012,Depression,Generalized anxiety disorder,,,87
+INST002,2018,C013,Osteoarthritis,Obesity,,,67
+INST002,2018,C014,Rheumatoid arthritis,Osteoporosis,,,29
+INST002,2018,C015,Pneumonia,Diabetes,,,105
+INST002,2018,C016,COVID-19,Diabetes,,,15
+INST002,2018,C017,COVID-19,Hypertension,,,14
+INST002,2018,C018,COVID-19,Diabetes,Hypertension,,9
+INST002,2018,C019,Tuberculosis,Diabetes,,,10
+INST002,2018,C020,Urinary tract infection,Diabetes,,,73
+INST002,2018,C021,Diabetes,Chronic kidney disease,Hypertension,,59
+INST002,2018,C022,Ischemic heart disease,Diabetes,Hypertension,,106
+INST002,2018,C023,Asthma,Obesity,,,45
+INST002,2018,C024,COPD,Diabetes,,,33
+INST002,2018,C025,Hyperlipidemia,Hypertension,,,47
+INST002,2019,C001,Diabetes,Hypertension,,,118
+INST002,2019,C002,Diabetes,Chronic kidney disease,,,69
+INST002,2019,C003,Hypertension,Ischemic heart disease,,,55
+INST002,2019,C004,Diabetes,Obesity,,,63
+INST002,2019,C005,Diabetes,Hypertension,Obesity,,114
+INST002,2019,C006,COPD,Hypertension,,,39
+INST002,2019,C007,Asthma,Allergic/atopic disease,,,31
+INST002,2019,C008,Heart failure,Chronic kidney disease,,,51
+INST002,2019,C009,Diabetes,Hyperlipidemia,Hypertension,,108
+INST002,2019,C010,Hypertension,Stroke,,,16
+INST002,2019,C011,Chronic liver disease,Type 2 diabetes mellitus,,,21
+INST002,2019,C012,Depression,Generalized anxiety disorder,,,48
+INST002,2019,C013,Osteoarthritis,Obesity,,,37
+INST002,2019,C014,Rheumatoid arthritis,Osteoporosis,,,22
+INST002,2019,C015,Pneumonia,Diabetes,,,78
+INST002,2019,C016,COVID-19,Diabetes,,,14
+INST002,2019,C017,COVID-19,Hypertension,,,15
+INST002,2019,C018,COVID-19,Diabetes,Hypertension,,23
+INST002,2019,C019,Tuberculosis,Diabetes,,,35
+INST002,2019,C020,Urinary tract infection,Diabetes,,,36
+INST002,2019,C021,Diabetes,Chronic kidney disease,Hypertension,,31
+INST002,2019,C022,Ischemic heart disease,Diabetes,Hypertension,,56
+INST002,2019,C023,Asthma,Obesity,,,45
+INST002,2019,C024,COPD,Diabetes,,,50
+INST002,2019,C025,Hyperlipidemia,Hypertension,,,63
+INST002,2020,C001,Diabetes,Hypertension,,,113
+INST002,2020,C002,Diabetes,Chronic kidney disease,,,62
+INST002,2020,C003,Hypertension,Ischemic heart disease,,,32
+INST002,2020,C004,Diabetes,Obesity,,,127
+INST002,2020,C005,Diabetes,Hypertension,Obesity,,110
+INST002,2020,C006,COPD,Hypertension,,,42
+INST002,2020,C007,Asthma,Allergic/atopic disease,,,14
+INST002,2020,C008,Heart failure,Chronic kidney disease,,,21
+INST002,2020,C009,Diabetes,Hyperlipidemia,Hypertension,,73
+INST002,2020,C010,Hypertension,Stroke,,,24
+INST002,2020,C011,Chronic liver disease,Type 2 diabetes mellitus,,,48
+INST002,2020,C012,Depression,Generalized anxiety disorder,,,32
+INST002,2020,C013,Osteoarthritis,Obesity,,,71
+INST002,2020,C014,Rheumatoid arthritis,Osteoporosis,,,38
+INST002,2020,C015,Pneumonia,Diabetes,,,91
+INST002,2020,C016,COVID-19,Diabetes,,,82
+INST002,2020,C017,COVID-19,Hypertension,,,227
+INST002,2020,C018,COVID-19,Diabetes,Hypertension,,142
+INST002,2020,C019,Tuberculosis,Diabetes,,,28
+INST002,2020,C020,Urinary tract infection,Diabetes,,,71
+INST002,2020,C021,Diabetes,Chronic kidney disease,Hypertension,,78
+INST002,2020,C022,Ischemic heart disease,Diabetes,Hypertension,,93
+INST002,2020,C023,Asthma,Obesity,,,86
+INST002,2020,C024,COPD,Diabetes,,,40
+INST002,2020,C025,Hyperlipidemia,Hypertension,,,108
+INST002,2021,C001,Diabetes,Hypertension,,,176
+INST002,2021,C002,Diabetes,Chronic kidney disease,,,50
+INST002,2021,C003,Hypertension,Ischemic heart disease,,,117
+INST002,2021,C004,Diabetes,Obesity,,,90
+INST002,2021,C005,Diabetes,Hypertension,Obesity,,75
+INST002,2021,C006,COPD,Hypertension,,,53
+INST002,2021,C007,Asthma,Allergic/atopic disease,,,31
+INST002,2021,C008,Heart failure,Chronic kidney disease,,,35
+INST002,2021,C009,Diabetes,Hyperlipidemia,Hypertension,,114
+INST002,2021,C010,Hypertension,Stroke,,,13
+INST002,2021,C011,Chronic liver disease,Type 2 diabetes mellitus,,,33
+INST002,2021,C012,Depression,Generalized anxiety disorder,,,88
+INST002,2021,C013,Osteoarthritis,Obesity,,,54
+INST002,2021,C014,Rheumatoid arthritis,Osteoporosis,,,27
+INST002,2021,C015,Pneumonia,Diabetes,,,112
+INST002,2021,C016,COVID-19,Diabetes,,,98
+INST002,2021,C017,COVID-19,Hypertension,,,217
+INST002,2021,C018,COVID-19,Diabetes,Hypertension,,159
+INST002,2021,C019,Tuberculosis,Diabetes,,,28
+INST002,2021,C020,Urinary tract infection,Diabetes,,,34
+INST002,2021,C021,Diabetes,Chronic kidney disease,Hypertension,,54
+INST002,2021,C022,Ischemic heart disease,Diabetes,Hypertension,,65
+INST002,2021,C023,Asthma,Obesity,,,36
+INST002,2021,C024,COPD,Diabetes,,,32
+INST002,2021,C025,Hyperlipidemia,Hypertension,,,49
+INST002,2022,C001,Diabetes,Hypertension,,,192
+INST002,2022,C002,Diabetes,Chronic kidney disease,,,60
+INST002,2022,C003,Hypertension,Ischemic heart disease,,,95
+INST002,2022,C004,Diabetes,Obesity,,,106
+INST002,2022,C005,Diabetes,Hypertension,Obesity,,68
+INST002,2022,C006,COPD,Hypertension,,,41
+INST002,2022,C007,Asthma,Allergic/atopic disease,,,31
+INST002,2022,C008,Heart failure,Chronic kidney disease,,,44
+INST002,2022,C009,Diabetes,Hyperlipidemia,Hypertension,,96
+INST002,2022,C010,Hypertension,Stroke,,,38
+INST002,2022,C011,Chronic liver disease,Type 2 diabetes mellitus,,,42
+INST002,2022,C012,Depression,Generalized anxiety disorder,,,38
+INST002,2022,C013,Osteoarthritis,Obesity,,,26
+INST002,2022,C014,Rheumatoid arthritis,Osteoporosis,,,31
+INST002,2022,C015,Pneumonia,Diabetes,,,54
+INST002,2022,C016,COVID-19,Diabetes,,,94
+INST002,2022,C017,COVID-19,Hypertension,,,170
+INST002,2022,C018,COVID-19,Diabetes,Hypertension,,189
+INST002,2022,C019,Tuberculosis,Diabetes,,,28
+INST002,2022,C020,Urinary tract infection,Diabetes,,,33
+INST002,2022,C021,Diabetes,Chronic kidney disease,Hypertension,,65
+INST002,2022,C022,Ischemic heart disease,Diabetes,Hypertension,,79
+INST002,2022,C023,Asthma,Obesity,,,58
+INST002,2022,C024,COPD,Diabetes,,,47
+INST002,2022,C025,Hyperlipidemia,Hypertension,,,75
+INST002,2023,C001,Diabetes,Hypertension,,,101
+INST002,2023,C002,Diabetes,Chronic kidney disease,,,25
+INST002,2023,C003,Hypertension,Ischemic heart disease,,,125
+INST002,2023,C004,Diabetes,Obesity,,,44
+INST002,2023,C005,Diabetes,Hypertension,Obesity,,55
+INST002,2023,C006,COPD,Hypertension,,,50
+INST002,2023,C007,Asthma,Allergic/atopic disease,,,14
+INST002,2023,C008,Heart failure,Chronic kidney disease,,,21
+INST002,2023,C009,Diabetes,Hyperlipidemia,Hypertension,,45
+INST002,2023,C010,Hypertension,Stroke,,,21
+INST002,2023,C011,Chronic liver disease,Type 2 diabetes mellitus,,,51
+INST002,2023,C012,Depression,Generalized anxiety disorder,,,100
+INST002,2023,C013,Osteoarthritis,Obesity,,,56
+INST002,2023,C014,Rheumatoid arthritis,Osteoporosis,,,13
+INST002,2023,C015,Pneumonia,Diabetes,,,85
+INST002,2023,C016,COVID-19,Diabetes,,,31
+INST002,2023,C017,COVID-19,Hypertension,,,48
+INST002,2023,C018,COVID-19,Diabetes,Hypertension,,28
+INST002,2023,C019,Tuberculosis,Diabetes,,,17
+INST002,2023,C020,Urinary tract infection,Diabetes,,,53
+INST002,2023,C021,Diabetes,Chronic kidney disease,Hypertension,,42
+INST002,2023,C022,Ischemic heart disease,Diabetes,Hypertension,,84
+INST002,2023,C023,Asthma,Obesity,,,88
+INST002,2023,C024,COPD,Diabetes,,,33
+INST002,2023,C025,Hyperlipidemia,Hypertension,,,107
+INST002,2024,C001,Diabetes,Hypertension,,,71
+INST002,2024,C002,Diabetes,Chronic kidney disease,,,76
+INST002,2024,C003,Hypertension,Ischemic heart disease,,,67
+INST002,2024,C004,Diabetes,Obesity,,,48
+INST002,2024,C005,Diabetes,Hypertension,Obesity,,71
+INST002,2024,C006,COPD,Hypertension,,,42
+INST002,2024,C007,Asthma,Allergic/atopic disease,,,29
+INST002,2024,C008,Heart failure,Chronic kidney disease,,,52
+INST002,2024,C009,Diabetes,Hyperlipidemia,Hypertension,,104
+INST002,2024,C010,Hypertension,Stroke,,,27
+INST002,2024,C011,Chronic liver disease,Type 2 diabetes mellitus,,,15
+INST002,2024,C012,Depression,Generalized anxiety disorder,,,42
+INST002,2024,C013,Osteoarthritis,Obesity,,,77
+INST002,2024,C014,Rheumatoid arthritis,Osteoporosis,,,25
+INST002,2024,C015,Pneumonia,Diabetes,,,105
+INST002,2024,C016,COVID-19,Diabetes,,,41
+INST002,2024,C017,COVID-19,Hypertension,,,23
+INST002,2024,C018,COVID-19,Diabetes,Hypertension,,46
+INST002,2024,C019,Tuberculosis,Diabetes,,,17
+INST002,2024,C020,Urinary tract infection,Diabetes,,,61
+INST002,2024,C021,Diabetes,Chronic kidney disease,Hypertension,,47
+INST002,2024,C022,Ischemic heart disease,Diabetes,Hypertension,,65
+INST002,2024,C023,Asthma,Obesity,,,75
+INST002,2024,C024,COPD,Diabetes,,,22
+INST002,2024,C025,Hyperlipidemia,Hypertension,,,46
+INST002,2025,C001,Diabetes,Hypertension,,,126
+INST002,2025,C002,Diabetes,Chronic kidney disease,,,35
+INST002,2025,C003,Hypertension,Ischemic heart disease,,,58
+INST002,2025,C004,Diabetes,Obesity,,,50
+INST002,2025,C005,Diabetes,Hypertension,Obesity,,107
+INST002,2025,C006,COPD,Hypertension,,,69
+INST002,2025,C007,Asthma,Allergic/atopic disease,,,30
+INST002,2025,C008,Heart failure,Chronic kidney disease,,,53
+INST002,2025,C009,Diabetes,Hyperlipidemia,Hypertension,,107
+INST002,2025,C010,Hypertension,Stroke,,,38
+INST002,2025,C011,Chronic liver disease,Type 2 diabetes mellitus,,,35
+INST002,2025,C012,Depression,Generalized anxiety disorder,,,61
+INST002,2025,C013,Osteoarthritis,Obesity,,,79
+INST002,2025,C014,Rheumatoid arthritis,Osteoporosis,,,30
+INST002,2025,C015,Pneumonia,Diabetes,,,67
+INST002,2025,C016,COVID-19,Diabetes,,,18
+INST002,2025,C017,COVID-19,Hypertension,,,52
+INST002,2025,C018,COVID-19,Diabetes,Hypertension,,31
+INST002,2025,C019,Tuberculosis,Diabetes,,,23
+INST002,2025,C020,Urinary tract infection,Diabetes,,,35
+INST002,2025,C021,Diabetes,Chronic kidney disease,Hypertension,,53
+INST002,2025,C022,Ischemic heart disease,Diabetes,Hypertension,,64
+INST002,2025,C023,Asthma,Obesity,,,86
+INST002,2025,C024,COPD,Diabetes,,,69
+INST002,2025,C025,Hyperlipidemia,Hypertension,,,73
+INST002,2026,C001,Diabetes,Hypertension,,,122
+INST002,2026,C002,Diabetes,Chronic kidney disease,,,87
+INST002,2026,C003,Hypertension,Ischemic heart disease,,,105
+INST002,2026,C004,Diabetes,Obesity,,,112
+INST002,2026,C005,Diabetes,Hypertension,Obesity,,142
+INST002,2026,C006,COPD,Hypertension,,,75
+INST002,2026,C007,Asthma,Allergic/atopic disease,,,24
+INST002,2026,C008,Heart failure,Chronic kidney disease,,,20
+INST002,2026,C009,Diabetes,Hyperlipidemia,Hypertension,,133
+INST002,2026,C010,Hypertension,Stroke,,,29
+INST002,2026,C011,Chronic liver disease,Type 2 diabetes mellitus,,,35
+INST002,2026,C012,Depression,Generalized anxiety disorder,,,65
+INST002,2026,C013,Osteoarthritis,Obesity,,,97
+INST002,2026,C014,Rheumatoid arthritis,Osteoporosis,,,20
+INST002,2026,C015,Pneumonia,Diabetes,,,65
+INST002,2026,C016,COVID-19,Diabetes,,,56
+INST002,2026,C017,COVID-19,Hypertension,,,34
+INST002,2026,C018,COVID-19,Diabetes,Hypertension,,52
+INST002,2026,C019,Tuberculosis,Diabetes,,,32
+INST002,2026,C020,Urinary tract infection,Diabetes,,,92
+INST002,2026,C021,Diabetes,Chronic kidney disease,Hypertension,,34
+INST002,2026,C022,Ischemic heart disease,Diabetes,Hypertension,,112
+INST002,2026,C023,Asthma,Obesity,,,92
+INST002,2026,C024,COPD,Diabetes,,,87
+INST002,2026,C025,Hyperlipidemia,Hypertension,,,88
+INST003,2015,C001,Diabetes,Hypertension,,,158
+INST003,2015,C002,Diabetes,Chronic kidney disease,,,74
+INST003,2015,C003,Hypertension,Ischemic heart disease,,,79
+INST003,2015,C004,Diabetes,Obesity,,,61
+INST003,2015,C005,Diabetes,Hypertension,Obesity,,85
+INST003,2015,C006,COPD,Hypertension,,,78
+INST003,2015,C007,Asthma,Allergic/atopic disease,,,17
+INST003,2015,C008,Heart failure,Chronic kidney disease,,,32
+INST003,2015,C009,Diabetes,Hyperlipidemia,Hypertension,,121
+INST003,2015,C010,Hypertension,Stroke,,,32
+INST003,2015,C011,Chronic liver disease,Type 2 diabetes mellitus,,,29
+INST003,2015,C012,Depression,Generalized anxiety disorder,,,43
+INST003,2015,C013,Osteoarthritis,Obesity,,,73
+INST003,2015,C014,Rheumatoid arthritis,Osteoporosis,,,40
+INST003,2015,C015,Pneumonia,Diabetes,,,104
+INST003,2015,C016,COVID-19,Diabetes,,,10
+INST003,2015,C017,COVID-19,Hypertension,,,21
+INST003,2015,C018,COVID-19,Diabetes,Hypertension,,24
+INST003,2015,C019,Tuberculosis,Diabetes,,,18
+INST003,2015,C020,Urinary tract infection,Diabetes,,,33
+INST003,2015,C021,Diabetes,Chronic kidney disease,Hypertension,,65
+INST003,2015,C022,Ischemic heart disease,Diabetes,Hypertension,,114
+INST003,2015,C023,Asthma,Obesity,,,62
+INST003,2015,C024,COPD,Diabetes,,,45
+INST003,2015,C025,Hyperlipidemia,Hypertension,,,123
+INST003,2016,C001,Diabetes,Hypertension,,,140
+INST003,2016,C002,Diabetes,Chronic kidney disease,,,32
+INST003,2016,C003,Hypertension,Ischemic heart disease,,,34
+INST003,2016,C004,Diabetes,Obesity,,,112
+INST003,2016,C005,Diabetes,Hypertension,Obesity,,95
+INST003,2016,C006,COPD,Hypertension,,,65
+INST003,2016,C007,Asthma,Allergic/atopic disease,,,30
+INST003,2016,C008,Heart failure,Chronic kidney disease,,,27
+INST003,2016,C009,Diabetes,Hyperlipidemia,Hypertension,,82
+INST003,2016,C010,Hypertension,Stroke,,,29
+INST003,2016,C011,Chronic liver disease,Type 2 diabetes mellitus,,,22
+INST003,2016,C012,Depression,Generalized anxiety disorder,,,40
+INST003,2016,C013,Osteoarthritis,Obesity,,,103
+INST003,2016,C014,Rheumatoid arthritis,Osteoporosis,,,27
+INST003,2016,C015,Pneumonia,Diabetes,,,115
+INST003,2016,C016,COVID-19,Diabetes,,,11
+INST003,2016,C017,COVID-19,Hypertension,,,9
+INST003,2016,C018,COVID-19,Diabetes,Hypertension,,11
+INST003,2016,C019,Tuberculosis,Diabetes,,,25
+INST003,2016,C020,Urinary tract infection,Diabetes,,,38
+INST003,2016,C021,Diabetes,Chronic kidney disease,Hypertension,,102
+INST003,2016,C022,Ischemic heart disease,Diabetes,Hypertension,,58
+INST003,2016,C023,Asthma,Obesity,,,70
+INST003,2016,C024,COPD,Diabetes,,,63
+INST003,2016,C025,Hyperlipidemia,Hypertension,,,134
+INST003,2017,C001,Diabetes,Hypertension,,,71
+INST003,2017,C002,Diabetes,Chronic kidney disease,,,44
+INST003,2017,C003,Hypertension,Ischemic heart disease,,,66
+INST003,2017,C004,Diabetes,Obesity,,,71
+INST003,2017,C005,Diabetes,Hypertension,Obesity,,77
+INST003,2017,C006,COPD,Hypertension,,,51
+INST003,2017,C007,Asthma,Allergic/atopic disease,,,34
+INST003,2017,C008,Heart failure,Chronic kidney disease,,,47
+INST003,2017,C009,Diabetes,Hyperlipidemia,Hypertension,,58
+INST003,2017,C010,Hypertension,Stroke,,,11
+INST003,2017,C011,Chronic liver disease,Type 2 diabetes mellitus,,,45
+INST003,2017,C012,Depression,Generalized anxiety disorder,,,31
+INST003,2017,C013,Osteoarthritis,Obesity,,,73
+INST003,2017,C014,Rheumatoid arthritis,Osteoporosis,,,38
+INST003,2017,C015,Pneumonia,Diabetes,,,45
+INST003,2017,C016,COVID-19,Diabetes,,,24
+INST003,2017,C017,COVID-19,Hypertension,,,11
+INST003,2017,C018,COVID-19,Diabetes,Hypertension,,26
+INST003,2017,C019,Tuberculosis,Diabetes,,,40
+INST003,2017,C020,Urinary tract infection,Diabetes,,,72
+INST003,2017,C021,Diabetes,Chronic kidney disease,Hypertension,,84
+INST003,2017,C022,Ischemic heart disease,Diabetes,Hypertension,,74
+INST003,2017,C023,Asthma,Obesity,,,61
+INST003,2017,C024,COPD,Diabetes,,,43
+INST003,2017,C025,Hyperlipidemia,Hypertension,,,88
+INST003,2018,C001,Diabetes,Hypertension,,,200
+INST003,2018,C002,Diabetes,Chronic kidney disease,,,85
+INST003,2018,C003,Hypertension,Ischemic heart disease,,,122
+INST003,2018,C004,Diabetes,Obesity,,,164
+INST003,2018,C005,Diabetes,Hypertension,Obesity,,131
+INST003,2018,C006,COPD,Hypertension,,,53
+INST003,2018,C007,Asthma,Allergic/atopic disease,,,15
+INST003,2018,C008,Heart failure,Chronic kidney disease,,,30
+INST003,2018,C009,Diabetes,Hyperlipidemia,Hypertension,,77
+INST003,2018,C010,Hypertension,Stroke,,,14
+INST003,2018,C011,Chronic liver disease,Type 2 diabetes mellitus,,,34
+INST003,2018,C012,Depression,Generalized anxiety disorder,,,69
+INST003,2018,C013,Osteoarthritis,Obesity,,,87
+INST003,2018,C014,Rheumatoid arthritis,Osteoporosis,,,31
+INST003,2018,C015,Pneumonia,Diabetes,,,55
+INST003,2018,C016,COVID-19,Diabetes,,,19
+INST003,2018,C017,COVID-19,Hypertension,,,24
+INST003,2018,C018,COVID-19,Diabetes,Hypertension,,13
+INST003,2018,C019,Tuberculosis,Diabetes,,,28
+INST003,2018,C020,Urinary tract infection,Diabetes,,,103
+INST003,2018,C021,Diabetes,Chronic kidney disease,Hypertension,,47
+INST003,2018,C022,Ischemic heart disease,Diabetes,Hypertension,,102
+INST003,2018,C023,Asthma,Obesity,,,76
+INST003,2018,C024,COPD,Diabetes,,,59
+INST003,2018,C025,Hyperlipidemia,Hypertension,,,86
+INST003,2019,C001,Diabetes,Hypertension,,,90
+INST003,2019,C002,Diabetes,Chronic kidney disease,,,109
+INST003,2019,C003,Hypertension,Ischemic heart disease,,,133
+INST003,2019,C004,Diabetes,Obesity,,,149
+INST003,2019,C005,Diabetes,Hypertension,Obesity,,52
+INST003,2019,C006,COPD,Hypertension,,,37
+INST003,2019,C007,Asthma,Allergic/atopic disease,,,15
+INST003,2019,C008,Heart failure,Chronic kidney disease,,,61
+INST003,2019,C009,Diabetes,Hyperlipidemia,Hypertension,,61
+INST003,2019,C010,Hypertension,Stroke,,,25
+INST003,2019,C011,Chronic liver disease,Type 2 diabetes mellitus,,,45
+INST003,2019,C012,Depression,Generalized anxiety disorder,,,51
+INST003,2019,C013,Osteoarthritis,Obesity,,,74
+INST003,2019,C014,Rheumatoid arthritis,Osteoporosis,,,11
+INST003,2019,C015,Pneumonia,Diabetes,,,78
+INST003,2019,C016,COVID-19,Diabetes,,,35
+INST003,2019,C017,COVID-19,Hypertension,,,35
+INST003,2019,C018,COVID-19,Diabetes,Hypertension,,37
+INST003,2019,C019,Tuberculosis,Diabetes,,,30
+INST003,2019,C020,Urinary tract infection,Diabetes,,,95
+INST003,2019,C021,Diabetes,Chronic kidney disease,Hypertension,,89
+INST003,2019,C022,Ischemic heart disease,Diabetes,Hypertension,,69
+INST003,2019,C023,Asthma,Obesity,,,43
+INST003,2019,C024,COPD,Diabetes,,,26
+INST003,2019,C025,Hyperlipidemia,Hypertension,,,77
+INST003,2020,C001,Diabetes,Hypertension,,,128
+INST003,2020,C002,Diabetes,Chronic kidney disease,,,100
+INST003,2020,C003,Hypertension,Ischemic heart disease,,,83
+INST003,2020,C004,Diabetes,Obesity,,,55
+INST003,2020,C005,Diabetes,Hypertension,Obesity,,124
+INST003,2020,C006,COPD,Hypertension,,,39
+INST003,2020,C007,Asthma,Allergic/atopic disease,,,38
+INST003,2020,C008,Heart failure,Chronic kidney disease,,,42
+INST003,2020,C009,Diabetes,Hyperlipidemia,Hypertension,,135
+INST003,2020,C010,Hypertension,Stroke,,,15
+INST003,2020,C011,Chronic liver disease,Type 2 diabetes mellitus,,,41
+INST003,2020,C012,Depression,Generalized anxiety disorder,,,41
+INST003,2020,C013,Osteoarthritis,Obesity,,,75
+INST003,2020,C014,Rheumatoid arthritis,Osteoporosis,,,19
+INST003,2020,C015,Pneumonia,Diabetes,,,46
+INST003,2020,C016,COVID-19,Diabetes,,,152
+INST003,2020,C017,COVID-19,Hypertension,,,207
+INST003,2020,C018,COVID-19,Diabetes,Hypertension,,65
+INST003,2020,C019,Tuberculosis,Diabetes,,,20
+INST003,2020,C020,Urinary tract infection,Diabetes,,,93
+INST003,2020,C021,Diabetes,Chronic kidney disease,Hypertension,,45
+INST003,2020,C022,Ischemic heart disease,Diabetes,Hypertension,,121
+INST003,2020,C023,Asthma,Obesity,,,107
+INST003,2020,C024,COPD,Diabetes,,,64
+INST003,2020,C025,Hyperlipidemia,Hypertension,,,66
+INST003,2021,C001,Diabetes,Hypertension,,,94
+INST003,2021,C002,Diabetes,Chronic kidney disease,,,57
+INST003,2021,C003,Hypertension,Ischemic heart disease,,,134
+INST003,2021,C004,Diabetes,Obesity,,,62
+INST003,2021,C005,Diabetes,Hypertension,Obesity,,64
+INST003,2021,C006,COPD,Hypertension,,,59
+INST003,2021,C007,Asthma,Allergic/atopic disease,,,40
+INST003,2021,C008,Heart failure,Chronic kidney disease,,,22
+INST003,2021,C009,Diabetes,Hyperlipidemia,Hypertension,,130
+INST003,2021,C010,Hypertension,Stroke,,,36
+INST003,2021,C011,Chronic liver disease,Type 2 diabetes mellitus,,,44
+INST003,2021,C012,Depression,Generalized anxiety disorder,,,77
+INST003,2021,C013,Osteoarthritis,Obesity,,,73
+INST003,2021,C014,Rheumatoid arthritis,Osteoporosis,,,26
+INST003,2021,C015,Pneumonia,Diabetes,,,82
+INST003,2021,C016,COVID-19,Diabetes,,,159
+INST003,2021,C017,COVID-19,Hypertension,,,241
+INST003,2021,C018,COVID-19,Diabetes,Hypertension,,112
+INST003,2021,C019,Tuberculosis,Diabetes,,,29
+INST003,2021,C020,Urinary tract infection,Diabetes,,,66
+INST003,2021,C021,Diabetes,Chronic kidney disease,Hypertension,,82
+INST003,2021,C022,Ischemic heart disease,Diabetes,Hypertension,,124
+INST003,2021,C023,Asthma,Obesity,,,41
+INST003,2021,C024,COPD,Diabetes,,,33
+INST003,2021,C025,Hyperlipidemia,Hypertension,,,59
+INST003,2022,C001,Diabetes,Hypertension,,,68
+INST003,2022,C002,Diabetes,Chronic kidney disease,,,73
+INST003,2022,C003,Hypertension,Ischemic heart disease,,,130
+INST003,2022,C004,Diabetes,Obesity,,,152
+INST003,2022,C005,Diabetes,Hypertension,Obesity,,69
+INST003,2022,C006,COPD,Hypertension,,,54
+INST003,2022,C007,Asthma,Allergic/atopic disease,,,35
+INST003,2022,C008,Heart failure,Chronic kidney disease,,,59
+INST003,2022,C009,Diabetes,Hyperlipidemia,Hypertension,,87
+INST003,2022,C010,Hypertension,Stroke,,,11
+INST003,2022,C011,Chronic liver disease,Type 2 diabetes mellitus,,,19
+INST003,2022,C012,Depression,Generalized anxiety disorder,,,75
+INST003,2022,C013,Osteoarthritis,Obesity,,,110
+INST003,2022,C014,Rheumatoid arthritis,Osteoporosis,,,47
+INST003,2022,C015,Pneumonia,Diabetes,,,77
+INST003,2022,C016,COVID-19,Diabetes,,,105
+INST003,2022,C017,COVID-19,Hypertension,,,176
+INST003,2022,C018,COVID-19,Diabetes,Hypertension,,163
+INST003,2022,C019,Tuberculosis,Diabetes,,,24
+INST003,2022,C020,Urinary tract infection,Diabetes,,,78
+INST003,2022,C021,Diabetes,Chronic kidney disease,Hypertension,,40
+INST003,2022,C022,Ischemic heart disease,Diabetes,Hypertension,,78
+INST003,2022,C023,Asthma,Obesity,,,87
+INST003,2022,C024,COPD,Diabetes,,,60
+INST003,2022,C025,Hyperlipidemia,Hypertension,,,49
+INST003,2023,C001,Diabetes,Hypertension,,,203
+INST003,2023,C002,Diabetes,Chronic kidney disease,,,81
+INST003,2023,C003,Hypertension,Ischemic heart disease,,,76
+INST003,2023,C004,Diabetes,Obesity,,,90
+INST003,2023,C005,Diabetes,Hypertension,Obesity,,105
+INST003,2023,C006,COPD,Hypertension,,,30
+INST003,2023,C007,Asthma,Allergic/atopic disease,,,34
+INST003,2023,C008,Heart failure,Chronic kidney disease,,,56
+INST003,2023,C009,Diabetes,Hyperlipidemia,Hypertension,,118
+INST003,2023,C010,Hypertension,Stroke,,,26
+INST003,2023,C011,Chronic liver disease,Type 2 diabetes mellitus,,,31
+INST003,2023,C012,Depression,Generalized anxiety disorder,,,105
+INST003,2023,C013,Osteoarthritis,Obesity,,,45
+INST003,2023,C014,Rheumatoid arthritis,Osteoporosis,,,39
+INST003,2023,C015,Pneumonia,Diabetes,,,88
+INST003,2023,C016,COVID-19,Diabetes,,,44
+INST003,2023,C017,COVID-19,Hypertension,,,62
+INST003,2023,C018,COVID-19,Diabetes,Hypertension,,45
+INST003,2023,C019,Tuberculosis,Diabetes,,,29
+INST003,2023,C020,Urinary tract infection,Diabetes,,,51
+INST003,2023,C021,Diabetes,Chronic kidney disease,Hypertension,,90
+INST003,2023,C022,Ischemic heart disease,Diabetes,Hypertension,,62
+INST003,2023,C023,Asthma,Obesity,,,88
+INST003,2023,C024,COPD,Diabetes,,,33
+INST003,2023,C025,Hyperlipidemia,Hypertension,,,121
+INST003,2024,C001,Diabetes,Hypertension,,,226
+INST003,2024,C002,Diabetes,Chronic kidney disease,,,89
+INST003,2024,C003,Hypertension,Ischemic heart disease,,,44
+INST003,2024,C004,Diabetes,Obesity,,,151
+INST003,2024,C005,Diabetes,Hypertension,Obesity,,70
+INST003,2024,C006,COPD,Hypertension,,,53
+INST003,2024,C007,Asthma,Allergic/atopic disease,,,31
+INST003,2024,C008,Heart failure,Chronic kidney disease,,,86
+INST003,2024,C009,Diabetes,Hyperlipidemia,Hypertension,,125
+INST003,2024,C010,Hypertension,Stroke,,,44
+INST003,2024,C011,Chronic liver disease,Type 2 diabetes mellitus,,,55
+INST003,2024,C012,Depression,Generalized anxiety disorder,,,70
+INST003,2024,C013,Osteoarthritis,Obesity,,,78
+INST003,2024,C014,Rheumatoid arthritis,Osteoporosis,,,33
+INST003,2024,C015,Pneumonia,Diabetes,,,149
+INST003,2024,C016,COVID-19,Diabetes,,,72
+INST003,2024,C017,COVID-19,Hypertension,,,49
+INST003,2024,C018,COVID-19,Diabetes,Hypertension,,58
+INST003,2024,C019,Tuberculosis,Diabetes,,,23
+INST003,2024,C020,Urinary tract infection,Diabetes,,,76
+INST003,2024,C021,Diabetes,Chronic kidney disease,Hypertension,,49
+INST003,2024,C022,Ischemic heart disease,Diabetes,Hypertension,,120
+INST003,2024,C023,Asthma,Obesity,,,79
+INST003,2024,C024,COPD,Diabetes,,,32
+INST003,2024,C025,Hyperlipidemia,Hypertension,,,136
+INST003,2025,C001,Diabetes,Hypertension,,,136
+INST003,2025,C002,Diabetes,Chronic kidney disease,,,101
+INST003,2025,C003,Hypertension,Ischemic heart disease,,,99
+INST003,2025,C004,Diabetes,Obesity,,,118
+INST003,2025,C005,Diabetes,Hypertension,Obesity,,92
+INST003,2025,C006,COPD,Hypertension,,,39
+INST003,2025,C007,Asthma,Allergic/atopic disease,,,16
+INST003,2025,C008,Heart failure,Chronic kidney disease,,,56
+INST003,2025,C009,Diabetes,Hyperlipidemia,Hypertension,,74
+INST003,2025,C010,Hypertension,Stroke,,,14
+INST003,2025,C011,Chronic liver disease,Type 2 diabetes mellitus,,,21
+INST003,2025,C012,Depression,Generalized anxiety disorder,,,86
+INST003,2025,C013,Osteoarthritis,Obesity,,,92
+INST003,2025,C014,Rheumatoid arthritis,Osteoporosis,,,14
+INST003,2025,C015,Pneumonia,Diabetes,,,126
+INST003,2025,C016,COVID-19,Diabetes,,,54
+INST003,2025,C017,COVID-19,Hypertension,,,59
+INST003,2025,C018,COVID-19,Diabetes,Hypertension,,76
+INST003,2025,C019,Tuberculosis,Diabetes,,,13
+INST003,2025,C020,Urinary tract infection,Diabetes,,,90
+INST003,2025,C021,Diabetes,Chronic kidney disease,Hypertension,,70
+INST003,2025,C022,Ischemic heart disease,Diabetes,Hypertension,,98
+INST003,2025,C023,Asthma,Obesity,,,103
+INST003,2025,C024,COPD,Diabetes,,,34
+INST003,2025,C025,Hyperlipidemia,Hypertension,,,146
+INST003,2026,C001,Diabetes,Hypertension,,,93
+INST003,2026,C002,Diabetes,Chronic kidney disease,,,37
+INST003,2026,C003,Hypertension,Ischemic heart disease,,,119
+INST003,2026,C004,Diabetes,Obesity,,,140
+INST003,2026,C005,Diabetes,Hypertension,Obesity,,133
+INST003,2026,C006,COPD,Hypertension,,,96
+INST003,2026,C007,Asthma,Allergic/atopic disease,,,44
+INST003,2026,C008,Heart failure,Chronic kidney disease,,,42
+INST003,2026,C009,Diabetes,Hyperlipidemia,Hypertension,,48
+INST003,2026,C010,Hypertension,Stroke,,,23
+INST003,2026,C011,Chronic liver disease,Type 2 diabetes mellitus,,,36
+INST003,2026,C012,Depression,Generalized anxiety disorder,,,75
+INST003,2026,C013,Osteoarthritis,Obesity,,,127
+INST003,2026,C014,Rheumatoid arthritis,Osteoporosis,,,40
+INST003,2026,C015,Pneumonia,Diabetes,,,68
+INST003,2026,C016,COVID-19,Diabetes,,,47
+INST003,2026,C017,COVID-19,Hypertension,,,52
+INST003,2026,C018,COVID-19,Diabetes,Hypertension,,46
+INST003,2026,C019,Tuberculosis,Diabetes,,,34
+INST003,2026,C020,Urinary tract infection,Diabetes,,,113
+INST003,2026,C021,Diabetes,Chronic kidney disease,Hypertension,,85
+INST003,2026,C022,Ischemic heart disease,Diabetes,Hypertension,,59
+INST003,2026,C023,Asthma,Obesity,,,106
+INST003,2026,C024,COPD,Diabetes,,,54
+INST003,2026,C025,Hyperlipidemia,Hypertension,,,57
+INST004,2015,C001,Diabetes,Hypertension,,,76
+INST004,2015,C002,Diabetes,Chronic kidney disease,,,56
+INST004,2015,C003,Hypertension,Ischemic heart disease,,,100
+INST004,2015,C004,Diabetes,Obesity,,,118
+INST004,2015,C005,Diabetes,Hypertension,Obesity,,56
+INST004,2015,C006,COPD,Hypertension,,,60
+INST004,2015,C007,Asthma,Allergic/atopic disease,,,33
+INST004,2015,C008,Heart failure,Chronic kidney disease,,,39
+INST004,2015,C009,Diabetes,Hyperlipidemia,Hypertension,,126
+INST004,2015,C010,Hypertension,Stroke,,,31
+INST004,2015,C011,Chronic liver disease,Type 2 diabetes mellitus,,,24
+INST004,2015,C012,Depression,Generalized anxiety disorder,,,79
+INST004,2015,C013,Osteoarthritis,Obesity,,,104
+INST004,2015,C014,Rheumatoid arthritis,Osteoporosis,,,26
+INST004,2015,C015,Pneumonia,Diabetes,,,83
+INST004,2015,C016,COVID-19,Diabetes,,,10
+INST004,2015,C017,COVID-19,Hypertension,,,9
+INST004,2015,C018,COVID-19,Diabetes,Hypertension,,26
+INST004,2015,C019,Tuberculosis,Diabetes,,,29
+INST004,2015,C020,Urinary tract infection,Diabetes,,,40
+INST004,2015,C021,Diabetes,Chronic kidney disease,Hypertension,,76
+INST004,2015,C022,Ischemic heart disease,Diabetes,Hypertension,,40
+INST004,2015,C023,Asthma,Obesity,,,89
+INST004,2015,C024,COPD,Diabetes,,,57
+INST004,2015,C025,Hyperlipidemia,Hypertension,,,133
+INST004,2016,C001,Diabetes,Hypertension,,,143
+INST004,2016,C002,Diabetes,Chronic kidney disease,,,61
+INST004,2016,C003,Hypertension,Ischemic heart disease,,,90
+INST004,2016,C004,Diabetes,Obesity,,,135
+INST004,2016,C005,Diabetes,Hypertension,Obesity,,144
+INST004,2016,C006,COPD,Hypertension,,,34
+INST004,2016,C007,Asthma,Allergic/atopic disease,,,42
+INST004,2016,C008,Heart failure,Chronic kidney disease,,,68
+INST004,2016,C009,Diabetes,Hyperlipidemia,Hypertension,,117
+INST004,2016,C010,Hypertension,Stroke,,,14
+INST004,2016,C011,Chronic liver disease,Type 2 diabetes mellitus,,,47
+INST004,2016,C012,Depression,Generalized anxiety disorder,,,47
+INST004,2016,C013,Osteoarthritis,Obesity,,,87
+INST004,2016,C014,Rheumatoid arthritis,Osteoporosis,,,32
+INST004,2016,C015,Pneumonia,Diabetes,,,55
+INST004,2016,C016,COVID-19,Diabetes,,,12
+INST004,2016,C017,COVID-19,Hypertension,,,14
+INST004,2016,C018,COVID-19,Diabetes,Hypertension,,13
+INST004,2016,C019,Tuberculosis,Diabetes,,,26
+INST004,2016,C020,Urinary tract infection,Diabetes,,,110
+INST004,2016,C021,Diabetes,Chronic kidney disease,Hypertension,,29
+INST004,2016,C022,Ischemic heart disease,Diabetes,Hypertension,,126
+INST004,2016,C023,Asthma,Obesity,,,74
+INST004,2016,C024,COPD,Diabetes,,,49
+INST004,2016,C025,Hyperlipidemia,Hypertension,,,85
+INST004,2017,C001,Diabetes,Hypertension,,,139
+INST004,2017,C002,Diabetes,Chronic kidney disease,,,98
+INST004,2017,C003,Hypertension,Ischemic heart disease,,,38
+INST004,2017,C004,Diabetes,Obesity,,,87
+INST004,2017,C005,Diabetes,Hypertension,Obesity,,166
+INST004,2017,C006,COPD,Hypertension,,,68
+INST004,2017,C007,Asthma,Allergic/atopic disease,,,44
+INST004,2017,C008,Heart failure,Chronic kidney disease,,,64
+INST004,2017,C009,Diabetes,Hyperlipidemia,Hypertension,,96
+INST004,2017,C010,Hypertension,Stroke,,,27
+INST004,2017,C011,Chronic liver disease,Type 2 diabetes mellitus,,,52
+INST004,2017,C012,Depression,Generalized anxiety disorder,,,63
+INST004,2017,C013,Osteoarthritis,Obesity,,,102
+INST004,2017,C014,Rheumatoid arthritis,Osteoporosis,,,22
+INST004,2017,C015,Pneumonia,Diabetes,,,111
+INST004,2017,C016,COVID-19,Diabetes,,,13
+INST004,2017,C017,COVID-19,Hypertension,,,11
+INST004,2017,C018,COVID-19,Diabetes,Hypertension,,27
+INST004,2017,C019,Tuberculosis,Diabetes,,,20
+INST004,2017,C020,Urinary tract infection,Diabetes,,,52
+INST004,2017,C021,Diabetes,Chronic kidney disease,Hypertension,,51
+INST004,2017,C022,Ischemic heart disease,Diabetes,Hypertension,,116
+INST004,2017,C023,Asthma,Obesity,,,110
+INST004,2017,C024,COPD,Diabetes,,,75
+INST004,2017,C025,Hyperlipidemia,Hypertension,,,70
+INST004,2018,C001,Diabetes,Hypertension,,,115
+INST004,2018,C002,Diabetes,Chronic kidney disease,,,45
+INST004,2018,C003,Hypertension,Ischemic heart disease,,,106
+INST004,2018,C004,Diabetes,Obesity,,,58
+INST004,2018,C005,Diabetes,Hypertension,Obesity,,80
+INST004,2018,C006,COPD,Hypertension,,,48
+INST004,2018,C007,Asthma,Allergic/atopic disease,,,57
+INST004,2018,C008,Heart failure,Chronic kidney disease,,,44
+INST004,2018,C009,Diabetes,Hyperlipidemia,Hypertension,,59
+INST004,2018,C010,Hypertension,Stroke,,,20
+INST004,2018,C011,Chronic liver disease,Type 2 diabetes mellitus,,,34
+INST004,2018,C012,Depression,Generalized anxiety disorder,,,108
+INST004,2018,C013,Osteoarthritis,Obesity,,,93
+INST004,2018,C014,Rheumatoid arthritis,Osteoporosis,,,17
+INST004,2018,C015,Pneumonia,Diabetes,,,101
+INST004,2018,C016,COVID-19,Diabetes,,,32
+INST004,2018,C017,COVID-19,Hypertension,,,25
+INST004,2018,C018,COVID-19,Diabetes,Hypertension,,14
+INST004,2018,C019,Tuberculosis,Diabetes,,,26
+INST004,2018,C020,Urinary tract infection,Diabetes,,,87
+INST004,2018,C021,Diabetes,Chronic kidney disease,Hypertension,,102
+INST004,2018,C022,Ischemic heart disease,Diabetes,Hypertension,,104
+INST004,2018,C023,Asthma,Obesity,,,66
+INST004,2018,C024,COPD,Diabetes,,,34
+INST004,2018,C025,Hyperlipidemia,Hypertension,,,167
+INST004,2019,C001,Diabetes,Hypertension,,,137
+INST004,2019,C002,Diabetes,Chronic kidney disease,,,41
+INST004,2019,C003,Hypertension,Ischemic heart disease,,,117
+INST004,2019,C004,Diabetes,Obesity,,,63
+INST004,2019,C005,Diabetes,Hypertension,Obesity,,69
+INST004,2019,C006,COPD,Hypertension,,,28
+INST004,2019,C007,Asthma,Allergic/atopic disease,,,34
+INST004,2019,C008,Heart failure,Chronic kidney disease,,,23
+INST004,2019,C009,Diabetes,Hyperlipidemia,Hypertension,,141
+INST004,2019,C010,Hypertension,Stroke,,,27
+INST004,2019,C011,Chronic liver disease,Type 2 diabetes mellitus,,,41
+INST004,2019,C012,Depression,Generalized anxiety disorder,,,54
+INST004,2019,C013,Osteoarthritis,Obesity,,,113
+INST004,2019,C014,Rheumatoid arthritis,Osteoporosis,,,19
+INST004,2019,C015,Pneumonia,Diabetes,,,52
+INST004,2019,C016,COVID-19,Diabetes,,,20
+INST004,2019,C017,COVID-19,Hypertension,,,34
+INST004,2019,C018,COVID-19,Diabetes,Hypertension,,20
+INST004,2019,C019,Tuberculosis,Diabetes,,,13
+INST004,2019,C020,Urinary tract infection,Diabetes,,,125
+INST004,2019,C021,Diabetes,Chronic kidney disease,Hypertension,,55
+INST004,2019,C022,Ischemic heart disease,Diabetes,Hypertension,,131
+INST004,2019,C023,Asthma,Obesity,,,74
+INST004,2019,C024,COPD,Diabetes,,,66
+INST004,2019,C025,Hyperlipidemia,Hypertension,,,121
+INST004,2020,C001,Diabetes,Hypertension,,,171
+INST004,2020,C002,Diabetes,Chronic kidney disease,,,73
+INST004,2020,C003,Hypertension,Ischemic heart disease,,,130
+INST004,2020,C004,Diabetes,Obesity,,,134
+INST004,2020,C005,Diabetes,Hypertension,Obesity,,142
+INST004,2020,C006,COPD,Hypertension,,,94
+INST004,2020,C007,Asthma,Allergic/atopic disease,,,22
+INST004,2020,C008,Heart failure,Chronic kidney disease,,,84
+INST004,2020,C009,Diabetes,Hyperlipidemia,Hypertension,,84
+INST004,2020,C010,Hypertension,Stroke,,,19
+INST004,2020,C011,Chronic liver disease,Type 2 diabetes mellitus,,,63
+INST004,2020,C012,Depression,Generalized anxiety disorder,,,117
+INST004,2020,C013,Osteoarthritis,Obesity,,,95
+INST004,2020,C014,Rheumatoid arthritis,Osteoporosis,,,36
+INST004,2020,C015,Pneumonia,Diabetes,,,111
+INST004,2020,C016,COVID-19,Diabetes,,,161
+INST004,2020,C017,COVID-19,Hypertension,,,100
+INST004,2020,C018,COVID-19,Diabetes,Hypertension,,77
+INST004,2020,C019,Tuberculosis,Diabetes,,,31
+INST004,2020,C020,Urinary tract infection,Diabetes,,,55
+INST004,2020,C021,Diabetes,Chronic kidney disease,Hypertension,,35
+INST004,2020,C022,Ischemic heart disease,Diabetes,Hypertension,,81
+INST004,2020,C023,Asthma,Obesity,,,105
+INST004,2020,C024,COPD,Diabetes,,,33
+INST004,2020,C025,Hyperlipidemia,Hypertension,,,119
+INST004,2021,C001,Diabetes,Hypertension,,,257
+INST004,2021,C002,Diabetes,Chronic kidney disease,,,79
+INST004,2021,C003,Hypertension,Ischemic heart disease,,,57
+INST004,2021,C004,Diabetes,Obesity,,,108
+INST004,2021,C005,Diabetes,Hypertension,Obesity,,118
+INST004,2021,C006,COPD,Hypertension,,,33
+INST004,2021,C007,Asthma,Allergic/atopic disease,,,50
+INST004,2021,C008,Heart failure,Chronic kidney disease,,,62
+INST004,2021,C009,Diabetes,Hyperlipidemia,Hypertension,,109
+INST004,2021,C010,Hypertension,Stroke,,,26
+INST004,2021,C011,Chronic liver disease,Type 2 diabetes mellitus,,,38
+INST004,2021,C012,Depression,Generalized anxiety disorder,,,133
+INST004,2021,C013,Osteoarthritis,Obesity,,,124
+INST004,2021,C014,Rheumatoid arthritis,Osteoporosis,,,34
+INST004,2021,C015,Pneumonia,Diabetes,,,62
+INST004,2021,C016,COVID-19,Diabetes,,,235
+INST004,2021,C017,COVID-19,Hypertension,,,335
+INST004,2021,C018,COVID-19,Diabetes,Hypertension,,152
+INST004,2021,C019,Tuberculosis,Diabetes,,,23
+INST004,2021,C020,Urinary tract infection,Diabetes,,,33
+INST004,2021,C021,Diabetes,Chronic kidney disease,Hypertension,,35
+INST004,2021,C022,Ischemic heart disease,Diabetes,Hypertension,,99
+INST004,2021,C023,Asthma,Obesity,,,125
+INST004,2021,C024,COPD,Diabetes,,,32
+INST004,2021,C025,Hyperlipidemia,Hypertension,,,56
+INST004,2022,C001,Diabetes,Hypertension,,,191
+INST004,2022,C002,Diabetes,Chronic kidney disease,,,76
+INST004,2022,C003,Hypertension,Ischemic heart disease,,,107
+INST004,2022,C004,Diabetes,Obesity,,,185
+INST004,2022,C005,Diabetes,Hypertension,Obesity,,198
+INST004,2022,C006,COPD,Hypertension,,,71
+INST004,2022,C007,Asthma,Allergic/atopic disease,,,35
+INST004,2022,C008,Heart failure,Chronic kidney disease,,,51
+INST004,2022,C009,Diabetes,Hyperlipidemia,Hypertension,,121
+INST004,2022,C010,Hypertension,Stroke,,,27
+INST004,2022,C011,Chronic liver disease,Type 2 diabetes mellitus,,,66
+INST004,2022,C012,Depression,Generalized anxiety disorder,,,99
+INST004,2022,C013,Osteoarthritis,Obesity,,,116
+INST004,2022,C014,Rheumatoid arthritis,Osteoporosis,,,31
+INST004,2022,C015,Pneumonia,Diabetes,,,113
+INST004,2022,C016,COVID-19,Diabetes,,,219
+INST004,2022,C017,COVID-19,Hypertension,,,304
+INST004,2022,C018,COVID-19,Diabetes,Hypertension,,186
+INST004,2022,C019,Tuberculosis,Diabetes,,,33
+INST004,2022,C020,Urinary tract infection,Diabetes,,,93
+INST004,2022,C021,Diabetes,Chronic kidney disease,Hypertension,,52
+INST004,2022,C022,Ischemic heart disease,Diabetes,Hypertension,,136
+INST004,2022,C023,Asthma,Obesity,,,115
+INST004,2022,C024,COPD,Diabetes,,,105
+INST004,2022,C025,Hyperlipidemia,Hypertension,,,176
+INST004,2023,C001,Diabetes,Hypertension,,,147
+INST004,2023,C002,Diabetes,Chronic kidney disease,,,83
+INST004,2023,C003,Hypertension,Ischemic heart disease,,,101
+INST004,2023,C004,Diabetes,Obesity,,,159
+INST004,2023,C005,Diabetes,Hypertension,Obesity,,126
+INST004,2023,C006,COPD,Hypertension,,,76
+INST004,2023,C007,Asthma,Allergic/atopic disease,,,37
+INST004,2023,C008,Heart failure,Chronic kidney disease,,,27
+INST004,2023,C009,Diabetes,Hyperlipidemia,Hypertension,,62
+INST004,2023,C010,Hypertension,Stroke,,,46
+INST004,2023,C011,Chronic liver disease,Type 2 diabetes mellitus,,,35
+INST004,2023,C012,Depression,Generalized anxiety disorder,,,127
+INST004,2023,C013,Osteoarthritis,Obesity,,,92
+INST004,2023,C014,Rheumatoid arthritis,Osteoporosis,,,22
+INST004,2023,C015,Pneumonia,Diabetes,,,85
+INST004,2023,C016,COVID-19,Diabetes,,,27
+INST004,2023,C017,COVID-19,Hypertension,,,68
+INST004,2023,C018,COVID-19,Diabetes,Hypertension,,34
+INST004,2023,C019,Tuberculosis,Diabetes,,,24
+INST004,2023,C020,Urinary tract infection,Diabetes,,,99
+INST004,2023,C021,Diabetes,Chronic kidney disease,Hypertension,,43
+INST004,2023,C022,Ischemic heart disease,Diabetes,Hypertension,,70
+INST004,2023,C023,Asthma,Obesity,,,55
+INST004,2023,C024,COPD,Diabetes,,,37
+INST004,2023,C025,Hyperlipidemia,Hypertension,,,147
+INST004,2024,C001,Diabetes,Hypertension,,,152
+INST004,2024,C002,Diabetes,Chronic kidney disease,,,52
+INST004,2024,C003,Hypertension,Ischemic heart disease,,,81
+INST004,2024,C004,Diabetes,Obesity,,,207
+INST004,2024,C005,Diabetes,Hypertension,Obesity,,163
+INST004,2024,C006,COPD,Hypertension,,,73
+INST004,2024,C007,Asthma,Allergic/atopic disease,,,18
+INST004,2024,C008,Heart failure,Chronic kidney disease,,,52
+INST004,2024,C009,Diabetes,Hyperlipidemia,Hypertension,,118
+INST004,2024,C010,Hypertension,Stroke,,,28
+INST004,2024,C011,Chronic liver disease,Type 2 diabetes mellitus,,,37
+INST004,2024,C012,Depression,Generalized anxiety disorder,,,80
+INST004,2024,C013,Osteoarthritis,Obesity,,,82
+INST004,2024,C014,Rheumatoid arthritis,Osteoporosis,,,29
+INST004,2024,C015,Pneumonia,Diabetes,,,55
+INST004,2024,C016,COVID-19,Diabetes,,,69
+INST004,2024,C017,COVID-19,Hypertension,,,31
+INST004,2024,C018,COVID-19,Diabetes,Hypertension,,40
+INST004,2024,C019,Tuberculosis,Diabetes,,,14
+INST004,2024,C020,Urinary tract infection,Diabetes,,,64
+INST004,2024,C021,Diabetes,Chronic kidney disease,Hypertension,,41
+INST004,2024,C022,Ischemic heart disease,Diabetes,Hypertension,,105
+INST004,2024,C023,Asthma,Obesity,,,59
+INST004,2024,C024,COPD,Diabetes,,,31
+INST004,2024,C025,Hyperlipidemia,Hypertension,,,103
+INST004,2025,C001,Diabetes,Hypertension,,,98
+INST004,2025,C002,Diabetes,Chronic kidney disease,,,102
+INST004,2025,C003,Hypertension,Ischemic heart disease,,,68
+INST004,2025,C004,Diabetes,Obesity,,,94
+INST004,2025,C005,Diabetes,Hypertension,Obesity,,83
+INST004,2025,C006,COPD,Hypertension,,,55
+INST004,2025,C007,Asthma,Allergic/atopic disease,,,21
+INST004,2025,C008,Heart failure,Chronic kidney disease,,,66
+INST004,2025,C009,Diabetes,Hyperlipidemia,Hypertension,,57
+INST004,2025,C010,Hypertension,Stroke,,,25
+INST004,2025,C011,Chronic liver disease,Type 2 diabetes mellitus,,,70
+INST004,2025,C012,Depression,Generalized anxiety disorder,,,52
+INST004,2025,C013,Osteoarthritis,Obesity,,,68
+INST004,2025,C014,Rheumatoid arthritis,Osteoporosis,,,29
+INST004,2025,C015,Pneumonia,Diabetes,,,79
+INST004,2025,C016,COVID-19,Diabetes,,,61
+INST004,2025,C017,COVID-19,Hypertension,,,29
+INST004,2025,C018,COVID-19,Diabetes,Hypertension,,28
+INST004,2025,C019,Tuberculosis,Diabetes,,,15
+INST004,2025,C020,Urinary tract infection,Diabetes,,,64
+INST004,2025,C021,Diabetes,Chronic kidney disease,Hypertension,,110
+INST004,2025,C022,Ischemic heart disease,Diabetes,Hypertension,,139
+INST004,2025,C023,Asthma,Obesity,,,58
+INST004,2025,C024,COPD,Diabetes,,,40
+INST004,2025,C025,Hyperlipidemia,Hypertension,,,98
+INST004,2026,C001,Diabetes,Hypertension,,,207
+INST004,2026,C002,Diabetes,Chronic kidney disease,,,65
+INST004,2026,C003,Hypertension,Ischemic heart disease,,,78
+INST004,2026,C004,Diabetes,Obesity,,,144
+INST004,2026,C005,Diabetes,Hypertension,Obesity,,181
+INST004,2026,C006,COPD,Hypertension,,,78
+INST004,2026,C007,Asthma,Allergic/atopic disease,,,31
+INST004,2026,C008,Heart failure,Chronic kidney disease,,,59
+INST004,2026,C009,Diabetes,Hyperlipidemia,Hypertension,,181
+INST004,2026,C010,Hypertension,Stroke,,,36
+INST004,2026,C011,Chronic liver disease,Type 2 diabetes mellitus,,,66
+INST004,2026,C012,Depression,Generalized anxiety disorder,,,120
+INST004,2026,C013,Osteoarthritis,Obesity,,,72
+INST004,2026,C014,Rheumatoid arthritis,Osteoporosis,,,18
+INST004,2026,C015,Pneumonia,Diabetes,,,53
+INST004,2026,C016,COVID-19,Diabetes,,,27
+INST004,2026,C017,COVID-19,Hypertension,,,36
+INST004,2026,C018,COVID-19,Diabetes,Hypertension,,58
+INST004,2026,C019,Tuberculosis,Diabetes,,,37
+INST004,2026,C020,Urinary tract infection,Diabetes,,,49
+INST004,2026,C021,Diabetes,Chronic kidney disease,Hypertension,,105
+INST004,2026,C022,Ischemic heart disease,Diabetes,Hypertension,,71
+INST004,2026,C023,Asthma,Obesity,,,116
+INST004,2026,C024,COPD,Diabetes,,,80
+INST004,2026,C025,Hyperlipidemia,Hypertension,,,118
+INST005,2015,C001,Diabetes,Hypertension,,,100
+INST005,2015,C002,Diabetes,Chronic kidney disease,,,73
+INST005,2015,C003,Hypertension,Ischemic heart disease,,,120
+INST005,2015,C004,Diabetes,Obesity,,,80
+INST005,2015,C005,Diabetes,Hypertension,Obesity,,68
+INST005,2015,C006,COPD,Hypertension,,,58
+INST005,2015,C007,Asthma,Allergic/atopic disease,,,25
+INST005,2015,C008,Heart failure,Chronic kidney disease,,,44
+INST005,2015,C009,Diabetes,Hyperlipidemia,Hypertension,,112
+INST005,2015,C010,Hypertension,Stroke,,,34
+INST005,2015,C011,Chronic liver disease,Type 2 diabetes mellitus,,,24
+INST005,2015,C012,Depression,Generalized anxiety disorder,,,83
+INST005,2015,C013,Osteoarthritis,Obesity,,,52
+INST005,2015,C014,Rheumatoid arthritis,Osteoporosis,,,27
+INST005,2015,C015,Pneumonia,Diabetes,,,100
+INST005,2015,C016,COVID-19,Diabetes,,,29
+INST005,2015,C017,COVID-19,Hypertension,,,24
+INST005,2015,C018,COVID-19,Diabetes,Hypertension,,15
+INST005,2015,C019,Tuberculosis,Diabetes,,,31
+INST005,2015,C020,Urinary tract infection,Diabetes,,,75
+INST005,2015,C021,Diabetes,Chronic kidney disease,Hypertension,,85
+INST005,2015,C022,Ischemic heart disease,Diabetes,Hypertension,,66
+INST005,2015,C023,Asthma,Obesity,,,46
+INST005,2015,C024,COPD,Diabetes,,,28
+INST005,2015,C025,Hyperlipidemia,Hypertension,,,123
+INST005,2016,C001,Diabetes,Hypertension,,,186
+INST005,2016,C002,Diabetes,Chronic kidney disease,,,68
+INST005,2016,C003,Hypertension,Ischemic heart disease,,,94
+INST005,2016,C004,Diabetes,Obesity,,,54
+INST005,2016,C005,Diabetes,Hypertension,Obesity,,49
+INST005,2016,C006,COPD,Hypertension,,,48
+INST005,2016,C007,Asthma,Allergic/atopic disease,,,27
+INST005,2016,C008,Heart failure,Chronic kidney disease,,,54
+INST005,2016,C009,Diabetes,Hyperlipidemia,Hypertension,,70
+INST005,2016,C010,Hypertension,Stroke,,,20
+INST005,2016,C011,Chronic liver disease,Type 2 diabetes mellitus,,,42
+INST005,2016,C012,Depression,Generalized anxiety disorder,,,58
+INST005,2016,C013,Osteoarthritis,Obesity,,,87
+INST005,2016,C014,Rheumatoid arthritis,Osteoporosis,,,18
+INST005,2016,C015,Pneumonia,Diabetes,,,56
+INST005,2016,C016,COVID-19,Diabetes,,,18
+INST005,2016,C017,COVID-19,Hypertension,,,19
+INST005,2016,C018,COVID-19,Diabetes,Hypertension,,21
+INST005,2016,C019,Tuberculosis,Diabetes,,,15
+INST005,2016,C020,Urinary tract infection,Diabetes,,,29
+INST005,2016,C021,Diabetes,Chronic kidney disease,Hypertension,,37
+INST005,2016,C022,Ischemic heart disease,Diabetes,Hypertension,,42
+INST005,2016,C023,Asthma,Obesity,,,73
+INST005,2016,C024,COPD,Diabetes,,,36
+INST005,2016,C025,Hyperlipidemia,Hypertension,,,96
+INST005,2017,C001,Diabetes,Hypertension,,,185
+INST005,2017,C002,Diabetes,Chronic kidney disease,,,29
+INST005,2017,C003,Hypertension,Ischemic heart disease,,,49
+INST005,2017,C004,Diabetes,Obesity,,,183
+INST005,2017,C005,Diabetes,Hypertension,Obesity,,104
+INST005,2017,C006,COPD,Hypertension,,,45
+INST005,2017,C007,Asthma,Allergic/atopic disease,,,19
+INST005,2017,C008,Heart failure,Chronic kidney disease,,,21
+INST005,2017,C009,Diabetes,Hyperlipidemia,Hypertension,,112
+INST005,2017,C010,Hypertension,Stroke,,,39
+INST005,2017,C011,Chronic liver disease,Type 2 diabetes mellitus,,,26
+INST005,2017,C012,Depression,Generalized anxiety disorder,,,73
+INST005,2017,C013,Osteoarthritis,Obesity,,,62
+INST005,2017,C014,Rheumatoid arthritis,Osteoporosis,,,37
+INST005,2017,C015,Pneumonia,Diabetes,,,95
+INST005,2017,C016,COVID-19,Diabetes,,,15
+INST005,2017,C017,COVID-19,Hypertension,,,21
+INST005,2017,C018,COVID-19,Diabetes,Hypertension,,12
+INST005,2017,C019,Tuberculosis,Diabetes,,,16
+INST005,2017,C020,Urinary tract infection,Diabetes,,,85
+INST005,2017,C021,Diabetes,Chronic kidney disease,Hypertension,,31
+INST005,2017,C022,Ischemic heart disease,Diabetes,Hypertension,,95
+INST005,2017,C023,Asthma,Obesity,,,37
+INST005,2017,C024,COPD,Diabetes,,,63
+INST005,2017,C025,Hyperlipidemia,Hypertension,,,154
+INST005,2018,C001,Diabetes,Hypertension,,,163
+INST005,2018,C002,Diabetes,Chronic kidney disease,,,43
+INST005,2018,C003,Hypertension,Ischemic heart disease,,,112
+INST005,2018,C004,Diabetes,Obesity,,,128
+INST005,2018,C005,Diabetes,Hypertension,Obesity,,46
+INST005,2018,C006,COPD,Hypertension,,,61
+INST005,2018,C007,Asthma,Allergic/atopic disease,,,24
+INST005,2018,C008,Heart failure,Chronic kidney disease,,,57
+INST005,2018,C009,Diabetes,Hyperlipidemia,Hypertension,,145
+INST005,2018,C010,Hypertension,Stroke,,,18
+INST005,2018,C011,Chronic liver disease,Type 2 diabetes mellitus,,,51
+INST005,2018,C012,Depression,Generalized anxiety disorder,,,35
+INST005,2018,C013,Osteoarthritis,Obesity,,,58
+INST005,2018,C014,Rheumatoid arthritis,Osteoporosis,,,34
+INST005,2018,C015,Pneumonia,Diabetes,,,57
+INST005,2018,C016,COVID-19,Diabetes,,,30
+INST005,2018,C017,COVID-19,Hypertension,,,30
+INST005,2018,C018,COVID-19,Diabetes,Hypertension,,31
+INST005,2018,C019,Tuberculosis,Diabetes,,,30
+INST005,2018,C020,Urinary tract infection,Diabetes,,,94
+INST005,2018,C021,Diabetes,Chronic kidney disease,Hypertension,,62
+INST005,2018,C022,Ischemic heart disease,Diabetes,Hypertension,,113
+INST005,2018,C023,Asthma,Obesity,,,119
+INST005,2018,C024,COPD,Diabetes,,,31
+INST005,2018,C025,Hyperlipidemia,Hypertension,,,86
+INST005,2019,C001,Diabetes,Hypertension,,,225
+INST005,2019,C002,Diabetes,Chronic kidney disease,,,54
+INST005,2019,C003,Hypertension,Ischemic heart disease,,,42
+INST005,2019,C004,Diabetes,Obesity,,,97
+INST005,2019,C005,Diabetes,Hypertension,Obesity,,107
+INST005,2019,C006,COPD,Hypertension,,,36
+INST005,2019,C007,Asthma,Allergic/atopic disease,,,16
+INST005,2019,C008,Heart failure,Chronic kidney disease,,,38
+INST005,2019,C009,Diabetes,Hyperlipidemia,Hypertension,,138
+INST005,2019,C010,Hypertension,Stroke,,,28
+INST005,2019,C011,Chronic liver disease,Type 2 diabetes mellitus,,,46
+INST005,2019,C012,Depression,Generalized anxiety disorder,,,56
+INST005,2019,C013,Osteoarthritis,Obesity,,,105
+INST005,2019,C014,Rheumatoid arthritis,Osteoporosis,,,39
+INST005,2019,C015,Pneumonia,Diabetes,,,149
+INST005,2019,C016,COVID-19,Diabetes,,,13
+INST005,2019,C017,COVID-19,Hypertension,,,27
+INST005,2019,C018,COVID-19,Diabetes,Hypertension,,18
+INST005,2019,C019,Tuberculosis,Diabetes,,,28
+INST005,2019,C020,Urinary tract infection,Diabetes,,,59
+INST005,2019,C021,Diabetes,Chronic kidney disease,Hypertension,,40
+INST005,2019,C022,Ischemic heart disease,Diabetes,Hypertension,,58
+INST005,2019,C023,Asthma,Obesity,,,49
+INST005,2019,C024,COPD,Diabetes,,,41
+INST005,2019,C025,Hyperlipidemia,Hypertension,,,127
+INST005,2020,C001,Diabetes,Hypertension,,,167
+INST005,2020,C002,Diabetes,Chronic kidney disease,,,85
+INST005,2020,C003,Hypertension,Ischemic heart disease,,,94
+INST005,2020,C004,Diabetes,Obesity,,,145
+INST005,2020,C005,Diabetes,Hypertension,Obesity,,122
+INST005,2020,C006,COPD,Hypertension,,,51
+INST005,2020,C007,Asthma,Allergic/atopic disease,,,17
+INST005,2020,C008,Heart failure,Chronic kidney disease,,,62
+INST005,2020,C009,Diabetes,Hyperlipidemia,Hypertension,,103
+INST005,2020,C010,Hypertension,Stroke,,,13
+INST005,2020,C011,Chronic liver disease,Type 2 diabetes mellitus,,,18
+INST005,2020,C012,Depression,Generalized anxiety disorder,,,56
+INST005,2020,C013,Osteoarthritis,Obesity,,,46
+INST005,2020,C014,Rheumatoid arthritis,Osteoporosis,,,14
+INST005,2020,C015,Pneumonia,Diabetes,,,137
+INST005,2020,C016,COVID-19,Diabetes,,,174
+INST005,2020,C017,COVID-19,Hypertension,,,126
+INST005,2020,C018,COVID-19,Diabetes,Hypertension,,156
+INST005,2020,C019,Tuberculosis,Diabetes,,,28
+INST005,2020,C020,Urinary tract infection,Diabetes,,,39
+INST005,2020,C021,Diabetes,Chronic kidney disease,Hypertension,,88
+INST005,2020,C022,Ischemic heart disease,Diabetes,Hypertension,,103
+INST005,2020,C023,Asthma,Obesity,,,34
+INST005,2020,C024,COPD,Diabetes,,,55
+INST005,2020,C025,Hyperlipidemia,Hypertension,,,108
+INST005,2021,C001,Diabetes,Hypertension,,,103
+INST005,2021,C002,Diabetes,Chronic kidney disease,,,41
+INST005,2021,C003,Hypertension,Ischemic heart disease,,,101
+INST005,2021,C004,Diabetes,Obesity,,,93
+INST005,2021,C005,Diabetes,Hypertension,Obesity,,110
+INST005,2021,C006,COPD,Hypertension,,,54
+INST005,2021,C007,Asthma,Allergic/atopic disease,,,30
+INST005,2021,C008,Heart failure,Chronic kidney disease,,,28
+INST005,2021,C009,Diabetes,Hyperlipidemia,Hypertension,,41
+INST005,2021,C010,Hypertension,Stroke,,,38
+INST005,2021,C011,Chronic liver disease,Type 2 diabetes mellitus,,,52
+INST005,2021,C012,Depression,Generalized anxiety disorder,,,39
+INST005,2021,C013,Osteoarthritis,Obesity,,,114
+INST005,2021,C014,Rheumatoid arthritis,Osteoporosis,,,20
+INST005,2021,C015,Pneumonia,Diabetes,,,109
+INST005,2021,C016,COVID-19,Diabetes,,,126
+INST005,2021,C017,COVID-19,Hypertension,,,267
+INST005,2021,C018,COVID-19,Diabetes,Hypertension,,158
+INST005,2021,C019,Tuberculosis,Diabetes,,,35
+INST005,2021,C020,Urinary tract infection,Diabetes,,,40
+INST005,2021,C021,Diabetes,Chronic kidney disease,Hypertension,,97
+INST005,2021,C022,Ischemic heart disease,Diabetes,Hypertension,,72
+INST005,2021,C023,Asthma,Obesity,,,101
+INST005,2021,C024,COPD,Diabetes,,,84
+INST005,2021,C025,Hyperlipidemia,Hypertension,,,91
+INST005,2022,C001,Diabetes,Hypertension,,,135
+INST005,2022,C002,Diabetes,Chronic kidney disease,,,85
+INST005,2022,C003,Hypertension,Ischemic heart disease,,,58
+INST005,2022,C004,Diabetes,Obesity,,,88
+INST005,2022,C005,Diabetes,Hypertension,Obesity,,129
+INST005,2022,C006,COPD,Hypertension,,,89
+INST005,2022,C007,Asthma,Allergic/atopic disease,,,32
+INST005,2022,C008,Heart failure,Chronic kidney disease,,,29
+INST005,2022,C009,Diabetes,Hyperlipidemia,Hypertension,,54
+INST005,2022,C010,Hypertension,Stroke,,,26
+INST005,2022,C011,Chronic liver disease,Type 2 diabetes mellitus,,,36
+INST005,2022,C012,Depression,Generalized anxiety disorder,,,85
+INST005,2022,C013,Osteoarthritis,Obesity,,,41
+INST005,2022,C014,Rheumatoid arthritis,Osteoporosis,,,19
+INST005,2022,C015,Pneumonia,Diabetes,,,46
+INST005,2022,C016,COVID-19,Diabetes,,,179
+INST005,2022,C017,COVID-19,Hypertension,,,103
+INST005,2022,C018,COVID-19,Diabetes,Hypertension,,127
+INST005,2022,C019,Tuberculosis,Diabetes,,,34
+INST005,2022,C020,Urinary tract infection,Diabetes,,,62
+INST005,2022,C021,Diabetes,Chronic kidney disease,Hypertension,,30
+INST005,2022,C022,Ischemic heart disease,Diabetes,Hypertension,,53
+INST005,2022,C023,Asthma,Obesity,,,43
+INST005,2022,C024,COPD,Diabetes,,,59
+INST005,2022,C025,Hyperlipidemia,Hypertension,,,86
+INST005,2023,C001,Diabetes,Hypertension,,,62
+INST005,2023,C002,Diabetes,Chronic kidney disease,,,39
+INST005,2023,C003,Hypertension,Ischemic heart disease,,,57
+INST005,2023,C004,Diabetes,Obesity,,,170
+INST005,2023,C005,Diabetes,Hypertension,Obesity,,178
+INST005,2023,C006,COPD,Hypertension,,,38
+INST005,2023,C007,Asthma,Allergic/atopic disease,,,31
+INST005,2023,C008,Heart failure,Chronic kidney disease,,,48
+INST005,2023,C009,Diabetes,Hyperlipidemia,Hypertension,,134
+INST005,2023,C010,Hypertension,Stroke,,,33
+INST005,2023,C011,Chronic liver disease,Type 2 diabetes mellitus,,,39
+INST005,2023,C012,Depression,Generalized anxiety disorder,,,32
+INST005,2023,C013,Osteoarthritis,Obesity,,,103
+INST005,2023,C014,Rheumatoid arthritis,Osteoporosis,,,33
+INST005,2023,C015,Pneumonia,Diabetes,,,107
+INST005,2023,C016,COVID-19,Diabetes,,,20
+INST005,2023,C017,COVID-19,Hypertension,,,28
+INST005,2023,C018,COVID-19,Diabetes,Hypertension,,21
+INST005,2023,C019,Tuberculosis,Diabetes,,,14
+INST005,2023,C020,Urinary tract infection,Diabetes,,,92
+INST005,2023,C021,Diabetes,Chronic kidney disease,Hypertension,,34
+INST005,2023,C022,Ischemic heart disease,Diabetes,Hypertension,,121
+INST005,2023,C023,Asthma,Obesity,,,101
+INST005,2023,C024,COPD,Diabetes,,,38
+INST005,2023,C025,Hyperlipidemia,Hypertension,,,126
+INST005,2024,C001,Diabetes,Hypertension,,,106
+INST005,2024,C002,Diabetes,Chronic kidney disease,,,73
+INST005,2024,C003,Hypertension,Ischemic heart disease,,,73
+INST005,2024,C004,Diabetes,Obesity,,,121
+INST005,2024,C005,Diabetes,Hypertension,Obesity,,132
+INST005,2024,C006,COPD,Hypertension,,,52
+INST005,2024,C007,Asthma,Allergic/atopic disease,,,23
+INST005,2024,C008,Heart failure,Chronic kidney disease,,,44
+INST005,2024,C009,Diabetes,Hyperlipidemia,Hypertension,,55
+INST005,2024,C010,Hypertension,Stroke,,,13
+INST005,2024,C011,Chronic liver disease,Type 2 diabetes mellitus,,,44
+INST005,2024,C012,Depression,Generalized anxiety disorder,,,84
+INST005,2024,C013,Osteoarthritis,Obesity,,,40
+INST005,2024,C014,Rheumatoid arthritis,Osteoporosis,,,42
+INST005,2024,C015,Pneumonia,Diabetes,,,53
+INST005,2024,C016,COVID-19,Diabetes,,,38
+INST005,2024,C017,COVID-19,Hypertension,,,49
+INST005,2024,C018,COVID-19,Diabetes,Hypertension,,67
+INST005,2024,C019,Tuberculosis,Diabetes,,,13
+INST005,2024,C020,Urinary tract infection,Diabetes,,,112
+INST005,2024,C021,Diabetes,Chronic kidney disease,Hypertension,,28
+INST005,2024,C022,Ischemic heart disease,Diabetes,Hypertension,,100
+INST005,2024,C023,Asthma,Obesity,,,48
+INST005,2024,C024,COPD,Diabetes,,,65
+INST005,2024,C025,Hyperlipidemia,Hypertension,,,62
+INST005,2025,C001,Diabetes,Hypertension,,,268
+INST005,2025,C002,Diabetes,Chronic kidney disease,,,60
+INST005,2025,C003,Hypertension,Ischemic heart disease,,,164
+INST005,2025,C004,Diabetes,Obesity,,,190
+INST005,2025,C005,Diabetes,Hypertension,Obesity,,81
+INST005,2025,C006,COPD,Hypertension,,,48
+INST005,2025,C007,Asthma,Allergic/atopic disease,,,18
+INST005,2025,C008,Heart failure,Chronic kidney disease,,,23
+INST005,2025,C009,Diabetes,Hyperlipidemia,Hypertension,,145
+INST005,2025,C010,Hypertension,Stroke,,,20
+INST005,2025,C011,Chronic liver disease,Type 2 diabetes mellitus,,,59
+INST005,2025,C012,Depression,Generalized anxiety disorder,,,51
+INST005,2025,C013,Osteoarthritis,Obesity,,,154
+INST005,2025,C014,Rheumatoid arthritis,Osteoporosis,,,46
+INST005,2025,C015,Pneumonia,Diabetes,,,172
+INST005,2025,C016,COVID-19,Diabetes,,,63
+INST005,2025,C017,COVID-19,Hypertension,,,36
+INST005,2025,C018,COVID-19,Diabetes,Hypertension,,58
+INST005,2025,C019,Tuberculosis,Diabetes,,,31
+INST005,2025,C020,Urinary tract infection,Diabetes,,,80
+INST005,2025,C021,Diabetes,Chronic kidney disease,Hypertension,,42
+INST005,2025,C022,Ischemic heart disease,Diabetes,Hypertension,,137
+INST005,2025,C023,Asthma,Obesity,,,69
+INST005,2025,C024,COPD,Diabetes,,,102
+INST005,2025,C025,Hyperlipidemia,Hypertension,,,80
+INST005,2026,C001,Diabetes,Hypertension,,,94
+INST005,2026,C002,Diabetes,Chronic kidney disease,,,131
+INST005,2026,C003,Hypertension,Ischemic heart disease,,,121
+INST005,2026,C004,Diabetes,Obesity,,,164
+INST005,2026,C005,Diabetes,Hypertension,Obesity,,149
+INST005,2026,C006,COPD,Hypertension,,,95
+INST005,2026,C007,Asthma,Allergic/atopic disease,,,17
+INST005,2026,C008,Heart failure,Chronic kidney disease,,,23
+INST005,2026,C009,Diabetes,Hyperlipidemia,Hypertension,,182
+INST005,2026,C010,Hypertension,Stroke,,,19
+INST005,2026,C011,Chronic liver disease,Type 2 diabetes mellitus,,,44
+INST005,2026,C012,Depression,Generalized anxiety disorder,,,56
+INST005,2026,C013,Osteoarthritis,Obesity,,,83
+INST005,2026,C014,Rheumatoid arthritis,Osteoporosis,,,43
+INST005,2026,C015,Pneumonia,Diabetes,,,116
+INST005,2026,C016,COVID-19,Diabetes,,,52
+INST005,2026,C017,COVID-19,Hypertension,,,28
+INST005,2026,C018,COVID-19,Diabetes,Hypertension,,58
+INST005,2026,C019,Tuberculosis,Diabetes,,,36
+INST005,2026,C020,Urinary tract infection,Diabetes,,,53
+INST005,2026,C021,Diabetes,Chronic kidney disease,Hypertension,,50
+INST005,2026,C022,Ischemic heart disease,Diabetes,Hypertension,,159
+INST005,2026,C023,Asthma,Obesity,,,45
+INST005,2026,C024,COPD,Diabetes,,,67
+INST005,2026,C025,Hyperlipidemia,Hypertension,,,99
+INST006,2015,C001,Diabetes,Hypertension,,,89
+INST006,2015,C002,Diabetes,Chronic kidney disease,,,49
+INST006,2015,C003,Hypertension,Ischemic heart disease,,,47
+INST006,2015,C004,Diabetes,Obesity,,,83
+INST006,2015,C005,Diabetes,Hypertension,Obesity,,51
+INST006,2015,C006,COPD,Hypertension,,,50
+INST006,2015,C007,Asthma,Allergic/atopic disease,,,20
+INST006,2015,C008,Heart failure,Chronic kidney disease,,,19
+INST006,2015,C009,Diabetes,Hyperlipidemia,Hypertension,,57
+INST006,2015,C010,Hypertension,Stroke,,,13
+INST006,2015,C011,Chronic liver disease,Type 2 diabetes mellitus,,,23
+INST006,2015,C012,Depression,Generalized anxiety disorder,,,48
+INST006,2015,C013,Osteoarthritis,Obesity,,,67
+INST006,2015,C014,Rheumatoid arthritis,Osteoporosis,,,12
+INST006,2015,C015,Pneumonia,Diabetes,,,55
+INST006,2015,C016,COVID-19,Diabetes,,,10
+INST006,2015,C017,COVID-19,Hypertension,,,11
+INST006,2015,C018,COVID-19,Diabetes,Hypertension,,13
+INST006,2015,C019,Tuberculosis,Diabetes,,,19
+INST006,2015,C020,Urinary tract infection,Diabetes,,,47
+INST006,2015,C021,Diabetes,Chronic kidney disease,Hypertension,,28
+INST006,2015,C022,Ischemic heart disease,Diabetes,Hypertension,,24
+INST006,2015,C023,Asthma,Obesity,,,77
+INST006,2015,C024,COPD,Diabetes,,,18
+INST006,2015,C025,Hyperlipidemia,Hypertension,,,67
+INST006,2016,C001,Diabetes,Hypertension,,,147
+INST006,2016,C002,Diabetes,Chronic kidney disease,,,57
+INST006,2016,C003,Hypertension,Ischemic heart disease,,,27
+INST006,2016,C004,Diabetes,Obesity,,,58
+INST006,2016,C005,Diabetes,Hypertension,Obesity,,96
+INST006,2016,C006,COPD,Hypertension,,,48
+INST006,2016,C007,Asthma,Allergic/atopic disease,,,23
+INST006,2016,C008,Heart failure,Chronic kidney disease,,,17
+INST006,2016,C009,Diabetes,Hyperlipidemia,Hypertension,,37
+INST006,2016,C010,Hypertension,Stroke,,,20
+INST006,2016,C011,Chronic liver disease,Type 2 diabetes mellitus,,,35
+INST006,2016,C012,Depression,Generalized anxiety disorder,,,61
+INST006,2016,C013,Osteoarthritis,Obesity,,,31
+INST006,2016,C014,Rheumatoid arthritis,Osteoporosis,,,25
+INST006,2016,C015,Pneumonia,Diabetes,,,26
+INST006,2016,C016,COVID-19,Diabetes,,,7
+INST006,2016,C017,COVID-19,Hypertension,,,19
+INST006,2016,C018,COVID-19,Diabetes,Hypertension,,15
+INST006,2016,C019,Tuberculosis,Diabetes,,,11
+INST006,2016,C020,Urinary tract infection,Diabetes,,,17
+INST006,2016,C021,Diabetes,Chronic kidney disease,Hypertension,,59
+INST006,2016,C022,Ischemic heart disease,Diabetes,Hypertension,,45
+INST006,2016,C023,Asthma,Obesity,,,50
+INST006,2016,C024,COPD,Diabetes,,,41
+INST006,2016,C025,Hyperlipidemia,Hypertension,,,33
+INST006,2017,C001,Diabetes,Hypertension,,,95
+INST006,2017,C002,Diabetes,Chronic kidney disease,,,68
+INST006,2017,C003,Hypertension,Ischemic heart disease,,,22
+INST006,2017,C004,Diabetes,Obesity,,,53
+INST006,2017,C005,Diabetes,Hypertension,Obesity,,34
+INST006,2017,C006,COPD,Hypertension,,,17
+INST006,2017,C007,Asthma,Allergic/atopic disease,,,24
+INST006,2017,C008,Heart failure,Chronic kidney disease,,,41
+INST006,2017,C009,Diabetes,Hyperlipidemia,Hypertension,,30
+INST006,2017,C010,Hypertension,Stroke,,,10
+INST006,2017,C011,Chronic liver disease,Type 2 diabetes mellitus,,,27
+INST006,2017,C012,Depression,Generalized anxiety disorder,,,48
+INST006,2017,C013,Osteoarthritis,Obesity,,,62
+INST006,2017,C014,Rheumatoid arthritis,Osteoporosis,,,12
+INST006,2017,C015,Pneumonia,Diabetes,,,48
+INST006,2017,C016,COVID-19,Diabetes,,,12
+INST006,2017,C017,COVID-19,Hypertension,,,20
+INST006,2017,C018,COVID-19,Diabetes,Hypertension,,18
+INST006,2017,C019,Tuberculosis,Diabetes,,,12
+INST006,2017,C020,Urinary tract infection,Diabetes,,,31
+INST006,2017,C021,Diabetes,Chronic kidney disease,Hypertension,,69
+INST006,2017,C022,Ischemic heart disease,Diabetes,Hypertension,,22
+INST006,2017,C023,Asthma,Obesity,,,66
+INST006,2017,C024,COPD,Diabetes,,,31
+INST006,2017,C025,Hyperlipidemia,Hypertension,,,22
+INST006,2018,C001,Diabetes,Hypertension,,,115
+INST006,2018,C002,Diabetes,Chronic kidney disease,,,53
+INST006,2018,C003,Hypertension,Ischemic heart disease,,,79
+INST006,2018,C004,Diabetes,Obesity,,,83
+INST006,2018,C005,Diabetes,Hypertension,Obesity,,107
+INST006,2018,C006,COPD,Hypertension,,,42
+INST006,2018,C007,Asthma,Allergic/atopic disease,,,17
+INST006,2018,C008,Heart failure,Chronic kidney disease,,,38
+INST006,2018,C009,Diabetes,Hyperlipidemia,Hypertension,,45
+INST006,2018,C010,Hypertension,Stroke,,,11
+INST006,2018,C011,Chronic liver disease,Type 2 diabetes mellitus,,,34
+INST006,2018,C012,Depression,Generalized anxiety disorder,,,42
+INST006,2018,C013,Osteoarthritis,Obesity,,,81
+INST006,2018,C014,Rheumatoid arthritis,Osteoporosis,,,11
+INST006,2018,C015,Pneumonia,Diabetes,,,37
+INST006,2018,C016,COVID-19,Diabetes,,,12
+INST006,2018,C017,COVID-19,Hypertension,,,7
+INST006,2018,C018,COVID-19,Diabetes,Hypertension,,7
+INST006,2018,C019,Tuberculosis,Diabetes,,,20
+INST006,2018,C020,Urinary tract infection,Diabetes,,,44
+INST006,2018,C021,Diabetes,Chronic kidney disease,Hypertension,,61
+INST006,2018,C022,Ischemic heart disease,Diabetes,Hypertension,,76
+INST006,2018,C023,Asthma,Obesity,,,42
+INST006,2018,C024,COPD,Diabetes,,,23
+INST006,2018,C025,Hyperlipidemia,Hypertension,,,57
+INST006,2019,C001,Diabetes,Hypertension,,,99
+INST006,2019,C002,Diabetes,Chronic kidney disease,,,24
+INST006,2019,C003,Hypertension,Ischemic heart disease,,,63
+INST006,2019,C004,Diabetes,Obesity,,,70
+INST006,2019,C005,Diabetes,Hypertension,Obesity,,40
+INST006,2019,C006,COPD,Hypertension,,,17
+INST006,2019,C007,Asthma,Allergic/atopic disease,,,11
+INST006,2019,C008,Heart failure,Chronic kidney disease,,,34
+INST006,2019,C009,Diabetes,Hyperlipidemia,Hypertension,,75
+INST006,2019,C010,Hypertension,Stroke,,,7
+INST006,2019,C011,Chronic liver disease,Type 2 diabetes mellitus,,,17
+INST006,2019,C012,Depression,Generalized anxiety disorder,,,45
+INST006,2019,C013,Osteoarthritis,Obesity,,,26
+INST006,2019,C014,Rheumatoid arthritis,Osteoporosis,,,20
+INST006,2019,C015,Pneumonia,Diabetes,,,75
+INST006,2019,C016,COVID-19,Diabetes,,,11
+INST006,2019,C017,COVID-19,Hypertension,,,15
+INST006,2019,C018,COVID-19,Diabetes,Hypertension,,17
+INST006,2019,C019,Tuberculosis,Diabetes,,,7
+INST006,2019,C020,Urinary tract infection,Diabetes,,,34
+INST006,2019,C021,Diabetes,Chronic kidney disease,Hypertension,,59
+INST006,2019,C022,Ischemic heart disease,Diabetes,Hypertension,,51
+INST006,2019,C023,Asthma,Obesity,,,54
+INST006,2019,C024,COPD,Diabetes,,,40
+INST006,2019,C025,Hyperlipidemia,Hypertension,,,27
+INST006,2020,C001,Diabetes,Hypertension,,,68
+INST006,2020,C002,Diabetes,Chronic kidney disease,,,52
+INST006,2020,C003,Hypertension,Ischemic heart disease,,,30
+INST006,2020,C004,Diabetes,Obesity,,,54
+INST006,2020,C005,Diabetes,Hypertension,Obesity,,49
+INST006,2020,C006,COPD,Hypertension,,,28
+INST006,2020,C007,Asthma,Allergic/atopic disease,,,14
+INST006,2020,C008,Heart failure,Chronic kidney disease,,,35
+INST006,2020,C009,Diabetes,Hyperlipidemia,Hypertension,,85
+INST006,2020,C010,Hypertension,Stroke,,,30
+INST006,2020,C011,Chronic liver disease,Type 2 diabetes mellitus,,,34
+INST006,2020,C012,Depression,Generalized anxiety disorder,,,24
+INST006,2020,C013,Osteoarthritis,Obesity,,,40
+INST006,2020,C014,Rheumatoid arthritis,Osteoporosis,,,26
+INST006,2020,C015,Pneumonia,Diabetes,,,30
+INST006,2020,C016,COVID-19,Diabetes,,,115
+INST006,2020,C017,COVID-19,Hypertension,,,75
+INST006,2020,C018,COVID-19,Diabetes,Hypertension,,94
+INST006,2020,C019,Tuberculosis,Diabetes,,,12
+INST006,2020,C020,Urinary tract infection,Diabetes,,,48
+INST006,2020,C021,Diabetes,Chronic kidney disease,Hypertension,,48
+INST006,2020,C022,Ischemic heart disease,Diabetes,Hypertension,,50
+INST006,2020,C023,Asthma,Obesity,,,24
+INST006,2020,C024,COPD,Diabetes,,,31
+INST006,2020,C025,Hyperlipidemia,Hypertension,,,97
+INST006,2021,C001,Diabetes,Hypertension,,,52
+INST006,2021,C002,Diabetes,Chronic kidney disease,,,59
+INST006,2021,C003,Hypertension,Ischemic heart disease,,,77
+INST006,2021,C004,Diabetes,Obesity,,,106
+INST006,2021,C005,Diabetes,Hypertension,Obesity,,93
+INST006,2021,C006,COPD,Hypertension,,,48
+INST006,2021,C007,Asthma,Allergic/atopic disease,,,11
+INST006,2021,C008,Heart failure,Chronic kidney disease,,,42
+INST006,2021,C009,Diabetes,Hyperlipidemia,Hypertension,,56
+INST006,2021,C010,Hypertension,Stroke,,,23
+INST006,2021,C011,Chronic liver disease,Type 2 diabetes mellitus,,,27
+INST006,2021,C012,Depression,Generalized anxiety disorder,,,61
+INST006,2021,C013,Osteoarthritis,Obesity,,,36
+INST006,2021,C014,Rheumatoid arthritis,Osteoporosis,,,20
+INST006,2021,C015,Pneumonia,Diabetes,,,41
+INST006,2021,C016,COVID-19,Diabetes,,,83
+INST006,2021,C017,COVID-19,Hypertension,,,132
+INST006,2021,C018,COVID-19,Diabetes,Hypertension,,88
+INST006,2021,C019,Tuberculosis,Diabetes,,,27
+INST006,2021,C020,Urinary tract infection,Diabetes,,,53
+INST006,2021,C021,Diabetes,Chronic kidney disease,Hypertension,,42
+INST006,2021,C022,Ischemic heart disease,Diabetes,Hypertension,,37
+INST006,2021,C023,Asthma,Obesity,,,56
+INST006,2021,C024,COPD,Diabetes,,,19
+INST006,2021,C025,Hyperlipidemia,Hypertension,,,34
+INST006,2022,C001,Diabetes,Hypertension,,,111
+INST006,2022,C002,Diabetes,Chronic kidney disease,,,48
+INST006,2022,C003,Hypertension,Ischemic heart disease,,,66
+INST006,2022,C004,Diabetes,Obesity,,,46
+INST006,2022,C005,Diabetes,Hypertension,Obesity,,106
+INST006,2022,C006,COPD,Hypertension,,,41
+INST006,2022,C007,Asthma,Allergic/atopic disease,,,34
+INST006,2022,C008,Heart failure,Chronic kidney disease,,,39
+INST006,2022,C009,Diabetes,Hyperlipidemia,Hypertension,,28
+INST006,2022,C010,Hypertension,Stroke,,,10
+INST006,2022,C011,Chronic liver disease,Type 2 diabetes mellitus,,,17
+INST006,2022,C012,Depression,Generalized anxiety disorder,,,63
+INST006,2022,C013,Osteoarthritis,Obesity,,,28
+INST006,2022,C014,Rheumatoid arthritis,Osteoporosis,,,12
+INST006,2022,C015,Pneumonia,Diabetes,,,38
+INST006,2022,C016,COVID-19,Diabetes,,,54
+INST006,2022,C017,COVID-19,Hypertension,,,66
+INST006,2022,C018,COVID-19,Diabetes,Hypertension,,126
+INST006,2022,C019,Tuberculosis,Diabetes,,,11
+INST006,2022,C020,Urinary tract infection,Diabetes,,,37
+INST006,2022,C021,Diabetes,Chronic kidney disease,Hypertension,,35
+INST006,2022,C022,Ischemic heart disease,Diabetes,Hypertension,,70
+INST006,2022,C023,Asthma,Obesity,,,45
+INST006,2022,C024,COPD,Diabetes,,,24
+INST006,2022,C025,Hyperlipidemia,Hypertension,,,30
+INST006,2023,C001,Diabetes,Hypertension,,,106
+INST006,2023,C002,Diabetes,Chronic kidney disease,,,19
+INST006,2023,C003,Hypertension,Ischemic heart disease,,,98
+INST006,2023,C004,Diabetes,Obesity,,,78
+INST006,2023,C005,Diabetes,Hypertension,Obesity,,122
+INST006,2023,C006,COPD,Hypertension,,,57
+INST006,2023,C007,Asthma,Allergic/atopic disease,,,11
+INST006,2023,C008,Heart failure,Chronic kidney disease,,,28
+INST006,2023,C009,Diabetes,Hyperlipidemia,Hypertension,,95
+INST006,2023,C010,Hypertension,Stroke,,,22
+INST006,2023,C011,Chronic liver disease,Type 2 diabetes mellitus,,,21
+INST006,2023,C012,Depression,Generalized anxiety disorder,,,53
+INST006,2023,C013,Osteoarthritis,Obesity,,,63
+INST006,2023,C014,Rheumatoid arthritis,Osteoporosis,,,16
+INST006,2023,C015,Pneumonia,Diabetes,,,93
+INST006,2023,C016,COVID-19,Diabetes,,,30
+INST006,2023,C017,COVID-19,Hypertension,,,28
+INST006,2023,C018,COVID-19,Diabetes,Hypertension,,29
+INST006,2023,C019,Tuberculosis,Diabetes,,,21
+INST006,2023,C020,Urinary tract infection,Diabetes,,,31
+INST006,2023,C021,Diabetes,Chronic kidney disease,Hypertension,,52
+INST006,2023,C022,Ischemic heart disease,Diabetes,Hypertension,,32
+INST006,2023,C023,Asthma,Obesity,,,67
+INST006,2023,C024,COPD,Diabetes,,,30
+INST006,2023,C025,Hyperlipidemia,Hypertension,,,43
+INST006,2024,C001,Diabetes,Hypertension,,,73
+INST006,2024,C002,Diabetes,Chronic kidney disease,,,27
+INST006,2024,C003,Hypertension,Ischemic heart disease,,,48
+INST006,2024,C004,Diabetes,Obesity,,,67
+INST006,2024,C005,Diabetes,Hypertension,Obesity,,39
+INST006,2024,C006,COPD,Hypertension,,,41
+INST006,2024,C007,Asthma,Allergic/atopic disease,,,31
+INST006,2024,C008,Heart failure,Chronic kidney disease,,,45
+INST006,2024,C009,Diabetes,Hyperlipidemia,Hypertension,,79
+INST006,2024,C010,Hypertension,Stroke,,,12
+INST006,2024,C011,Chronic liver disease,Type 2 diabetes mellitus,,,29
+INST006,2024,C012,Depression,Generalized anxiety disorder,,,64
+INST006,2024,C013,Osteoarthritis,Obesity,,,73
+INST006,2024,C014,Rheumatoid arthritis,Osteoporosis,,,22
+INST006,2024,C015,Pneumonia,Diabetes,,,42
+INST006,2024,C016,COVID-19,Diabetes,,,28
+INST006,2024,C017,COVID-19,Hypertension,,,28
+INST006,2024,C018,COVID-19,Diabetes,Hypertension,,53
+INST006,2024,C019,Tuberculosis,Diabetes,,,14
+INST006,2024,C020,Urinary tract infection,Diabetes,,,59
+INST006,2024,C021,Diabetes,Chronic kidney disease,Hypertension,,50
+INST006,2024,C022,Ischemic heart disease,Diabetes,Hypertension,,41
+INST006,2024,C023,Asthma,Obesity,,,27
+INST006,2024,C024,COPD,Diabetes,,,26
+INST006,2024,C025,Hyperlipidemia,Hypertension,,,81
+INST006,2025,C001,Diabetes,Hypertension,,,95
+INST006,2025,C002,Diabetes,Chronic kidney disease,,,45
+INST006,2025,C003,Hypertension,Ischemic heart disease,,,27
+INST006,2025,C004,Diabetes,Obesity,,,80
+INST006,2025,C005,Diabetes,Hypertension,Obesity,,62
+INST006,2025,C006,COPD,Hypertension,,,58
+INST006,2025,C007,Asthma,Allergic/atopic disease,,,20
+INST006,2025,C008,Heart failure,Chronic kidney disease,,,29
+INST006,2025,C009,Diabetes,Hyperlipidemia,Hypertension,,56
+INST006,2025,C010,Hypertension,Stroke,,,8
+INST006,2025,C011,Chronic liver disease,Type 2 diabetes mellitus,,,42
+INST006,2025,C012,Depression,Generalized anxiety disorder,,,71
+INST006,2025,C013,Osteoarthritis,Obesity,,,72
+INST006,2025,C014,Rheumatoid arthritis,Osteoporosis,,,16
+INST006,2025,C015,Pneumonia,Diabetes,,,68
+INST006,2025,C016,COVID-19,Diabetes,,,15
+INST006,2025,C017,COVID-19,Hypertension,,,15
+INST006,2025,C018,COVID-19,Diabetes,Hypertension,,25
+INST006,2025,C019,Tuberculosis,Diabetes,,,15
+INST006,2025,C020,Urinary tract infection,Diabetes,,,58
+INST006,2025,C021,Diabetes,Chronic kidney disease,Hypertension,,79
+INST006,2025,C022,Ischemic heart disease,Diabetes,Hypertension,,58
+INST006,2025,C023,Asthma,Obesity,,,71
+INST006,2025,C024,COPD,Diabetes,,,29
+INST006,2025,C025,Hyperlipidemia,Hypertension,,,79
+INST006,2026,C001,Diabetes,Hypertension,,,44
+INST006,2026,C002,Diabetes,Chronic kidney disease,,,71
+INST006,2026,C003,Hypertension,Ischemic heart disease,,,43
+INST006,2026,C004,Diabetes,Obesity,,,93
+INST006,2026,C005,Diabetes,Hypertension,Obesity,,46
+INST006,2026,C006,COPD,Hypertension,,,34
+INST006,2026,C007,Asthma,Allergic/atopic disease,,,21
+INST006,2026,C008,Heart failure,Chronic kidney disease,,,25
+INST006,2026,C009,Diabetes,Hyperlipidemia,Hypertension,,86
+INST006,2026,C010,Hypertension,Stroke,,,11
+INST006,2026,C011,Chronic liver disease,Type 2 diabetes mellitus,,,35
+INST006,2026,C012,Depression,Generalized anxiety disorder,,,44
+INST006,2026,C013,Osteoarthritis,Obesity,,,59
+INST006,2026,C014,Rheumatoid arthritis,Osteoporosis,,,17
+INST006,2026,C015,Pneumonia,Diabetes,,,25
+INST006,2026,C016,COVID-19,Diabetes,,,42
+INST006,2026,C017,COVID-19,Hypertension,,,35
+INST006,2026,C018,COVID-19,Diabetes,Hypertension,,17
+INST006,2026,C019,Tuberculosis,Diabetes,,,22
+INST006,2026,C020,Urinary tract infection,Diabetes,,,51
+INST006,2026,C021,Diabetes,Chronic kidney disease,Hypertension,,40
+INST006,2026,C022,Ischemic heart disease,Diabetes,Hypertension,,79
+INST006,2026,C023,Asthma,Obesity,,,83
+INST006,2026,C024,COPD,Diabetes,,,51
+INST006,2026,C025,Hyperlipidemia,Hypertension,,,90
+INST007,2015,C001,Diabetes,Hypertension,,,63
+INST007,2015,C002,Diabetes,Chronic kidney disease,,,30
+INST007,2015,C003,Hypertension,Ischemic heart disease,,,54
+INST007,2015,C004,Diabetes,Obesity,,,35
+INST007,2015,C005,Diabetes,Hypertension,Obesity,,81
+INST007,2015,C006,COPD,Hypertension,,,18
+INST007,2015,C007,Asthma,Allergic/atopic disease,,,31
+INST007,2015,C008,Heart failure,Chronic kidney disease,,,21
+INST007,2015,C009,Diabetes,Hyperlipidemia,Hypertension,,56
+INST007,2015,C010,Hypertension,Stroke,,,6
+INST007,2015,C011,Chronic liver disease,Type 2 diabetes mellitus,,,24
+INST007,2015,C012,Depression,Generalized anxiety disorder,,,49
+INST007,2015,C013,Osteoarthritis,Obesity,,,28
+INST007,2015,C014,Rheumatoid arthritis,Osteoporosis,,,16
+INST007,2015,C015,Pneumonia,Diabetes,,,67
+INST007,2015,C016,COVID-19,Diabetes,,,8
+INST007,2015,C017,COVID-19,Hypertension,,,9
+INST007,2015,C018,COVID-19,Diabetes,Hypertension,,21
+INST007,2015,C019,Tuberculosis,Diabetes,,,16
+INST007,2015,C020,Urinary tract infection,Diabetes,,,50
+INST007,2015,C021,Diabetes,Chronic kidney disease,Hypertension,,30
+INST007,2015,C022,Ischemic heart disease,Diabetes,Hypertension,,49
+INST007,2015,C023,Asthma,Obesity,,,32
+INST007,2015,C024,COPD,Diabetes,,,48
+INST007,2015,C025,Hyperlipidemia,Hypertension,,,84
+INST007,2016,C001,Diabetes,Hypertension,,,98
+INST007,2016,C002,Diabetes,Chronic kidney disease,,,20
+INST007,2016,C003,Hypertension,Ischemic heart disease,,,62
+INST007,2016,C004,Diabetes,Obesity,,,31
+INST007,2016,C005,Diabetes,Hypertension,Obesity,,96
+INST007,2016,C006,COPD,Hypertension,,,30
+INST007,2016,C007,Asthma,Allergic/atopic disease,,,29
+INST007,2016,C008,Heart failure,Chronic kidney disease,,,33
+INST007,2016,C009,Diabetes,Hyperlipidemia,Hypertension,,59
+INST007,2016,C010,Hypertension,Stroke,,,12
+INST007,2016,C011,Chronic liver disease,Type 2 diabetes mellitus,,,18
+INST007,2016,C012,Depression,Generalized anxiety disorder,,,43
+INST007,2016,C013,Osteoarthritis,Obesity,,,55
+INST007,2016,C014,Rheumatoid arthritis,Osteoporosis,,,21
+INST007,2016,C015,Pneumonia,Diabetes,,,84
+INST007,2016,C016,COVID-19,Diabetes,,,8
+INST007,2016,C017,COVID-19,Hypertension,,,9
+INST007,2016,C018,COVID-19,Diabetes,Hypertension,,13
+INST007,2016,C019,Tuberculosis,Diabetes,,,8
+INST007,2016,C020,Urinary tract infection,Diabetes,,,51
+INST007,2016,C021,Diabetes,Chronic kidney disease,Hypertension,,44
+INST007,2016,C022,Ischemic heart disease,Diabetes,Hypertension,,40
+INST007,2016,C023,Asthma,Obesity,,,75
+INST007,2016,C024,COPD,Diabetes,,,36
+INST007,2016,C025,Hyperlipidemia,Hypertension,,,47
+INST007,2017,C001,Diabetes,Hypertension,,,71
+INST007,2017,C002,Diabetes,Chronic kidney disease,,,49
+INST007,2017,C003,Hypertension,Ischemic heart disease,,,78
+INST007,2017,C004,Diabetes,Obesity,,,110
+INST007,2017,C005,Diabetes,Hypertension,Obesity,,122
+INST007,2017,C006,COPD,Hypertension,,,45
+INST007,2017,C007,Asthma,Allergic/atopic disease,,,13
+INST007,2017,C008,Heart failure,Chronic kidney disease,,,33
+INST007,2017,C009,Diabetes,Hyperlipidemia,Hypertension,,66
+INST007,2017,C010,Hypertension,Stroke,,,14
+INST007,2017,C011,Chronic liver disease,Type 2 diabetes mellitus,,,21
+INST007,2017,C012,Depression,Generalized anxiety disorder,,,51
+INST007,2017,C013,Osteoarthritis,Obesity,,,59
+INST007,2017,C014,Rheumatoid arthritis,Osteoporosis,,,10
+INST007,2017,C015,Pneumonia,Diabetes,,,59
+INST007,2017,C016,COVID-19,Diabetes,,,17
+INST007,2017,C017,COVID-19,Hypertension,,,7
+INST007,2017,C018,COVID-19,Diabetes,Hypertension,,12
+INST007,2017,C019,Tuberculosis,Diabetes,,,12
+INST007,2017,C020,Urinary tract infection,Diabetes,,,29
+INST007,2017,C021,Diabetes,Chronic kidney disease,Hypertension,,41
+INST007,2017,C022,Ischemic heart disease,Diabetes,Hypertension,,46
+INST007,2017,C023,Asthma,Obesity,,,26
+INST007,2017,C024,COPD,Diabetes,,,33
+INST007,2017,C025,Hyperlipidemia,Hypertension,,,34
+INST007,2018,C001,Diabetes,Hypertension,,,153
+INST007,2018,C002,Diabetes,Chronic kidney disease,,,63
+INST007,2018,C003,Hypertension,Ischemic heart disease,,,45
+INST007,2018,C004,Diabetes,Obesity,,,88
+INST007,2018,C005,Diabetes,Hypertension,Obesity,,80
+INST007,2018,C006,COPD,Hypertension,,,41
+INST007,2018,C007,Asthma,Allergic/atopic disease,,,9
+INST007,2018,C008,Heart failure,Chronic kidney disease,,,23
+INST007,2018,C009,Diabetes,Hyperlipidemia,Hypertension,,47
+INST007,2018,C010,Hypertension,Stroke,,,14
+INST007,2018,C011,Chronic liver disease,Type 2 diabetes mellitus,,,32
+INST007,2018,C012,Depression,Generalized anxiety disorder,,,28
+INST007,2018,C013,Osteoarthritis,Obesity,,,79
+INST007,2018,C014,Rheumatoid arthritis,Osteoporosis,,,23
+INST007,2018,C015,Pneumonia,Diabetes,,,52
+INST007,2018,C016,COVID-19,Diabetes,,,8
+INST007,2018,C017,COVID-19,Hypertension,,,16
+INST007,2018,C018,COVID-19,Diabetes,Hypertension,,10
+INST007,2018,C019,Tuberculosis,Diabetes,,,8
+INST007,2018,C020,Urinary tract infection,Diabetes,,,25
+INST007,2018,C021,Diabetes,Chronic kidney disease,Hypertension,,37
+INST007,2018,C022,Ischemic heart disease,Diabetes,Hypertension,,67
+INST007,2018,C023,Asthma,Obesity,,,66
+INST007,2018,C024,COPD,Diabetes,,,36
+INST007,2018,C025,Hyperlipidemia,Hypertension,,,55
+INST007,2019,C001,Diabetes,Hypertension,,,135
+INST007,2019,C002,Diabetes,Chronic kidney disease,,,70
+INST007,2019,C003,Hypertension,Ischemic heart disease,,,37
+INST007,2019,C004,Diabetes,Obesity,,,114
+INST007,2019,C005,Diabetes,Hypertension,Obesity,,50
+INST007,2019,C006,COPD,Hypertension,,,48
+INST007,2019,C007,Asthma,Allergic/atopic disease,,,26
+INST007,2019,C008,Heart failure,Chronic kidney disease,,,38
+INST007,2019,C009,Diabetes,Hyperlipidemia,Hypertension,,81
+INST007,2019,C010,Hypertension,Stroke,,,10
+INST007,2019,C011,Chronic liver disease,Type 2 diabetes mellitus,,,29
+INST007,2019,C012,Depression,Generalized anxiety disorder,,,64
+INST007,2019,C013,Osteoarthritis,Obesity,,,33
+INST007,2019,C014,Rheumatoid arthritis,Osteoporosis,,,21
+INST007,2019,C015,Pneumonia,Diabetes,,,65
+INST007,2019,C016,COVID-19,Diabetes,,,13
+INST007,2019,C017,COVID-19,Hypertension,,,8
+INST007,2019,C018,COVID-19,Diabetes,Hypertension,,19
+INST007,2019,C019,Tuberculosis,Diabetes,,,17
+INST007,2019,C020,Urinary tract infection,Diabetes,,,46
+INST007,2019,C021,Diabetes,Chronic kidney disease,Hypertension,,59
+INST007,2019,C022,Ischemic heart disease,Diabetes,Hypertension,,72
+INST007,2019,C023,Asthma,Obesity,,,58
+INST007,2019,C024,COPD,Diabetes,,,30
+INST007,2019,C025,Hyperlipidemia,Hypertension,,,79
+INST007,2020,C001,Diabetes,Hypertension,,,118
+INST007,2020,C002,Diabetes,Chronic kidney disease,,,28
+INST007,2020,C003,Hypertension,Ischemic heart disease,,,27
+INST007,2020,C004,Diabetes,Obesity,,,58
+INST007,2020,C005,Diabetes,Hypertension,Obesity,,72
+INST007,2020,C006,COPD,Hypertension,,,37
+INST007,2020,C007,Asthma,Allergic/atopic disease,,,8
+INST007,2020,C008,Heart failure,Chronic kidney disease,,,30
+INST007,2020,C009,Diabetes,Hyperlipidemia,Hypertension,,94
+INST007,2020,C010,Hypertension,Stroke,,,8
+INST007,2020,C011,Chronic liver disease,Type 2 diabetes mellitus,,,19
+INST007,2020,C012,Depression,Generalized anxiety disorder,,,51
+INST007,2020,C013,Osteoarthritis,Obesity,,,26
+INST007,2020,C014,Rheumatoid arthritis,Osteoporosis,,,18
+INST007,2020,C015,Pneumonia,Diabetes,,,59
+INST007,2020,C016,COVID-19,Diabetes,,,67
+INST007,2020,C017,COVID-19,Hypertension,,,85
+INST007,2020,C018,COVID-19,Diabetes,Hypertension,,113
+INST007,2020,C019,Tuberculosis,Diabetes,,,10
+INST007,2020,C020,Urinary tract infection,Diabetes,,,42
+INST007,2020,C021,Diabetes,Chronic kidney disease,Hypertension,,30
+INST007,2020,C022,Ischemic heart disease,Diabetes,Hypertension,,64
+INST007,2020,C023,Asthma,Obesity,,,69
+INST007,2020,C024,COPD,Diabetes,,,43
+INST007,2020,C025,Hyperlipidemia,Hypertension,,,76
+INST007,2021,C001,Diabetes,Hypertension,,,67
+INST007,2021,C002,Diabetes,Chronic kidney disease,,,58
+INST007,2021,C003,Hypertension,Ischemic heart disease,,,55
+INST007,2021,C004,Diabetes,Obesity,,,83
+INST007,2021,C005,Diabetes,Hypertension,Obesity,,78
+INST007,2021,C006,COPD,Hypertension,,,21
+INST007,2021,C007,Asthma,Allergic/atopic disease,,,18
+INST007,2021,C008,Heart failure,Chronic kidney disease,,,29
+INST007,2021,C009,Diabetes,Hyperlipidemia,Hypertension,,32
+INST007,2021,C010,Hypertension,Stroke,,,12
+INST007,2021,C011,Chronic liver disease,Type 2 diabetes mellitus,,,37
+INST007,2021,C012,Depression,Generalized anxiety disorder,,,27
+INST007,2021,C013,Osteoarthritis,Obesity,,,62
+INST007,2021,C014,Rheumatoid arthritis,Osteoporosis,,,18
+INST007,2021,C015,Pneumonia,Diabetes,,,80
+INST007,2021,C016,COVID-19,Diabetes,,,79
+INST007,2021,C017,COVID-19,Hypertension,,,106
+INST007,2021,C018,COVID-19,Diabetes,Hypertension,,43
+INST007,2021,C019,Tuberculosis,Diabetes,,,9
+INST007,2021,C020,Urinary tract infection,Diabetes,,,58
+INST007,2021,C021,Diabetes,Chronic kidney disease,Hypertension,,21
+INST007,2021,C022,Ischemic heart disease,Diabetes,Hypertension,,58
+INST007,2021,C023,Asthma,Obesity,,,50
+INST007,2021,C024,COPD,Diabetes,,,30
+INST007,2021,C025,Hyperlipidemia,Hypertension,,,81
+INST007,2022,C001,Diabetes,Hypertension,,,107
+INST007,2022,C002,Diabetes,Chronic kidney disease,,,26
+INST007,2022,C003,Hypertension,Ischemic heart disease,,,28
+INST007,2022,C004,Diabetes,Obesity,,,41
+INST007,2022,C005,Diabetes,Hypertension,Obesity,,69
+INST007,2022,C006,COPD,Hypertension,,,41
+INST007,2022,C007,Asthma,Allergic/atopic disease,,,8
+INST007,2022,C008,Heart failure,Chronic kidney disease,,,40
+INST007,2022,C009,Diabetes,Hyperlipidemia,Hypertension,,103
+INST007,2022,C010,Hypertension,Stroke,,,15
+INST007,2022,C011,Chronic liver disease,Type 2 diabetes mellitus,,,32
+INST007,2022,C012,Depression,Generalized anxiety disorder,,,46
+INST007,2022,C013,Osteoarthritis,Obesity,,,36
+INST007,2022,C014,Rheumatoid arthritis,Osteoporosis,,,27
+INST007,2022,C015,Pneumonia,Diabetes,,,82
+INST007,2022,C016,COVID-19,Diabetes,,,53
+INST007,2022,C017,COVID-19,Hypertension,,,54
+INST007,2022,C018,COVID-19,Diabetes,Hypertension,,38
+INST007,2022,C019,Tuberculosis,Diabetes,,,18
+INST007,2022,C020,Urinary tract infection,Diabetes,,,28
+INST007,2022,C021,Diabetes,Chronic kidney disease,Hypertension,,57
+INST007,2022,C022,Ischemic heart disease,Diabetes,Hypertension,,35
+INST007,2022,C023,Asthma,Obesity,,,39
+INST007,2022,C024,COPD,Diabetes,,,30
+INST007,2022,C025,Hyperlipidemia,Hypertension,,,46
+INST007,2023,C001,Diabetes,Hypertension,,,121
+INST007,2023,C002,Diabetes,Chronic kidney disease,,,74
+INST007,2023,C003,Hypertension,Ischemic heart disease,,,40
+INST007,2023,C004,Diabetes,Obesity,,,90
+INST007,2023,C005,Diabetes,Hypertension,Obesity,,138
+INST007,2023,C006,COPD,Hypertension,,,31
+INST007,2023,C007,Asthma,Allergic/atopic disease,,,28
+INST007,2023,C008,Heart failure,Chronic kidney disease,,,26
+INST007,2023,C009,Diabetes,Hyperlipidemia,Hypertension,,77
+INST007,2023,C010,Hypertension,Stroke,,,22
+INST007,2023,C011,Chronic liver disease,Type 2 diabetes mellitus,,,25
+INST007,2023,C012,Depression,Generalized anxiety disorder,,,42
+INST007,2023,C013,Osteoarthritis,Obesity,,,39
+INST007,2023,C014,Rheumatoid arthritis,Osteoporosis,,,13
+INST007,2023,C015,Pneumonia,Diabetes,,,62
+INST007,2023,C016,COVID-19,Diabetes,,,37
+INST007,2023,C017,COVID-19,Hypertension,,,20
+INST007,2023,C018,COVID-19,Diabetes,Hypertension,,23
+INST007,2023,C019,Tuberculosis,Diabetes,,,17
+INST007,2023,C020,Urinary tract infection,Diabetes,,,74
+INST007,2023,C021,Diabetes,Chronic kidney disease,Hypertension,,40
+INST007,2023,C022,Ischemic heart disease,Diabetes,Hypertension,,71
+INST007,2023,C023,Asthma,Obesity,,,90
+INST007,2023,C024,COPD,Diabetes,,,36
+INST007,2023,C025,Hyperlipidemia,Hypertension,,,86
+INST007,2024,C001,Diabetes,Hypertension,,,93
+INST007,2024,C002,Diabetes,Chronic kidney disease,,,76
+INST007,2024,C003,Hypertension,Ischemic heart disease,,,88
+INST007,2024,C004,Diabetes,Obesity,,,81
+INST007,2024,C005,Diabetes,Hypertension,Obesity,,80
+INST007,2024,C006,COPD,Hypertension,,,32
+INST007,2024,C007,Asthma,Allergic/atopic disease,,,27
+INST007,2024,C008,Heart failure,Chronic kidney disease,,,23
+INST007,2024,C009,Diabetes,Hyperlipidemia,Hypertension,,94
+INST007,2024,C010,Hypertension,Stroke,,,11
+INST007,2024,C011,Chronic liver disease,Type 2 diabetes mellitus,,,16
+INST007,2024,C012,Depression,Generalized anxiety disorder,,,27
+INST007,2024,C013,Osteoarthritis,Obesity,,,50
+INST007,2024,C014,Rheumatoid arthritis,Osteoporosis,,,27
+INST007,2024,C015,Pneumonia,Diabetes,,,54
+INST007,2024,C016,COVID-19,Diabetes,,,37
+INST007,2024,C017,COVID-19,Hypertension,,,32
+INST007,2024,C018,COVID-19,Diabetes,Hypertension,,42
+INST007,2024,C019,Tuberculosis,Diabetes,,,17
+INST007,2024,C020,Urinary tract infection,Diabetes,,,25
+INST007,2024,C021,Diabetes,Chronic kidney disease,Hypertension,,39
+INST007,2024,C022,Ischemic heart disease,Diabetes,Hypertension,,53
+INST007,2024,C023,Asthma,Obesity,,,62
+INST007,2024,C024,COPD,Diabetes,,,29
+INST007,2024,C025,Hyperlipidemia,Hypertension,,,44
+INST007,2025,C001,Diabetes,Hypertension,,,146
+INST007,2025,C002,Diabetes,Chronic kidney disease,,,49
+INST007,2025,C003,Hypertension,Ischemic heart disease,,,97
+INST007,2025,C004,Diabetes,Obesity,,,50
+INST007,2025,C005,Diabetes,Hypertension,Obesity,,69
+INST007,2025,C006,COPD,Hypertension,,,20
+INST007,2025,C007,Asthma,Allergic/atopic disease,,,16
+INST007,2025,C008,Heart failure,Chronic kidney disease,,,29
+INST007,2025,C009,Diabetes,Hyperlipidemia,Hypertension,,116
+INST007,2025,C010,Hypertension,Stroke,,,28
+INST007,2025,C011,Chronic liver disease,Type 2 diabetes mellitus,,,31
+INST007,2025,C012,Depression,Generalized anxiety disorder,,,39
+INST007,2025,C013,Osteoarthritis,Obesity,,,59
+INST007,2025,C014,Rheumatoid arthritis,Osteoporosis,,,22
+INST007,2025,C015,Pneumonia,Diabetes,,,31
+INST007,2025,C016,COVID-19,Diabetes,,,21
+INST007,2025,C017,COVID-19,Hypertension,,,31
+INST007,2025,C018,COVID-19,Diabetes,Hypertension,,39
+INST007,2025,C019,Tuberculosis,Diabetes,,,28
+INST007,2025,C020,Urinary tract infection,Diabetes,,,23
+INST007,2025,C021,Diabetes,Chronic kidney disease,Hypertension,,81
+INST007,2025,C022,Ischemic heart disease,Diabetes,Hypertension,,68
+INST007,2025,C023,Asthma,Obesity,,,63
+INST007,2025,C024,COPD,Diabetes,,,35
+INST007,2025,C025,Hyperlipidemia,Hypertension,,,70
+INST007,2026,C001,Diabetes,Hypertension,,,73
+INST007,2026,C002,Diabetes,Chronic kidney disease,,,67
+INST007,2026,C003,Hypertension,Ischemic heart disease,,,72
+INST007,2026,C004,Diabetes,Obesity,,,120
+INST007,2026,C005,Diabetes,Hypertension,Obesity,,71
+INST007,2026,C006,COPD,Hypertension,,,26
+INST007,2026,C007,Asthma,Allergic/atopic disease,,,14
+INST007,2026,C008,Heart failure,Chronic kidney disease,,,31
+INST007,2026,C009,Diabetes,Hyperlipidemia,Hypertension,,62
+INST007,2026,C010,Hypertension,Stroke,,,19
+INST007,2026,C011,Chronic liver disease,Type 2 diabetes mellitus,,,19
+INST007,2026,C012,Depression,Generalized anxiety disorder,,,61
+INST007,2026,C013,Osteoarthritis,Obesity,,,70
+INST007,2026,C014,Rheumatoid arthritis,Osteoporosis,,,28
+INST007,2026,C015,Pneumonia,Diabetes,,,103
+INST007,2026,C016,COVID-19,Diabetes,,,22
+INST007,2026,C017,COVID-19,Hypertension,,,40
+INST007,2026,C018,COVID-19,Diabetes,Hypertension,,26
+INST007,2026,C019,Tuberculosis,Diabetes,,,30
+INST007,2026,C020,Urinary tract infection,Diabetes,,,71
+INST007,2026,C021,Diabetes,Chronic kidney disease,Hypertension,,25
+INST007,2026,C022,Ischemic heart disease,Diabetes,Hypertension,,84
+INST007,2026,C023,Asthma,Obesity,,,28
+INST007,2026,C024,COPD,Diabetes,,,25
+INST007,2026,C025,Hyperlipidemia,Hypertension,,,95
+INST008,2015,C001,Diabetes,Hypertension,,,110
+INST008,2015,C002,Diabetes,Chronic kidney disease,,,37
+INST008,2015,C003,Hypertension,Ischemic heart disease,,,76
+INST008,2015,C004,Diabetes,Obesity,,,74
+INST008,2015,C005,Diabetes,Hypertension,Obesity,,88
+INST008,2015,C006,COPD,Hypertension,,,26
+INST008,2015,C007,Asthma,Allergic/atopic disease,,,23
+INST008,2015,C008,Heart failure,Chronic kidney disease,,,31
+INST008,2015,C009,Diabetes,Hyperlipidemia,Hypertension,,66
+INST008,2015,C010,Hypertension,Stroke,,,15
+INST008,2015,C011,Chronic liver disease,Type 2 diabetes mellitus,,,42
+INST008,2015,C012,Depression,Generalized anxiety disorder,,,58
+INST008,2015,C013,Osteoarthritis,Obesity,,,35
+INST008,2015,C014,Rheumatoid arthritis,Osteoporosis,,,13
+INST008,2015,C015,Pneumonia,Diabetes,,,54
+INST008,2015,C016,COVID-19,Diabetes,,,8
+INST008,2015,C017,COVID-19,Hypertension,,,9
+INST008,2015,C018,COVID-19,Diabetes,Hypertension,,8
+INST008,2015,C019,Tuberculosis,Diabetes,,,7
+INST008,2015,C020,Urinary tract infection,Diabetes,,,37
+INST008,2015,C021,Diabetes,Chronic kidney disease,Hypertension,,60
+INST008,2015,C022,Ischemic heart disease,Diabetes,Hypertension,,55
+INST008,2015,C023,Asthma,Obesity,,,31
+INST008,2015,C024,COPD,Diabetes,,,22
+INST008,2015,C025,Hyperlipidemia,Hypertension,,,78
+INST008,2016,C001,Diabetes,Hypertension,,,91
+INST008,2016,C002,Diabetes,Chronic kidney disease,,,75
+INST008,2016,C003,Hypertension,Ischemic heart disease,,,87
+INST008,2016,C004,Diabetes,Obesity,,,86
+INST008,2016,C005,Diabetes,Hypertension,Obesity,,82
+INST008,2016,C006,COPD,Hypertension,,,26
+INST008,2016,C007,Asthma,Allergic/atopic disease,,,32
+INST008,2016,C008,Heart failure,Chronic kidney disease,,,16
+INST008,2016,C009,Diabetes,Hyperlipidemia,Hypertension,,98
+INST008,2016,C010,Hypertension,Stroke,,,9
+INST008,2016,C011,Chronic liver disease,Type 2 diabetes mellitus,,,20
+INST008,2016,C012,Depression,Generalized anxiety disorder,,,50
+INST008,2016,C013,Osteoarthritis,Obesity,,,58
+INST008,2016,C014,Rheumatoid arthritis,Osteoporosis,,,13
+INST008,2016,C015,Pneumonia,Diabetes,,,31
+INST008,2016,C016,COVID-19,Diabetes,,,10
+INST008,2016,C017,COVID-19,Hypertension,,,16
+INST008,2016,C018,COVID-19,Diabetes,Hypertension,,9
+INST008,2016,C019,Tuberculosis,Diabetes,,,26
+INST008,2016,C020,Urinary tract infection,Diabetes,,,51
+INST008,2016,C021,Diabetes,Chronic kidney disease,Hypertension,,74
+INST008,2016,C022,Ischemic heart disease,Diabetes,Hypertension,,86
+INST008,2016,C023,Asthma,Obesity,,,41
+INST008,2016,C024,COPD,Diabetes,,,33
+INST008,2016,C025,Hyperlipidemia,Hypertension,,,39
+INST008,2017,C001,Diabetes,Hypertension,,,89
+INST008,2017,C002,Diabetes,Chronic kidney disease,,,47
+INST008,2017,C003,Hypertension,Ischemic heart disease,,,75
+INST008,2017,C004,Diabetes,Obesity,,,132
+INST008,2017,C005,Diabetes,Hypertension,Obesity,,70
+INST008,2017,C006,COPD,Hypertension,,,42
+INST008,2017,C007,Asthma,Allergic/atopic disease,,,16
+INST008,2017,C008,Heart failure,Chronic kidney disease,,,24
+INST008,2017,C009,Diabetes,Hyperlipidemia,Hypertension,,59
+INST008,2017,C010,Hypertension,Stroke,,,8
+INST008,2017,C011,Chronic liver disease,Type 2 diabetes mellitus,,,32
+INST008,2017,C012,Depression,Generalized anxiety disorder,,,60
+INST008,2017,C013,Osteoarthritis,Obesity,,,64
+INST008,2017,C014,Rheumatoid arthritis,Osteoporosis,,,21
+INST008,2017,C015,Pneumonia,Diabetes,,,41
+INST008,2017,C016,COVID-19,Diabetes,,,8
+INST008,2017,C017,COVID-19,Hypertension,,,24
+INST008,2017,C018,COVID-19,Diabetes,Hypertension,,8
+INST008,2017,C019,Tuberculosis,Diabetes,,,7
+INST008,2017,C020,Urinary tract infection,Diabetes,,,37
+INST008,2017,C021,Diabetes,Chronic kidney disease,Hypertension,,58
+INST008,2017,C022,Ischemic heart disease,Diabetes,Hypertension,,42
+INST008,2017,C023,Asthma,Obesity,,,26
+INST008,2017,C024,COPD,Diabetes,,,23
+INST008,2017,C025,Hyperlipidemia,Hypertension,,,84
+INST008,2018,C001,Diabetes,Hypertension,,,88
+INST008,2018,C002,Diabetes,Chronic kidney disease,,,74
+INST008,2018,C003,Hypertension,Ischemic heart disease,,,71
+INST008,2018,C004,Diabetes,Obesity,,,68
+INST008,2018,C005,Diabetes,Hypertension,Obesity,,81
+INST008,2018,C006,COPD,Hypertension,,,20
+INST008,2018,C007,Asthma,Allergic/atopic disease,,,20
+INST008,2018,C008,Heart failure,Chronic kidney disease,,,38
+INST008,2018,C009,Diabetes,Hyperlipidemia,Hypertension,,50
+INST008,2018,C010,Hypertension,Stroke,,,17
+INST008,2018,C011,Chronic liver disease,Type 2 diabetes mellitus,,,44
+INST008,2018,C012,Depression,Generalized anxiety disorder,,,61
+INST008,2018,C013,Osteoarthritis,Obesity,,,61
+INST008,2018,C014,Rheumatoid arthritis,Osteoporosis,,,28
+INST008,2018,C015,Pneumonia,Diabetes,,,34
+INST008,2018,C016,COVID-19,Diabetes,,,11
+INST008,2018,C017,COVID-19,Hypertension,,,9
+INST008,2018,C018,COVID-19,Diabetes,Hypertension,,11
+INST008,2018,C019,Tuberculosis,Diabetes,,,23
+INST008,2018,C020,Urinary tract infection,Diabetes,,,46
+INST008,2018,C021,Diabetes,Chronic kidney disease,Hypertension,,33
+INST008,2018,C022,Ischemic heart disease,Diabetes,Hypertension,,78
+INST008,2018,C023,Asthma,Obesity,,,75
+INST008,2018,C024,COPD,Diabetes,,,23
+INST008,2018,C025,Hyperlipidemia,Hypertension,,,104
+INST008,2019,C001,Diabetes,Hypertension,,,67
+INST008,2019,C002,Diabetes,Chronic kidney disease,,,20
+INST008,2019,C003,Hypertension,Ischemic heart disease,,,68
+INST008,2019,C004,Diabetes,Obesity,,,75
+INST008,2019,C005,Diabetes,Hypertension,Obesity,,59
+INST008,2019,C006,COPD,Hypertension,,,68
+INST008,2019,C007,Asthma,Allergic/atopic disease,,,14
+INST008,2019,C008,Heart failure,Chronic kidney disease,,,25
+INST008,2019,C009,Diabetes,Hyperlipidemia,Hypertension,,44
+INST008,2019,C010,Hypertension,Stroke,,,15
+INST008,2019,C011,Chronic liver disease,Type 2 diabetes mellitus,,,29
+INST008,2019,C012,Depression,Generalized anxiety disorder,,,23
+INST008,2019,C013,Osteoarthritis,Obesity,,,43
+INST008,2019,C014,Rheumatoid arthritis,Osteoporosis,,,9
+INST008,2019,C015,Pneumonia,Diabetes,,,82
+INST008,2019,C016,COVID-19,Diabetes,,,23
+INST008,2019,C017,COVID-19,Hypertension,,,17
+INST008,2019,C018,COVID-19,Diabetes,Hypertension,,14
+INST008,2019,C019,Tuberculosis,Diabetes,,,17
+INST008,2019,C020,Urinary tract infection,Diabetes,,,50
+INST008,2019,C021,Diabetes,Chronic kidney disease,Hypertension,,44
+INST008,2019,C022,Ischemic heart disease,Diabetes,Hypertension,,57
+INST008,2019,C023,Asthma,Obesity,,,39
+INST008,2019,C024,COPD,Diabetes,,,55
+INST008,2019,C025,Hyperlipidemia,Hypertension,,,82
+INST008,2020,C001,Diabetes,Hypertension,,,135
+INST008,2020,C002,Diabetes,Chronic kidney disease,,,29
+INST008,2020,C003,Hypertension,Ischemic heart disease,,,36
+INST008,2020,C004,Diabetes,Obesity,,,39
+INST008,2020,C005,Diabetes,Hypertension,Obesity,,59
+INST008,2020,C006,COPD,Hypertension,,,23
+INST008,2020,C007,Asthma,Allergic/atopic disease,,,14
+INST008,2020,C008,Heart failure,Chronic kidney disease,,,26
+INST008,2020,C009,Diabetes,Hyperlipidemia,Hypertension,,65
+INST008,2020,C010,Hypertension,Stroke,,,22
+INST008,2020,C011,Chronic liver disease,Type 2 diabetes mellitus,,,21
+INST008,2020,C012,Depression,Generalized anxiety disorder,,,27
+INST008,2020,C013,Osteoarthritis,Obesity,,,81
+INST008,2020,C014,Rheumatoid arthritis,Osteoporosis,,,24
+INST008,2020,C015,Pneumonia,Diabetes,,,47
+INST008,2020,C016,COVID-19,Diabetes,,,61
+INST008,2020,C017,COVID-19,Hypertension,,,136
+INST008,2020,C018,COVID-19,Diabetes,Hypertension,,75
+INST008,2020,C019,Tuberculosis,Diabetes,,,12
+INST008,2020,C020,Urinary tract infection,Diabetes,,,54
+INST008,2020,C021,Diabetes,Chronic kidney disease,Hypertension,,52
+INST008,2020,C022,Ischemic heart disease,Diabetes,Hypertension,,39
+INST008,2020,C023,Asthma,Obesity,,,44
+INST008,2020,C024,COPD,Diabetes,,,53
+INST008,2020,C025,Hyperlipidemia,Hypertension,,,56
+INST008,2021,C001,Diabetes,Hypertension,,,90
+INST008,2021,C002,Diabetes,Chronic kidney disease,,,72
+INST008,2021,C003,Hypertension,Ischemic heart disease,,,36
+INST008,2021,C004,Diabetes,Obesity,,,55
+INST008,2021,C005,Diabetes,Hypertension,Obesity,,36
+INST008,2021,C006,COPD,Hypertension,,,24
+INST008,2021,C007,Asthma,Allergic/atopic disease,,,38
+INST008,2021,C008,Heart failure,Chronic kidney disease,,,22
+INST008,2021,C009,Diabetes,Hyperlipidemia,Hypertension,,34
+INST008,2021,C010,Hypertension,Stroke,,,19
+INST008,2021,C011,Chronic liver disease,Type 2 diabetes mellitus,,,20
+INST008,2021,C012,Depression,Generalized anxiety disorder,,,28
+INST008,2021,C013,Osteoarthritis,Obesity,,,50
+INST008,2021,C014,Rheumatoid arthritis,Osteoporosis,,,12
+INST008,2021,C015,Pneumonia,Diabetes,,,79
+INST008,2021,C016,COVID-19,Diabetes,,,160
+INST008,2021,C017,COVID-19,Hypertension,,,127
+INST008,2021,C018,COVID-19,Diabetes,Hypertension,,174
+INST008,2021,C019,Tuberculosis,Diabetes,,,20
+INST008,2021,C020,Urinary tract infection,Diabetes,,,44
+INST008,2021,C021,Diabetes,Chronic kidney disease,Hypertension,,36
+INST008,2021,C022,Ischemic heart disease,Diabetes,Hypertension,,28
+INST008,2021,C023,Asthma,Obesity,,,78
+INST008,2021,C024,COPD,Diabetes,,,40
+INST008,2021,C025,Hyperlipidemia,Hypertension,,,113
+INST008,2022,C001,Diabetes,Hypertension,,,117
+INST008,2022,C002,Diabetes,Chronic kidney disease,,,46
+INST008,2022,C003,Hypertension,Ischemic heart disease,,,44
+INST008,2022,C004,Diabetes,Obesity,,,41
+INST008,2022,C005,Diabetes,Hypertension,Obesity,,37
+INST008,2022,C006,COPD,Hypertension,,,34
+INST008,2022,C007,Asthma,Allergic/atopic disease,,,36
+INST008,2022,C008,Heart failure,Chronic kidney disease,,,30
+INST008,2022,C009,Diabetes,Hyperlipidemia,Hypertension,,88
+INST008,2022,C010,Hypertension,Stroke,,,27
+INST008,2022,C011,Chronic liver disease,Type 2 diabetes mellitus,,,20
+INST008,2022,C012,Depression,Generalized anxiety disorder,,,47
+INST008,2022,C013,Osteoarthritis,Obesity,,,43
+INST008,2022,C014,Rheumatoid arthritis,Osteoporosis,,,10
+INST008,2022,C015,Pneumonia,Diabetes,,,56
+INST008,2022,C016,COVID-19,Diabetes,,,105
+INST008,2022,C017,COVID-19,Hypertension,,,170
+INST008,2022,C018,COVID-19,Diabetes,Hypertension,,111
+INST008,2022,C019,Tuberculosis,Diabetes,,,21
+INST008,2022,C020,Urinary tract infection,Diabetes,,,64
+INST008,2022,C021,Diabetes,Chronic kidney disease,Hypertension,,50
+INST008,2022,C022,Ischemic heart disease,Diabetes,Hypertension,,40
+INST008,2022,C023,Asthma,Obesity,,,66
+INST008,2022,C024,COPD,Diabetes,,,55
+INST008,2022,C025,Hyperlipidemia,Hypertension,,,33
+INST008,2023,C001,Diabetes,Hypertension,,,162
+INST008,2023,C002,Diabetes,Chronic kidney disease,,,57
+INST008,2023,C003,Hypertension,Ischemic heart disease,,,85
+INST008,2023,C004,Diabetes,Obesity,,,47
+INST008,2023,C005,Diabetes,Hypertension,Obesity,,77
+INST008,2023,C006,COPD,Hypertension,,,24
+INST008,2023,C007,Asthma,Allergic/atopic disease,,,28
+INST008,2023,C008,Heart failure,Chronic kidney disease,,,56
+INST008,2023,C009,Diabetes,Hyperlipidemia,Hypertension,,54
+INST008,2023,C010,Hypertension,Stroke,,,25
+INST008,2023,C011,Chronic liver disease,Type 2 diabetes mellitus,,,15
+INST008,2023,C012,Depression,Generalized anxiety disorder,,,66
+INST008,2023,C013,Osteoarthritis,Obesity,,,54
+INST008,2023,C014,Rheumatoid arthritis,Osteoporosis,,,32
+INST008,2023,C015,Pneumonia,Diabetes,,,98
+INST008,2023,C016,COVID-19,Diabetes,,,43
+INST008,2023,C017,COVID-19,Hypertension,,,52
+INST008,2023,C018,COVID-19,Diabetes,Hypertension,,34
+INST008,2023,C019,Tuberculosis,Diabetes,,,24
+INST008,2023,C020,Urinary tract infection,Diabetes,,,50
+INST008,2023,C021,Diabetes,Chronic kidney disease,Hypertension,,30
+INST008,2023,C022,Ischemic heart disease,Diabetes,Hypertension,,87
+INST008,2023,C023,Asthma,Obesity,,,87
+INST008,2023,C024,COPD,Diabetes,,,29
+INST008,2023,C025,Hyperlipidemia,Hypertension,,,58
+INST008,2024,C001,Diabetes,Hypertension,,,149
+INST008,2024,C002,Diabetes,Chronic kidney disease,,,35
+INST008,2024,C003,Hypertension,Ischemic heart disease,,,30
+INST008,2024,C004,Diabetes,Obesity,,,66
+INST008,2024,C005,Diabetes,Hypertension,Obesity,,53
+INST008,2024,C006,COPD,Hypertension,,,44
+INST008,2024,C007,Asthma,Allergic/atopic disease,,,24
+INST008,2024,C008,Heart failure,Chronic kidney disease,,,27
+INST008,2024,C009,Diabetes,Hyperlipidemia,Hypertension,,124
+INST008,2024,C010,Hypertension,Stroke,,,23
+INST008,2024,C011,Chronic liver disease,Type 2 diabetes mellitus,,,22
+INST008,2024,C012,Depression,Generalized anxiety disorder,,,72
+INST008,2024,C013,Osteoarthritis,Obesity,,,65
+INST008,2024,C014,Rheumatoid arthritis,Osteoporosis,,,26
+INST008,2024,C015,Pneumonia,Diabetes,,,67
+INST008,2024,C016,COVID-19,Diabetes,,,22
+INST008,2024,C017,COVID-19,Hypertension,,,55
+INST008,2024,C018,COVID-19,Diabetes,Hypertension,,41
+INST008,2024,C019,Tuberculosis,Diabetes,,,20
+INST008,2024,C020,Urinary tract infection,Diabetes,,,46
+INST008,2024,C021,Diabetes,Chronic kidney disease,Hypertension,,34
+INST008,2024,C022,Ischemic heart disease,Diabetes,Hypertension,,81
+INST008,2024,C023,Asthma,Obesity,,,24
+INST008,2024,C024,COPD,Diabetes,,,19
+INST008,2024,C025,Hyperlipidemia,Hypertension,,,63
+INST008,2025,C001,Diabetes,Hypertension,,,131
+INST008,2025,C002,Diabetes,Chronic kidney disease,,,25
+INST008,2025,C003,Hypertension,Ischemic heart disease,,,54
+INST008,2025,C004,Diabetes,Obesity,,,81
+INST008,2025,C005,Diabetes,Hypertension,Obesity,,103
+INST008,2025,C006,COPD,Hypertension,,,18
+INST008,2025,C007,Asthma,Allergic/atopic disease,,,20
+INST008,2025,C008,Heart failure,Chronic kidney disease,,,30
+INST008,2025,C009,Diabetes,Hyperlipidemia,Hypertension,,48
+INST008,2025,C010,Hypertension,Stroke,,,28
+INST008,2025,C011,Chronic liver disease,Type 2 diabetes mellitus,,,39
+INST008,2025,C012,Depression,Generalized anxiety disorder,,,62
+INST008,2025,C013,Osteoarthritis,Obesity,,,33
+INST008,2025,C014,Rheumatoid arthritis,Osteoporosis,,,10
+INST008,2025,C015,Pneumonia,Diabetes,,,47
+INST008,2025,C016,COVID-19,Diabetes,,,45
+INST008,2025,C017,COVID-19,Hypertension,,,19
+INST008,2025,C018,COVID-19,Diabetes,Hypertension,,32
+INST008,2025,C019,Tuberculosis,Diabetes,,,8
+INST008,2025,C020,Urinary tract infection,Diabetes,,,32
+INST008,2025,C021,Diabetes,Chronic kidney disease,Hypertension,,47
+INST008,2025,C022,Ischemic heart disease,Diabetes,Hypertension,,58
+INST008,2025,C023,Asthma,Obesity,,,85
+INST008,2025,C024,COPD,Diabetes,,,47
+INST008,2025,C025,Hyperlipidemia,Hypertension,,,58
+INST008,2026,C001,Diabetes,Hypertension,,,147
+INST008,2026,C002,Diabetes,Chronic kidney disease,,,32
+INST008,2026,C003,Hypertension,Ischemic heart disease,,,43
+INST008,2026,C004,Diabetes,Obesity,,,59
+INST008,2026,C005,Diabetes,Hypertension,Obesity,,60
+INST008,2026,C006,COPD,Hypertension,,,46
+INST008,2026,C007,Asthma,Allergic/atopic disease,,,27
+INST008,2026,C008,Heart failure,Chronic kidney disease,,,27
+INST008,2026,C009,Diabetes,Hyperlipidemia,Hypertension,,79
+INST008,2026,C010,Hypertension,Stroke,,,22
+INST008,2026,C011,Chronic liver disease,Type 2 diabetes mellitus,,,19
+INST008,2026,C012,Depression,Generalized anxiety disorder,,,32
+INST008,2026,C013,Osteoarthritis,Obesity,,,66
+INST008,2026,C014,Rheumatoid arthritis,Osteoporosis,,,13
+INST008,2026,C015,Pneumonia,Diabetes,,,36
+INST008,2026,C016,COVID-19,Diabetes,,,40
+INST008,2026,C017,COVID-19,Hypertension,,,43
+INST008,2026,C018,COVID-19,Diabetes,Hypertension,,39
+INST008,2026,C019,Tuberculosis,Diabetes,,,18
+INST008,2026,C020,Urinary tract infection,Diabetes,,,63
+INST008,2026,C021,Diabetes,Chronic kidney disease,Hypertension,,53
+INST008,2026,C022,Ischemic heart disease,Diabetes,Hypertension,,35
+INST008,2026,C023,Asthma,Obesity,,,56
+INST008,2026,C024,COPD,Diabetes,,,34
+INST008,2026,C025,Hyperlipidemia,Hypertension,,,107
+INST009,2015,C001,Diabetes,Hypertension,,,146
+INST009,2015,C002,Diabetes,Chronic kidney disease,,,67
+INST009,2015,C003,Hypertension,Ischemic heart disease,,,65
+INST009,2015,C004,Diabetes,Obesity,,,97
+INST009,2015,C005,Diabetes,Hypertension,Obesity,,96
+INST009,2015,C006,COPD,Hypertension,,,26
+INST009,2015,C007,Asthma,Allergic/atopic disease,,,26
+INST009,2015,C008,Heart failure,Chronic kidney disease,,,58
+INST009,2015,C009,Diabetes,Hyperlipidemia,Hypertension,,67
+INST009,2015,C010,Hypertension,Stroke,,,31
+INST009,2015,C011,Chronic liver disease,Type 2 diabetes mellitus,,,36
+INST009,2015,C012,Depression,Generalized anxiety disorder,,,49
+INST009,2015,C013,Osteoarthritis,Obesity,,,46
+INST009,2015,C014,Rheumatoid arthritis,Osteoporosis,,,27
+INST009,2015,C015,Pneumonia,Diabetes,,,46
+INST009,2015,C016,COVID-19,Diabetes,,,19
+INST009,2015,C017,COVID-19,Hypertension,,,20
+INST009,2015,C018,COVID-19,Diabetes,Hypertension,,14
+INST009,2015,C019,Tuberculosis,Diabetes,,,22
+INST009,2015,C020,Urinary tract infection,Diabetes,,,55
+INST009,2015,C021,Diabetes,Chronic kidney disease,Hypertension,,62
+INST009,2015,C022,Ischemic heart disease,Diabetes,Hypertension,,32
+INST009,2015,C023,Asthma,Obesity,,,83
+INST009,2015,C024,COPD,Diabetes,,,78
+INST009,2015,C025,Hyperlipidemia,Hypertension,,,70
+INST009,2016,C001,Diabetes,Hypertension,,,74
+INST009,2016,C002,Diabetes,Chronic kidney disease,,,33
+INST009,2016,C003,Hypertension,Ischemic heart disease,,,84
+INST009,2016,C004,Diabetes,Obesity,,,102
+INST009,2016,C005,Diabetes,Hypertension,Obesity,,71
+INST009,2016,C006,COPD,Hypertension,,,30
+INST009,2016,C007,Asthma,Allergic/atopic disease,,,20
+INST009,2016,C008,Heart failure,Chronic kidney disease,,,37
+INST009,2016,C009,Diabetes,Hyperlipidemia,Hypertension,,59
+INST009,2016,C010,Hypertension,Stroke,,,12
+INST009,2016,C011,Chronic liver disease,Type 2 diabetes mellitus,,,49
+INST009,2016,C012,Depression,Generalized anxiety disorder,,,65
+INST009,2016,C013,Osteoarthritis,Obesity,,,87
+INST009,2016,C014,Rheumatoid arthritis,Osteoporosis,,,13
+INST009,2016,C015,Pneumonia,Diabetes,,,56
+INST009,2016,C016,COVID-19,Diabetes,,,14
+INST009,2016,C017,COVID-19,Hypertension,,,30
+INST009,2016,C018,COVID-19,Diabetes,Hypertension,,23
+INST009,2016,C019,Tuberculosis,Diabetes,,,16
+INST009,2016,C020,Urinary tract infection,Diabetes,,,75
+INST009,2016,C021,Diabetes,Chronic kidney disease,Hypertension,,90
+INST009,2016,C022,Ischemic heart disease,Diabetes,Hypertension,,48
+INST009,2016,C023,Asthma,Obesity,,,46
+INST009,2016,C024,COPD,Diabetes,,,83
+INST009,2016,C025,Hyperlipidemia,Hypertension,,,33
+INST009,2017,C001,Diabetes,Hypertension,,,99
+INST009,2017,C002,Diabetes,Chronic kidney disease,,,88
+INST009,2017,C003,Hypertension,Ischemic heart disease,,,36
+INST009,2017,C004,Diabetes,Obesity,,,46
+INST009,2017,C005,Diabetes,Hypertension,Obesity,,112
+INST009,2017,C006,COPD,Hypertension,,,34
+INST009,2017,C007,Asthma,Allergic/atopic disease,,,17
+INST009,2017,C008,Heart failure,Chronic kidney disease,,,28
+INST009,2017,C009,Diabetes,Hyperlipidemia,Hypertension,,78
+INST009,2017,C010,Hypertension,Stroke,,,30
+INST009,2017,C011,Chronic liver disease,Type 2 diabetes mellitus,,,31
+INST009,2017,C012,Depression,Generalized anxiety disorder,,,32
+INST009,2017,C013,Osteoarthritis,Obesity,,,34
+INST009,2017,C014,Rheumatoid arthritis,Osteoporosis,,,24
+INST009,2017,C015,Pneumonia,Diabetes,,,138
+INST009,2017,C016,COVID-19,Diabetes,,,25
+INST009,2017,C017,COVID-19,Hypertension,,,25
+INST009,2017,C018,COVID-19,Diabetes,Hypertension,,19
+INST009,2017,C019,Tuberculosis,Diabetes,,,32
+INST009,2017,C020,Urinary tract infection,Diabetes,,,79
+INST009,2017,C021,Diabetes,Chronic kidney disease,Hypertension,,102
+INST009,2017,C022,Ischemic heart disease,Diabetes,Hypertension,,70
+INST009,2017,C023,Asthma,Obesity,,,53
+INST009,2017,C024,COPD,Diabetes,,,67
+INST009,2017,C025,Hyperlipidemia,Hypertension,,,53
+INST009,2018,C001,Diabetes,Hypertension,,,142
+INST009,2018,C002,Diabetes,Chronic kidney disease,,,77
+INST009,2018,C003,Hypertension,Ischemic heart disease,,,61
+INST009,2018,C004,Diabetes,Obesity,,,113
+INST009,2018,C005,Diabetes,Hypertension,Obesity,,94
+INST009,2018,C006,COPD,Hypertension,,,53
+INST009,2018,C007,Asthma,Allergic/atopic disease,,,25
+INST009,2018,C008,Heart failure,Chronic kidney disease,,,51
+INST009,2018,C009,Diabetes,Hyperlipidemia,Hypertension,,137
+INST009,2018,C010,Hypertension,Stroke,,,24
+INST009,2018,C011,Chronic liver disease,Type 2 diabetes mellitus,,,47
+INST009,2018,C012,Depression,Generalized anxiety disorder,,,54
+INST009,2018,C013,Osteoarthritis,Obesity,,,84
+INST009,2018,C014,Rheumatoid arthritis,Osteoporosis,,,12
+INST009,2018,C015,Pneumonia,Diabetes,,,72
+INST009,2018,C016,COVID-19,Diabetes,,,22
+INST009,2018,C017,COVID-19,Hypertension,,,11
+INST009,2018,C018,COVID-19,Diabetes,Hypertension,,23
+INST009,2018,C019,Tuberculosis,Diabetes,,,25
+INST009,2018,C020,Urinary tract infection,Diabetes,,,30
+INST009,2018,C021,Diabetes,Chronic kidney disease,Hypertension,,51
+INST009,2018,C022,Ischemic heart disease,Diabetes,Hypertension,,110
+INST009,2018,C023,Asthma,Obesity,,,114
+INST009,2018,C024,COPD,Diabetes,,,62
+INST009,2018,C025,Hyperlipidemia,Hypertension,,,45
+INST009,2019,C001,Diabetes,Hypertension,,,173
+INST009,2019,C002,Diabetes,Chronic kidney disease,,,86
+INST009,2019,C003,Hypertension,Ischemic heart disease,,,79
+INST009,2019,C004,Diabetes,Obesity,,,124
+INST009,2019,C005,Diabetes,Hypertension,Obesity,,75
+INST009,2019,C006,COPD,Hypertension,,,75
+INST009,2019,C007,Asthma,Allergic/atopic disease,,,23
+INST009,2019,C008,Heart failure,Chronic kidney disease,,,53
+INST009,2019,C009,Diabetes,Hyperlipidemia,Hypertension,,96
+INST009,2019,C010,Hypertension,Stroke,,,20
+INST009,2019,C011,Chronic liver disease,Type 2 diabetes mellitus,,,43
+INST009,2019,C012,Depression,Generalized anxiety disorder,,,55
+INST009,2019,C013,Osteoarthritis,Obesity,,,33
+INST009,2019,C014,Rheumatoid arthritis,Osteoporosis,,,33
+INST009,2019,C015,Pneumonia,Diabetes,,,61
+INST009,2019,C016,COVID-19,Diabetes,,,29
+INST009,2019,C017,COVID-19,Hypertension,,,19
+INST009,2019,C018,COVID-19,Diabetes,Hypertension,,29
+INST009,2019,C019,Tuberculosis,Diabetes,,,24
+INST009,2019,C020,Urinary tract infection,Diabetes,,,47
+INST009,2019,C021,Diabetes,Chronic kidney disease,Hypertension,,73
+INST009,2019,C022,Ischemic heart disease,Diabetes,Hypertension,,64
+INST009,2019,C023,Asthma,Obesity,,,71
+INST009,2019,C024,COPD,Diabetes,,,71
+INST009,2019,C025,Hyperlipidemia,Hypertension,,,111
+INST009,2020,C001,Diabetes,Hypertension,,,121
+INST009,2020,C002,Diabetes,Chronic kidney disease,,,64
+INST009,2020,C003,Hypertension,Ischemic heart disease,,,102
+INST009,2020,C004,Diabetes,Obesity,,,88
+INST009,2020,C005,Diabetes,Hypertension,Obesity,,119
+INST009,2020,C006,COPD,Hypertension,,,62
+INST009,2020,C007,Asthma,Allergic/atopic disease,,,34
+INST009,2020,C008,Heart failure,Chronic kidney disease,,,24
+INST009,2020,C009,Diabetes,Hyperlipidemia,Hypertension,,73
+INST009,2020,C010,Hypertension,Stroke,,,34
+INST009,2020,C011,Chronic liver disease,Type 2 diabetes mellitus,,,29
+INST009,2020,C012,Depression,Generalized anxiety disorder,,,71
+INST009,2020,C013,Osteoarthritis,Obesity,,,58
+INST009,2020,C014,Rheumatoid arthritis,Osteoporosis,,,14
+INST009,2020,C015,Pneumonia,Diabetes,,,133
+INST009,2020,C016,COVID-19,Diabetes,,,88
+INST009,2020,C017,COVID-19,Hypertension,,,92
+INST009,2020,C018,COVID-19,Diabetes,Hypertension,,80
+INST009,2020,C019,Tuberculosis,Diabetes,,,33
+INST009,2020,C020,Urinary tract infection,Diabetes,,,72
+INST009,2020,C021,Diabetes,Chronic kidney disease,Hypertension,,85
+INST009,2020,C022,Ischemic heart disease,Diabetes,Hypertension,,133
+INST009,2020,C023,Asthma,Obesity,,,84
+INST009,2020,C024,COPD,Diabetes,,,59
+INST009,2020,C025,Hyperlipidemia,Hypertension,,,64
+INST009,2021,C001,Diabetes,Hypertension,,,215
+INST009,2021,C002,Diabetes,Chronic kidney disease,,,46
+INST009,2021,C003,Hypertension,Ischemic heart disease,,,101
+INST009,2021,C004,Diabetes,Obesity,,,138
+INST009,2021,C005,Diabetes,Hypertension,Obesity,,98
+INST009,2021,C006,COPD,Hypertension,,,24
+INST009,2021,C007,Asthma,Allergic/atopic disease,,,35
+INST009,2021,C008,Heart failure,Chronic kidney disease,,,29
+INST009,2021,C009,Diabetes,Hyperlipidemia,Hypertension,,150
+INST009,2021,C010,Hypertension,Stroke,,,15
+INST009,2021,C011,Chronic liver disease,Type 2 diabetes mellitus,,,48
+INST009,2021,C012,Depression,Generalized anxiety disorder,,,65
+INST009,2021,C013,Osteoarthritis,Obesity,,,106
+INST009,2021,C014,Rheumatoid arthritis,Osteoporosis,,,37
+INST009,2021,C015,Pneumonia,Diabetes,,,77
+INST009,2021,C016,COVID-19,Diabetes,,,182
+INST009,2021,C017,COVID-19,Hypertension,,,151
+INST009,2021,C018,COVID-19,Diabetes,Hypertension,,230
+INST009,2021,C019,Tuberculosis,Diabetes,,,24
+INST009,2021,C020,Urinary tract infection,Diabetes,,,38
+INST009,2021,C021,Diabetes,Chronic kidney disease,Hypertension,,52
+INST009,2021,C022,Ischemic heart disease,Diabetes,Hypertension,,66
+INST009,2021,C023,Asthma,Obesity,,,45
+INST009,2021,C024,COPD,Diabetes,,,30
+INST009,2021,C025,Hyperlipidemia,Hypertension,,,68
+INST009,2022,C001,Diabetes,Hypertension,,,182
+INST009,2022,C002,Diabetes,Chronic kidney disease,,,98
+INST009,2022,C003,Hypertension,Ischemic heart disease,,,58
+INST009,2022,C004,Diabetes,Obesity,,,111
+INST009,2022,C005,Diabetes,Hypertension,Obesity,,116
+INST009,2022,C006,COPD,Hypertension,,,61
+INST009,2022,C007,Asthma,Allergic/atopic disease,,,24
+INST009,2022,C008,Heart failure,Chronic kidney disease,,,56
+INST009,2022,C009,Diabetes,Hyperlipidemia,Hypertension,,146
+INST009,2022,C010,Hypertension,Stroke,,,21
+INST009,2022,C011,Chronic liver disease,Type 2 diabetes mellitus,,,40
+INST009,2022,C012,Depression,Generalized anxiety disorder,,,63
+INST009,2022,C013,Osteoarthritis,Obesity,,,43
+INST009,2022,C014,Rheumatoid arthritis,Osteoporosis,,,17
+INST009,2022,C015,Pneumonia,Diabetes,,,125
+INST009,2022,C016,COVID-19,Diabetes,,,197
+INST009,2022,C017,COVID-19,Hypertension,,,188
+INST009,2022,C018,COVID-19,Diabetes,Hypertension,,135
+INST009,2022,C019,Tuberculosis,Diabetes,,,33
+INST009,2022,C020,Urinary tract infection,Diabetes,,,76
+INST009,2022,C021,Diabetes,Chronic kidney disease,Hypertension,,71
+INST009,2022,C022,Ischemic heart disease,Diabetes,Hypertension,,73
+INST009,2022,C023,Asthma,Obesity,,,71
+INST009,2022,C024,COPD,Diabetes,,,55
+INST009,2022,C025,Hyperlipidemia,Hypertension,,,62
+INST009,2023,C001,Diabetes,Hypertension,,,77
+INST009,2023,C002,Diabetes,Chronic kidney disease,,,64
+INST009,2023,C003,Hypertension,Ischemic heart disease,,,60
+INST009,2023,C004,Diabetes,Obesity,,,55
+INST009,2023,C005,Diabetes,Hypertension,Obesity,,56
+INST009,2023,C006,COPD,Hypertension,,,86
+INST009,2023,C007,Asthma,Allergic/atopic disease,,,22
+INST009,2023,C008,Heart failure,Chronic kidney disease,,,25
+INST009,2023,C009,Diabetes,Hyperlipidemia,Hypertension,,68
+INST009,2023,C010,Hypertension,Stroke,,,23
+INST009,2023,C011,Chronic liver disease,Type 2 diabetes mellitus,,,29
+INST009,2023,C012,Depression,Generalized anxiety disorder,,,47
+INST009,2023,C013,Osteoarthritis,Obesity,,,130
+INST009,2023,C014,Rheumatoid arthritis,Osteoporosis,,,37
+INST009,2023,C015,Pneumonia,Diabetes,,,53
+INST009,2023,C016,COVID-19,Diabetes,,,59
+INST009,2023,C017,COVID-19,Hypertension,,,25
+INST009,2023,C018,COVID-19,Diabetes,Hypertension,,68
+INST009,2023,C019,Tuberculosis,Diabetes,,,41
+INST009,2023,C020,Urinary tract infection,Diabetes,,,35
+INST009,2023,C021,Diabetes,Chronic kidney disease,Hypertension,,75
+INST009,2023,C022,Ischemic heart disease,Diabetes,Hypertension,,97
+INST009,2023,C023,Asthma,Obesity,,,118
+INST009,2023,C024,COPD,Diabetes,,,66
+INST009,2023,C025,Hyperlipidemia,Hypertension,,,86
+INST009,2024,C001,Diabetes,Hypertension,,,82
+INST009,2024,C002,Diabetes,Chronic kidney disease,,,82
+INST009,2024,C003,Hypertension,Ischemic heart disease,,,46
+INST009,2024,C004,Diabetes,Obesity,,,97
+INST009,2024,C005,Diabetes,Hypertension,Obesity,,146
+INST009,2024,C006,COPD,Hypertension,,,49
+INST009,2024,C007,Asthma,Allergic/atopic disease,,,18
+INST009,2024,C008,Heart failure,Chronic kidney disease,,,30
+INST009,2024,C009,Diabetes,Hyperlipidemia,Hypertension,,79
+INST009,2024,C010,Hypertension,Stroke,,,23
+INST009,2024,C011,Chronic liver disease,Type 2 diabetes mellitus,,,56
+INST009,2024,C012,Depression,Generalized anxiety disorder,,,38
+INST009,2024,C013,Osteoarthritis,Obesity,,,73
+INST009,2024,C014,Rheumatoid arthritis,Osteoporosis,,,34
+INST009,2024,C015,Pneumonia,Diabetes,,,112
+INST009,2024,C016,COVID-19,Diabetes,,,41
+INST009,2024,C017,COVID-19,Hypertension,,,50
+INST009,2024,C018,COVID-19,Diabetes,Hypertension,,25
+INST009,2024,C019,Tuberculosis,Diabetes,,,15
+INST009,2024,C020,Urinary tract infection,Diabetes,,,107
+INST009,2024,C021,Diabetes,Chronic kidney disease,Hypertension,,97
+INST009,2024,C022,Ischemic heart disease,Diabetes,Hypertension,,98
+INST009,2024,C023,Asthma,Obesity,,,82
+INST009,2024,C024,COPD,Diabetes,,,33
+INST009,2024,C025,Hyperlipidemia,Hypertension,,,163
+INST009,2025,C001,Diabetes,Hypertension,,,191
+INST009,2025,C002,Diabetes,Chronic kidney disease,,,89
+INST009,2025,C003,Hypertension,Ischemic heart disease,,,94
+INST009,2025,C004,Diabetes,Obesity,,,49
+INST009,2025,C005,Diabetes,Hypertension,Obesity,,96
+INST009,2025,C006,COPD,Hypertension,,,90
+INST009,2025,C007,Asthma,Allergic/atopic disease,,,29
+INST009,2025,C008,Heart failure,Chronic kidney disease,,,25
+INST009,2025,C009,Diabetes,Hyperlipidemia,Hypertension,,44
+INST009,2025,C010,Hypertension,Stroke,,,30
+INST009,2025,C011,Chronic liver disease,Type 2 diabetes mellitus,,,40
+INST009,2025,C012,Depression,Generalized anxiety disorder,,,77
+INST009,2025,C013,Osteoarthritis,Obesity,,,71
+INST009,2025,C014,Rheumatoid arthritis,Osteoporosis,,,48
+INST009,2025,C015,Pneumonia,Diabetes,,,151
+INST009,2025,C016,COVID-19,Diabetes,,,25
+INST009,2025,C017,COVID-19,Hypertension,,,27
+INST009,2025,C018,COVID-19,Diabetes,Hypertension,,69
+INST009,2025,C019,Tuberculosis,Diabetes,,,37
+INST009,2025,C020,Urinary tract infection,Diabetes,,,68
+INST009,2025,C021,Diabetes,Chronic kidney disease,Hypertension,,112
+INST009,2025,C022,Ischemic heart disease,Diabetes,Hypertension,,100
+INST009,2025,C023,Asthma,Obesity,,,86
+INST009,2025,C024,COPD,Diabetes,,,64
+INST009,2025,C025,Hyperlipidemia,Hypertension,,,46
+INST009,2026,C001,Diabetes,Hypertension,,,214
+INST009,2026,C002,Diabetes,Chronic kidney disease,,,74
+INST009,2026,C003,Hypertension,Ischemic heart disease,,,84
+INST009,2026,C004,Diabetes,Obesity,,,98
+INST009,2026,C005,Diabetes,Hypertension,Obesity,,64
+INST009,2026,C006,COPD,Hypertension,,,46
+INST009,2026,C007,Asthma,Allergic/atopic disease,,,44
+INST009,2026,C008,Heart failure,Chronic kidney disease,,,60
+INST009,2026,C009,Diabetes,Hyperlipidemia,Hypertension,,77
+INST009,2026,C010,Hypertension,Stroke,,,21
+INST009,2026,C011,Chronic liver disease,Type 2 diabetes mellitus,,,43
+INST009,2026,C012,Depression,Generalized anxiety disorder,,,32
+INST009,2026,C013,Osteoarthritis,Obesity,,,68
+INST009,2026,C014,Rheumatoid arthritis,Osteoporosis,,,34
+INST009,2026,C015,Pneumonia,Diabetes,,,70
+INST009,2026,C016,COVID-19,Diabetes,,,56
+INST009,2026,C017,COVID-19,Hypertension,,,62
+INST009,2026,C018,COVID-19,Diabetes,Hypertension,,58
+INST009,2026,C019,Tuberculosis,Diabetes,,,30
+INST009,2026,C020,Urinary tract infection,Diabetes,,,126
+INST009,2026,C021,Diabetes,Chronic kidney disease,Hypertension,,28
+INST009,2026,C022,Ischemic heart disease,Diabetes,Hypertension,,113
+INST009,2026,C023,Asthma,Obesity,,,102
+INST009,2026,C024,COPD,Diabetes,,,26
+INST009,2026,C025,Hyperlipidemia,Hypertension,,,53
+INST010,2015,C001,Diabetes,Hypertension,,,72
+INST010,2015,C002,Diabetes,Chronic kidney disease,,,23
+INST010,2015,C003,Hypertension,Ischemic heart disease,,,52
+INST010,2015,C004,Diabetes,Obesity,,,86
+INST010,2015,C005,Diabetes,Hypertension,Obesity,,53
+INST010,2015,C006,COPD,Hypertension,,,39
+INST010,2015,C007,Asthma,Allergic/atopic disease,,,35
+INST010,2015,C008,Heart failure,Chronic kidney disease,,,39
+INST010,2015,C009,Diabetes,Hyperlipidemia,Hypertension,,48
+INST010,2015,C010,Hypertension,Stroke,,,10
+INST010,2015,C011,Chronic liver disease,Type 2 diabetes mellitus,,,26
+INST010,2015,C012,Depression,Generalized anxiety disorder,,,58
+INST010,2015,C013,Osteoarthritis,Obesity,,,73
+INST010,2015,C014,Rheumatoid arthritis,Osteoporosis,,,29
+INST010,2015,C015,Pneumonia,Diabetes,,,59
+INST010,2015,C016,COVID-19,Diabetes,,,23
+INST010,2015,C017,COVID-19,Hypertension,,,11
+INST010,2015,C018,COVID-19,Diabetes,Hypertension,,19
+INST010,2015,C019,Tuberculosis,Diabetes,,,35
+INST010,2015,C020,Urinary tract infection,Diabetes,,,83
+INST010,2015,C021,Diabetes,Chronic kidney disease,Hypertension,,36
+INST010,2015,C022,Ischemic heart disease,Diabetes,Hypertension,,73
+INST010,2015,C023,Asthma,Obesity,,,75
+INST010,2015,C024,COPD,Diabetes,,,37
+INST010,2015,C025,Hyperlipidemia,Hypertension,,,100
+INST010,2016,C001,Diabetes,Hypertension,,,119
+INST010,2016,C002,Diabetes,Chronic kidney disease,,,35
+INST010,2016,C003,Hypertension,Ischemic heart disease,,,118
+INST010,2016,C004,Diabetes,Obesity,,,124
+INST010,2016,C005,Diabetes,Hypertension,Obesity,,115
+INST010,2016,C006,COPD,Hypertension,,,36
+INST010,2016,C007,Asthma,Allergic/atopic disease,,,20
+INST010,2016,C008,Heart failure,Chronic kidney disease,,,20
+INST010,2016,C009,Diabetes,Hyperlipidemia,Hypertension,,143
+INST010,2016,C010,Hypertension,Stroke,,,13
+INST010,2016,C011,Chronic liver disease,Type 2 diabetes mellitus,,,39
+INST010,2016,C012,Depression,Generalized anxiety disorder,,,37
+INST010,2016,C013,Osteoarthritis,Obesity,,,50
+INST010,2016,C014,Rheumatoid arthritis,Osteoporosis,,,31
+INST010,2016,C015,Pneumonia,Diabetes,,,52
+INST010,2016,C016,COVID-19,Diabetes,,,33
+INST010,2016,C017,COVID-19,Hypertension,,,27
+INST010,2016,C018,COVID-19,Diabetes,Hypertension,,25
+INST010,2016,C019,Tuberculosis,Diabetes,,,20
+INST010,2016,C020,Urinary tract infection,Diabetes,,,35
+INST010,2016,C021,Diabetes,Chronic kidney disease,Hypertension,,69
+INST010,2016,C022,Ischemic heart disease,Diabetes,Hypertension,,40
+INST010,2016,C023,Asthma,Obesity,,,54
+INST010,2016,C024,COPD,Diabetes,,,41
+INST010,2016,C025,Hyperlipidemia,Hypertension,,,128
+INST010,2017,C001,Diabetes,Hypertension,,,74
+INST010,2017,C002,Diabetes,Chronic kidney disease,,,38
+INST010,2017,C003,Hypertension,Ischemic heart disease,,,79
+INST010,2017,C004,Diabetes,Obesity,,,82
+INST010,2017,C005,Diabetes,Hypertension,Obesity,,115
+INST010,2017,C006,COPD,Hypertension,,,37
+INST010,2017,C007,Asthma,Allergic/atopic disease,,,13
+INST010,2017,C008,Heart failure,Chronic kidney disease,,,21
+INST010,2017,C009,Diabetes,Hyperlipidemia,Hypertension,,51
+INST010,2017,C010,Hypertension,Stroke,,,20
+INST010,2017,C011,Chronic liver disease,Type 2 diabetes mellitus,,,19
+INST010,2017,C012,Depression,Generalized anxiety disorder,,,53
+INST010,2017,C013,Osteoarthritis,Obesity,,,73
+INST010,2017,C014,Rheumatoid arthritis,Osteoporosis,,,18
+INST010,2017,C015,Pneumonia,Diabetes,,,38
+INST010,2017,C016,COVID-19,Diabetes,,,25
+INST010,2017,C017,COVID-19,Hypertension,,,32
+INST010,2017,C018,COVID-19,Diabetes,Hypertension,,33
+INST010,2017,C019,Tuberculosis,Diabetes,,,37
+INST010,2017,C020,Urinary tract infection,Diabetes,,,87
+INST010,2017,C021,Diabetes,Chronic kidney disease,Hypertension,,55
+INST010,2017,C022,Ischemic heart disease,Diabetes,Hypertension,,90
+INST010,2017,C023,Asthma,Obesity,,,48
+INST010,2017,C024,COPD,Diabetes,,,58
+INST010,2017,C025,Hyperlipidemia,Hypertension,,,73
+INST010,2018,C001,Diabetes,Hypertension,,,130
+INST010,2018,C002,Diabetes,Chronic kidney disease,,,81
+INST010,2018,C003,Hypertension,Ischemic heart disease,,,81
+INST010,2018,C004,Diabetes,Obesity,,,55
+INST010,2018,C005,Diabetes,Hypertension,Obesity,,61
+INST010,2018,C006,COPD,Hypertension,,,42
+INST010,2018,C007,Asthma,Allergic/atopic disease,,,40
+INST010,2018,C008,Heart failure,Chronic kidney disease,,,54
+INST010,2018,C009,Diabetes,Hyperlipidemia,Hypertension,,102
+INST010,2018,C010,Hypertension,Stroke,,,39
+INST010,2018,C011,Chronic liver disease,Type 2 diabetes mellitus,,,39
+INST010,2018,C012,Depression,Generalized anxiety disorder,,,58
+INST010,2018,C013,Osteoarthritis,Obesity,,,87
+INST010,2018,C014,Rheumatoid arthritis,Osteoporosis,,,26
+INST010,2018,C015,Pneumonia,Diabetes,,,42
+INST010,2018,C016,COVID-19,Diabetes,,,15
+INST010,2018,C017,COVID-19,Hypertension,,,22
+INST010,2018,C018,COVID-19,Diabetes,Hypertension,,26
+INST010,2018,C019,Tuberculosis,Diabetes,,,13
+INST010,2018,C020,Urinary tract infection,Diabetes,,,27
+INST010,2018,C021,Diabetes,Chronic kidney disease,Hypertension,,86
+INST010,2018,C022,Ischemic heart disease,Diabetes,Hypertension,,96
+INST010,2018,C023,Asthma,Obesity,,,35
+INST010,2018,C024,COPD,Diabetes,,,34
+INST010,2018,C025,Hyperlipidemia,Hypertension,,,77
+INST010,2019,C001,Diabetes,Hypertension,,,115
+INST010,2019,C002,Diabetes,Chronic kidney disease,,,63
+INST010,2019,C003,Hypertension,Ischemic heart disease,,,84
+INST010,2019,C004,Diabetes,Obesity,,,93
+INST010,2019,C005,Diabetes,Hypertension,Obesity,,128
+INST010,2019,C006,COPD,Hypertension,,,53
+INST010,2019,C007,Asthma,Allergic/atopic disease,,,42
+INST010,2019,C008,Heart failure,Chronic kidney disease,,,39
+INST010,2019,C009,Diabetes,Hyperlipidemia,Hypertension,,56
+INST010,2019,C010,Hypertension,Stroke,,,29
+INST010,2019,C011,Chronic liver disease,Type 2 diabetes mellitus,,,25
+INST010,2019,C012,Depression,Generalized anxiety disorder,,,38
+INST010,2019,C013,Osteoarthritis,Obesity,,,51
+INST010,2019,C014,Rheumatoid arthritis,Osteoporosis,,,28
+INST010,2019,C015,Pneumonia,Diabetes,,,81
+INST010,2019,C016,COVID-19,Diabetes,,,21
+INST010,2019,C017,COVID-19,Hypertension,,,33
+INST010,2019,C018,COVID-19,Diabetes,Hypertension,,21
+INST010,2019,C019,Tuberculosis,Diabetes,,,29
+INST010,2019,C020,Urinary tract infection,Diabetes,,,44
+INST010,2019,C021,Diabetes,Chronic kidney disease,Hypertension,,37
+INST010,2019,C022,Ischemic heart disease,Diabetes,Hypertension,,111
+INST010,2019,C023,Asthma,Obesity,,,51
+INST010,2019,C024,COPD,Diabetes,,,46
+INST010,2019,C025,Hyperlipidemia,Hypertension,,,75
+INST010,2020,C001,Diabetes,Hypertension,,,56
+INST010,2020,C002,Diabetes,Chronic kidney disease,,,40
+INST010,2020,C003,Hypertension,Ischemic heart disease,,,115
+INST010,2020,C004,Diabetes,Obesity,,,64
+INST010,2020,C005,Diabetes,Hypertension,Obesity,,120
+INST010,2020,C006,COPD,Hypertension,,,29
+INST010,2020,C007,Asthma,Allergic/atopic disease,,,34
+INST010,2020,C008,Heart failure,Chronic kidney disease,,,21
+INST010,2020,C009,Diabetes,Hyperlipidemia,Hypertension,,104
+INST010,2020,C010,Hypertension,Stroke,,,13
+INST010,2020,C011,Chronic liver disease,Type 2 diabetes mellitus,,,17
+INST010,2020,C012,Depression,Generalized anxiety disorder,,,29
+INST010,2020,C013,Osteoarthritis,Obesity,,,85
+INST010,2020,C014,Rheumatoid arthritis,Osteoporosis,,,29
+INST010,2020,C015,Pneumonia,Diabetes,,,100
+INST010,2020,C016,COVID-19,Diabetes,,,54
+INST010,2020,C017,COVID-19,Hypertension,,,210
+INST010,2020,C018,COVID-19,Diabetes,Hypertension,,56
+INST010,2020,C019,Tuberculosis,Diabetes,,,31
+INST010,2020,C020,Urinary tract infection,Diabetes,,,44
+INST010,2020,C021,Diabetes,Chronic kidney disease,Hypertension,,45
+INST010,2020,C022,Ischemic heart disease,Diabetes,Hypertension,,107
+INST010,2020,C023,Asthma,Obesity,,,77
+INST010,2020,C024,COPD,Diabetes,,,41
+INST010,2020,C025,Hyperlipidemia,Hypertension,,,114
+INST010,2021,C001,Diabetes,Hypertension,,,119
+INST010,2021,C002,Diabetes,Chronic kidney disease,,,49
+INST010,2021,C003,Hypertension,Ischemic heart disease,,,49
+INST010,2021,C004,Diabetes,Obesity,,,80
+INST010,2021,C005,Diabetes,Hypertension,Obesity,,86
+INST010,2021,C006,COPD,Hypertension,,,40
+INST010,2021,C007,Asthma,Allergic/atopic disease,,,21
+INST010,2021,C008,Heart failure,Chronic kidney disease,,,31
+INST010,2021,C009,Diabetes,Hyperlipidemia,Hypertension,,114
+INST010,2021,C010,Hypertension,Stroke,,,26
+INST010,2021,C011,Chronic liver disease,Type 2 diabetes mellitus,,,39
+INST010,2021,C012,Depression,Generalized anxiety disorder,,,81
+INST010,2021,C013,Osteoarthritis,Obesity,,,45
+INST010,2021,C014,Rheumatoid arthritis,Osteoporosis,,,25
+INST010,2021,C015,Pneumonia,Diabetes,,,106
+INST010,2021,C016,COVID-19,Diabetes,,,88
+INST010,2021,C017,COVID-19,Hypertension,,,137
+INST010,2021,C018,COVID-19,Diabetes,Hypertension,,125
+INST010,2021,C019,Tuberculosis,Diabetes,,,24
+INST010,2021,C020,Urinary tract infection,Diabetes,,,83
+INST010,2021,C021,Diabetes,Chronic kidney disease,Hypertension,,67
+INST010,2021,C022,Ischemic heart disease,Diabetes,Hypertension,,58
+INST010,2021,C023,Asthma,Obesity,,,41
+INST010,2021,C024,COPD,Diabetes,,,83
+INST010,2021,C025,Hyperlipidemia,Hypertension,,,122
+INST010,2022,C001,Diabetes,Hypertension,,,61
+INST010,2022,C002,Diabetes,Chronic kidney disease,,,77
+INST010,2022,C003,Hypertension,Ischemic heart disease,,,99
+INST010,2022,C004,Diabetes,Obesity,,,118
+INST010,2022,C005,Diabetes,Hypertension,Obesity,,152
+INST010,2022,C006,COPD,Hypertension,,,64
+INST010,2022,C007,Asthma,Allergic/atopic disease,,,28
+INST010,2022,C008,Heart failure,Chronic kidney disease,,,27
+INST010,2022,C009,Diabetes,Hyperlipidemia,Hypertension,,65
+INST010,2022,C010,Hypertension,Stroke,,,28
+INST010,2022,C011,Chronic liver disease,Type 2 diabetes mellitus,,,16
+INST010,2022,C012,Depression,Generalized anxiety disorder,,,89
+INST010,2022,C013,Osteoarthritis,Obesity,,,76
+INST010,2022,C014,Rheumatoid arthritis,Osteoporosis,,,35
+INST010,2022,C015,Pneumonia,Diabetes,,,42
+INST010,2022,C016,COVID-19,Diabetes,,,69
+INST010,2022,C017,COVID-19,Hypertension,,,211
+INST010,2022,C018,COVID-19,Diabetes,Hypertension,,89
+INST010,2022,C019,Tuberculosis,Diabetes,,,27
+INST010,2022,C020,Urinary tract infection,Diabetes,,,78
+INST010,2022,C021,Diabetes,Chronic kidney disease,Hypertension,,72
+INST010,2022,C022,Ischemic heart disease,Diabetes,Hypertension,,67
+INST010,2022,C023,Asthma,Obesity,,,96
+INST010,2022,C024,COPD,Diabetes,,,87
+INST010,2022,C025,Hyperlipidemia,Hypertension,,,97
+INST010,2023,C001,Diabetes,Hypertension,,,76
+INST010,2023,C002,Diabetes,Chronic kidney disease,,,56
+INST010,2023,C003,Hypertension,Ischemic heart disease,,,68
+INST010,2023,C004,Diabetes,Obesity,,,82
+INST010,2023,C005,Diabetes,Hypertension,Obesity,,66
+INST010,2023,C006,COPD,Hypertension,,,87
+INST010,2023,C007,Asthma,Allergic/atopic disease,,,18
+INST010,2023,C008,Heart failure,Chronic kidney disease,,,32
+INST010,2023,C009,Diabetes,Hyperlipidemia,Hypertension,,55
+INST010,2023,C010,Hypertension,Stroke,,,32
+INST010,2023,C011,Chronic liver disease,Type 2 diabetes mellitus,,,37
+INST010,2023,C012,Depression,Generalized anxiety disorder,,,72
+INST010,2023,C013,Osteoarthritis,Obesity,,,78
+INST010,2023,C014,Rheumatoid arthritis,Osteoporosis,,,18
+INST010,2023,C015,Pneumonia,Diabetes,,,67
+INST010,2023,C016,COVID-19,Diabetes,,,47
+INST010,2023,C017,COVID-19,Hypertension,,,53
+INST010,2023,C018,COVID-19,Diabetes,Hypertension,,31
+INST010,2023,C019,Tuberculosis,Diabetes,,,18
+INST010,2023,C020,Urinary tract infection,Diabetes,,,73
+INST010,2023,C021,Diabetes,Chronic kidney disease,Hypertension,,84
+INST010,2023,C022,Ischemic heart disease,Diabetes,Hypertension,,78
+INST010,2023,C023,Asthma,Obesity,,,76
+INST010,2023,C024,COPD,Diabetes,,,60
+INST010,2023,C025,Hyperlipidemia,Hypertension,,,69
+INST010,2024,C001,Diabetes,Hypertension,,,127
+INST010,2024,C002,Diabetes,Chronic kidney disease,,,98
+INST010,2024,C003,Hypertension,Ischemic heart disease,,,56
+INST010,2024,C004,Diabetes,Obesity,,,90
+INST010,2024,C005,Diabetes,Hypertension,Obesity,,112
+INST010,2024,C006,COPD,Hypertension,,,49
+INST010,2024,C007,Asthma,Allergic/atopic disease,,,35
+INST010,2024,C008,Heart failure,Chronic kidney disease,,,20
+INST010,2024,C009,Diabetes,Hyperlipidemia,Hypertension,,77
+INST010,2024,C010,Hypertension,Stroke,,,19
+INST010,2024,C011,Chronic liver disease,Type 2 diabetes mellitus,,,28
+INST010,2024,C012,Depression,Generalized anxiety disorder,,,33
+INST010,2024,C013,Osteoarthritis,Obesity,,,58
+INST010,2024,C014,Rheumatoid arthritis,Osteoporosis,,,34
+INST010,2024,C015,Pneumonia,Diabetes,,,92
+INST010,2024,C016,COVID-19,Diabetes,,,50
+INST010,2024,C017,COVID-19,Hypertension,,,56
+INST010,2024,C018,COVID-19,Diabetes,Hypertension,,62
+INST010,2024,C019,Tuberculosis,Diabetes,,,27
+INST010,2024,C020,Urinary tract infection,Diabetes,,,29
+INST010,2024,C021,Diabetes,Chronic kidney disease,Hypertension,,42
+INST010,2024,C022,Ischemic heart disease,Diabetes,Hypertension,,70
+INST010,2024,C023,Asthma,Obesity,,,81
+INST010,2024,C024,COPD,Diabetes,,,80
+INST010,2024,C025,Hyperlipidemia,Hypertension,,,131
+INST010,2025,C001,Diabetes,Hypertension,,,67
+INST010,2025,C002,Diabetes,Chronic kidney disease,,,31
+INST010,2025,C003,Hypertension,Ischemic heart disease,,,85
+INST010,2025,C004,Diabetes,Obesity,,,111
+INST010,2025,C005,Diabetes,Hypertension,Obesity,,141
+INST010,2025,C006,COPD,Hypertension,,,32
+INST010,2025,C007,Asthma,Allergic/atopic disease,,,46
+INST010,2025,C008,Heart failure,Chronic kidney disease,,,63
+INST010,2025,C009,Diabetes,Hyperlipidemia,Hypertension,,130
+INST010,2025,C010,Hypertension,Stroke,,,23
+INST010,2025,C011,Chronic liver disease,Type 2 diabetes mellitus,,,27
+INST010,2025,C012,Depression,Generalized anxiety disorder,,,79
+INST010,2025,C013,Osteoarthritis,Obesity,,,95
+INST010,2025,C014,Rheumatoid arthritis,Osteoporosis,,,17
+INST010,2025,C015,Pneumonia,Diabetes,,,120
+INST010,2025,C016,COVID-19,Diabetes,,,64
+INST010,2025,C017,COVID-19,Hypertension,,,49
+INST010,2025,C018,COVID-19,Diabetes,Hypertension,,50
+INST010,2025,C019,Tuberculosis,Diabetes,,,29
+INST010,2025,C020,Urinary tract infection,Diabetes,,,35
+INST010,2025,C021,Diabetes,Chronic kidney disease,Hypertension,,81
+INST010,2025,C022,Ischemic heart disease,Diabetes,Hypertension,,77
+INST010,2025,C023,Asthma,Obesity,,,74
+INST010,2025,C024,COPD,Diabetes,,,48
+INST010,2025,C025,Hyperlipidemia,Hypertension,,,85
+INST010,2026,C001,Diabetes,Hypertension,,,188
+INST010,2026,C002,Diabetes,Chronic kidney disease,,,47
+INST010,2026,C003,Hypertension,Ischemic heart disease,,,73
+INST010,2026,C004,Diabetes,Obesity,,,60
+INST010,2026,C005,Diabetes,Hypertension,Obesity,,65
+INST010,2026,C006,COPD,Hypertension,,,91
+INST010,2026,C007,Asthma,Allergic/atopic disease,,,54
+INST010,2026,C008,Heart failure,Chronic kidney disease,,,79
+INST010,2026,C009,Diabetes,Hyperlipidemia,Hypertension,,45
+INST010,2026,C010,Hypertension,Stroke,,,41
+INST010,2026,C011,Chronic liver disease,Type 2 diabetes mellitus,,,49
+INST010,2026,C012,Depression,Generalized anxiety disorder,,,59
+INST010,2026,C013,Osteoarthritis,Obesity,,,100
+INST010,2026,C014,Rheumatoid arthritis,Osteoporosis,,,27
+INST010,2026,C015,Pneumonia,Diabetes,,,82
+INST010,2026,C016,COVID-19,Diabetes,,,39
+INST010,2026,C017,COVID-19,Hypertension,,,42
+INST010,2026,C018,COVID-19,Diabetes,Hypertension,,58
+INST010,2026,C019,Tuberculosis,Diabetes,,,14
+INST010,2026,C020,Urinary tract infection,Diabetes,,,58
+INST010,2026,C021,Diabetes,Chronic kidney disease,Hypertension,,51
+INST010,2026,C022,Ischemic heart disease,Diabetes,Hypertension,,80
+INST010,2026,C023,Asthma,Obesity,,,133
+INST010,2026,C024,COPD,Diabetes,,,77
+INST010,2026,C025,Hyperlipidemia,Hypertension,,,114
+INST011,2015,C001,Diabetes,Hypertension,,,89
+INST011,2015,C002,Diabetes,Chronic kidney disease,,,52
+INST011,2015,C003,Hypertension,Ischemic heart disease,,,45
+INST011,2015,C004,Diabetes,Obesity,,,57
+INST011,2015,C005,Diabetes,Hypertension,Obesity,,54
+INST011,2015,C006,COPD,Hypertension,,,65
+INST011,2015,C007,Asthma,Allergic/atopic disease,,,35
+INST011,2015,C008,Heart failure,Chronic kidney disease,,,62
+INST011,2015,C009,Diabetes,Hyperlipidemia,Hypertension,,51
+INST011,2015,C010,Hypertension,Stroke,,,23
+INST011,2015,C011,Chronic liver disease,Type 2 diabetes mellitus,,,28
+INST011,2015,C012,Depression,Generalized anxiety disorder,,,75
+INST011,2015,C013,Osteoarthritis,Obesity,,,29
+INST011,2015,C014,Rheumatoid arthritis,Osteoporosis,,,20
+INST011,2015,C015,Pneumonia,Diabetes,,,36
+INST011,2015,C016,COVID-19,Diabetes,,,12
+INST011,2015,C017,COVID-19,Hypertension,,,16
+INST011,2015,C018,COVID-19,Diabetes,Hypertension,,24
+INST011,2015,C019,Tuberculosis,Diabetes,,,17
+INST011,2015,C020,Urinary tract infection,Diabetes,,,64
+INST011,2015,C021,Diabetes,Chronic kidney disease,Hypertension,,99
+INST011,2015,C022,Ischemic heart disease,Diabetes,Hypertension,,72
+INST011,2015,C023,Asthma,Obesity,,,86
+INST011,2015,C024,COPD,Diabetes,,,57
+INST011,2015,C025,Hyperlipidemia,Hypertension,,,45
+INST011,2016,C001,Diabetes,Hypertension,,,66
+INST011,2016,C002,Diabetes,Chronic kidney disease,,,84
+INST011,2016,C003,Hypertension,Ischemic heart disease,,,93
+INST011,2016,C004,Diabetes,Obesity,,,47
+INST011,2016,C005,Diabetes,Hypertension,Obesity,,139
+INST011,2016,C006,COPD,Hypertension,,,76
+INST011,2016,C007,Asthma,Allergic/atopic disease,,,27
+INST011,2016,C008,Heart failure,Chronic kidney disease,,,40
+INST011,2016,C009,Diabetes,Hyperlipidemia,Hypertension,,37
+INST011,2016,C010,Hypertension,Stroke,,,27
+INST011,2016,C011,Chronic liver disease,Type 2 diabetes mellitus,,,16
+INST011,2016,C012,Depression,Generalized anxiety disorder,,,38
+INST011,2016,C013,Osteoarthritis,Obesity,,,91
+INST011,2016,C014,Rheumatoid arthritis,Osteoporosis,,,22
+INST011,2016,C015,Pneumonia,Diabetes,,,100
+INST011,2016,C016,COVID-19,Diabetes,,,19
+INST011,2016,C017,COVID-19,Hypertension,,,25
+INST011,2016,C018,COVID-19,Diabetes,Hypertension,,14
+INST011,2016,C019,Tuberculosis,Diabetes,,,11
+INST011,2016,C020,Urinary tract infection,Diabetes,,,62
+INST011,2016,C021,Diabetes,Chronic kidney disease,Hypertension,,84
+INST011,2016,C022,Ischemic heart disease,Diabetes,Hypertension,,68
+INST011,2016,C023,Asthma,Obesity,,,46
+INST011,2016,C024,COPD,Diabetes,,,37
+INST011,2016,C025,Hyperlipidemia,Hypertension,,,113
+INST011,2017,C001,Diabetes,Hypertension,,,142
+INST011,2017,C002,Diabetes,Chronic kidney disease,,,65
+INST011,2017,C003,Hypertension,Ischemic heart disease,,,47
+INST011,2017,C004,Diabetes,Obesity,,,69
+INST011,2017,C005,Diabetes,Hypertension,Obesity,,44
+INST011,2017,C006,COPD,Hypertension,,,58
+INST011,2017,C007,Asthma,Allergic/atopic disease,,,32
+INST011,2017,C008,Heart failure,Chronic kidney disease,,,27
+INST011,2017,C009,Diabetes,Hyperlipidemia,Hypertension,,74
+INST011,2017,C010,Hypertension,Stroke,,,15
+INST011,2017,C011,Chronic liver disease,Type 2 diabetes mellitus,,,33
+INST011,2017,C012,Depression,Generalized anxiety disorder,,,55
+INST011,2017,C013,Osteoarthritis,Obesity,,,98
+INST011,2017,C014,Rheumatoid arthritis,Osteoporosis,,,29
+INST011,2017,C015,Pneumonia,Diabetes,,,55
+INST011,2017,C016,COVID-19,Diabetes,,,28
+INST011,2017,C017,COVID-19,Hypertension,,,17
+INST011,2017,C018,COVID-19,Diabetes,Hypertension,,28
+INST011,2017,C019,Tuberculosis,Diabetes,,,28
+INST011,2017,C020,Urinary tract infection,Diabetes,,,53
+INST011,2017,C021,Diabetes,Chronic kidney disease,Hypertension,,71
+INST011,2017,C022,Ischemic heart disease,Diabetes,Hypertension,,95
+INST011,2017,C023,Asthma,Obesity,,,72
+INST011,2017,C024,COPD,Diabetes,,,21
+INST011,2017,C025,Hyperlipidemia,Hypertension,,,85
+INST011,2018,C001,Diabetes,Hypertension,,,44
+INST011,2018,C002,Diabetes,Chronic kidney disease,,,37
+INST011,2018,C003,Hypertension,Ischemic heart disease,,,56
+INST011,2018,C004,Diabetes,Obesity,,,137
+INST011,2018,C005,Diabetes,Hypertension,Obesity,,109
+INST011,2018,C006,COPD,Hypertension,,,34
+INST011,2018,C007,Asthma,Allergic/atopic disease,,,14
+INST011,2018,C008,Heart failure,Chronic kidney disease,,,40
+INST011,2018,C009,Diabetes,Hyperlipidemia,Hypertension,,97
+INST011,2018,C010,Hypertension,Stroke,,,16
+INST011,2018,C011,Chronic liver disease,Type 2 diabetes mellitus,,,19
+INST011,2018,C012,Depression,Generalized anxiety disorder,,,75
+INST011,2018,C013,Osteoarthritis,Obesity,,,79
+INST011,2018,C014,Rheumatoid arthritis,Osteoporosis,,,35
+INST011,2018,C015,Pneumonia,Diabetes,,,82
+INST011,2018,C016,COVID-19,Diabetes,,,7
+INST011,2018,C017,COVID-19,Hypertension,,,8
+INST011,2018,C018,COVID-19,Diabetes,Hypertension,,16
+INST011,2018,C019,Tuberculosis,Diabetes,,,13
+INST011,2018,C020,Urinary tract infection,Diabetes,,,40
+INST011,2018,C021,Diabetes,Chronic kidney disease,Hypertension,,56
+INST011,2018,C022,Ischemic heart disease,Diabetes,Hypertension,,48
+INST011,2018,C023,Asthma,Obesity,,,60
+INST011,2018,C024,COPD,Diabetes,,,50
+INST011,2018,C025,Hyperlipidemia,Hypertension,,,89
+INST011,2019,C001,Diabetes,Hypertension,,,101
+INST011,2019,C002,Diabetes,Chronic kidney disease,,,71
+INST011,2019,C003,Hypertension,Ischemic heart disease,,,42
+INST011,2019,C004,Diabetes,Obesity,,,80
+INST011,2019,C005,Diabetes,Hypertension,Obesity,,73
+INST011,2019,C006,COPD,Hypertension,,,38
+INST011,2019,C007,Asthma,Allergic/atopic disease,,,30
+INST011,2019,C008,Heart failure,Chronic kidney disease,,,56
+INST011,2019,C009,Diabetes,Hyperlipidemia,Hypertension,,63
+INST011,2019,C010,Hypertension,Stroke,,,20
+INST011,2019,C011,Chronic liver disease,Type 2 diabetes mellitus,,,28
+INST011,2019,C012,Depression,Generalized anxiety disorder,,,28
+INST011,2019,C013,Osteoarthritis,Obesity,,,44
+INST011,2019,C014,Rheumatoid arthritis,Osteoporosis,,,28
+INST011,2019,C015,Pneumonia,Diabetes,,,94
+INST011,2019,C016,COVID-19,Diabetes,,,17
+INST011,2019,C017,COVID-19,Hypertension,,,33
+INST011,2019,C018,COVID-19,Diabetes,Hypertension,,18
+INST011,2019,C019,Tuberculosis,Diabetes,,,20
+INST011,2019,C020,Urinary tract infection,Diabetes,,,36
+INST011,2019,C021,Diabetes,Chronic kidney disease,Hypertension,,58
+INST011,2019,C022,Ischemic heart disease,Diabetes,Hypertension,,52
+INST011,2019,C023,Asthma,Obesity,,,36
+INST011,2019,C024,COPD,Diabetes,,,60
+INST011,2019,C025,Hyperlipidemia,Hypertension,,,88
+INST011,2020,C001,Diabetes,Hypertension,,,148
+INST011,2020,C002,Diabetes,Chronic kidney disease,,,52
+INST011,2020,C003,Hypertension,Ischemic heart disease,,,86
+INST011,2020,C004,Diabetes,Obesity,,,100
+INST011,2020,C005,Diabetes,Hypertension,Obesity,,92
+INST011,2020,C006,COPD,Hypertension,,,32
+INST011,2020,C007,Asthma,Allergic/atopic disease,,,23
+INST011,2020,C008,Heart failure,Chronic kidney disease,,,39
+INST011,2020,C009,Diabetes,Hyperlipidemia,Hypertension,,128
+INST011,2020,C010,Hypertension,Stroke,,,27
+INST011,2020,C011,Chronic liver disease,Type 2 diabetes mellitus,,,18
+INST011,2020,C012,Depression,Generalized anxiety disorder,,,85
+INST011,2020,C013,Osteoarthritis,Obesity,,,56
+INST011,2020,C014,Rheumatoid arthritis,Osteoporosis,,,20
+INST011,2020,C015,Pneumonia,Diabetes,,,78
+INST011,2020,C016,COVID-19,Diabetes,,,107
+INST011,2020,C017,COVID-19,Hypertension,,,159
+INST011,2020,C018,COVID-19,Diabetes,Hypertension,,166
+INST011,2020,C019,Tuberculosis,Diabetes,,,17
+INST011,2020,C020,Urinary tract infection,Diabetes,,,79
+INST011,2020,C021,Diabetes,Chronic kidney disease,Hypertension,,43
+INST011,2020,C022,Ischemic heart disease,Diabetes,Hypertension,,87
+INST011,2020,C023,Asthma,Obesity,,,49
+INST011,2020,C024,COPD,Diabetes,,,41
+INST011,2020,C025,Hyperlipidemia,Hypertension,,,97
+INST011,2021,C001,Diabetes,Hypertension,,,79
+INST011,2021,C002,Diabetes,Chronic kidney disease,,,47
+INST011,2021,C003,Hypertension,Ischemic heart disease,,,85
+INST011,2021,C004,Diabetes,Obesity,,,116
+INST011,2021,C005,Diabetes,Hypertension,Obesity,,88
+INST011,2021,C006,COPD,Hypertension,,,48
+INST011,2021,C007,Asthma,Allergic/atopic disease,,,36
+INST011,2021,C008,Heart failure,Chronic kidney disease,,,21
+INST011,2021,C009,Diabetes,Hyperlipidemia,Hypertension,,108
+INST011,2021,C010,Hypertension,Stroke,,,32
+INST011,2021,C011,Chronic liver disease,Type 2 diabetes mellitus,,,19
+INST011,2021,C012,Depression,Generalized anxiety disorder,,,83
+INST011,2021,C013,Osteoarthritis,Obesity,,,113
+INST011,2021,C014,Rheumatoid arthritis,Osteoporosis,,,28
+INST011,2021,C015,Pneumonia,Diabetes,,,96
+INST011,2021,C016,COVID-19,Diabetes,,,145
+INST011,2021,C017,COVID-19,Hypertension,,,193
+INST011,2021,C018,COVID-19,Diabetes,Hypertension,,105
+INST011,2021,C019,Tuberculosis,Diabetes,,,16
+INST011,2021,C020,Urinary tract infection,Diabetes,,,34
+INST011,2021,C021,Diabetes,Chronic kidney disease,Hypertension,,71
+INST011,2021,C022,Ischemic heart disease,Diabetes,Hypertension,,104
+INST011,2021,C023,Asthma,Obesity,,,51
+INST011,2021,C024,COPD,Diabetes,,,78
+INST011,2021,C025,Hyperlipidemia,Hypertension,,,126
+INST011,2022,C001,Diabetes,Hypertension,,,122
+INST011,2022,C002,Diabetes,Chronic kidney disease,,,38
+INST011,2022,C003,Hypertension,Ischemic heart disease,,,85
+INST011,2022,C004,Diabetes,Obesity,,,140
+INST011,2022,C005,Diabetes,Hypertension,Obesity,,46
+INST011,2022,C006,COPD,Hypertension,,,23
+INST011,2022,C007,Asthma,Allergic/atopic disease,,,42
+INST011,2022,C008,Heart failure,Chronic kidney disease,,,24
+INST011,2022,C009,Diabetes,Hyperlipidemia,Hypertension,,92
+INST011,2022,C010,Hypertension,Stroke,,,24
+INST011,2022,C011,Chronic liver disease,Type 2 diabetes mellitus,,,20
+INST011,2022,C012,Depression,Generalized anxiety disorder,,,42
+INST011,2022,C013,Osteoarthritis,Obesity,,,44
+INST011,2022,C014,Rheumatoid arthritis,Osteoporosis,,,38
+INST011,2022,C015,Pneumonia,Diabetes,,,56
+INST011,2022,C016,COVID-19,Diabetes,,,112
+INST011,2022,C017,COVID-19,Hypertension,,,110
+INST011,2022,C018,COVID-19,Diabetes,Hypertension,,196
+INST011,2022,C019,Tuberculosis,Diabetes,,,25
+INST011,2022,C020,Urinary tract infection,Diabetes,,,39
+INST011,2022,C021,Diabetes,Chronic kidney disease,Hypertension,,69
+INST011,2022,C022,Ischemic heart disease,Diabetes,Hypertension,,50
+INST011,2022,C023,Asthma,Obesity,,,32
+INST011,2022,C024,COPD,Diabetes,,,26
+INST011,2022,C025,Hyperlipidemia,Hypertension,,,128
+INST011,2023,C001,Diabetes,Hypertension,,,137
+INST011,2023,C002,Diabetes,Chronic kidney disease,,,57
+INST011,2023,C003,Hypertension,Ischemic heart disease,,,40
+INST011,2023,C004,Diabetes,Obesity,,,127
+INST011,2023,C005,Diabetes,Hypertension,Obesity,,104
+INST011,2023,C006,COPD,Hypertension,,,36
+INST011,2023,C007,Asthma,Allergic/atopic disease,,,32
+INST011,2023,C008,Heart failure,Chronic kidney disease,,,60
+INST011,2023,C009,Diabetes,Hyperlipidemia,Hypertension,,66
+INST011,2023,C010,Hypertension,Stroke,,,20
+INST011,2023,C011,Chronic liver disease,Type 2 diabetes mellitus,,,24
+INST011,2023,C012,Depression,Generalized anxiety disorder,,,44
+INST011,2023,C013,Osteoarthritis,Obesity,,,81
+INST011,2023,C014,Rheumatoid arthritis,Osteoporosis,,,12
+INST011,2023,C015,Pneumonia,Diabetes,,,59
+INST011,2023,C016,COVID-19,Diabetes,,,22
+INST011,2023,C017,COVID-19,Hypertension,,,25
+INST011,2023,C018,COVID-19,Diabetes,Hypertension,,39
+INST011,2023,C019,Tuberculosis,Diabetes,,,24
+INST011,2023,C020,Urinary tract infection,Diabetes,,,36
+INST011,2023,C021,Diabetes,Chronic kidney disease,Hypertension,,35
+INST011,2023,C022,Ischemic heart disease,Diabetes,Hypertension,,128
+INST011,2023,C023,Asthma,Obesity,,,80
+INST011,2023,C024,COPD,Diabetes,,,57
+INST011,2023,C025,Hyperlipidemia,Hypertension,,,144
+INST011,2024,C001,Diabetes,Hypertension,,,124
+INST011,2024,C002,Diabetes,Chronic kidney disease,,,43
+INST011,2024,C003,Hypertension,Ischemic heart disease,,,43
+INST011,2024,C004,Diabetes,Obesity,,,82
+INST011,2024,C005,Diabetes,Hypertension,Obesity,,72
+INST011,2024,C006,COPD,Hypertension,,,41
+INST011,2024,C007,Asthma,Allergic/atopic disease,,,31
+INST011,2024,C008,Heart failure,Chronic kidney disease,,,26
+INST011,2024,C009,Diabetes,Hyperlipidemia,Hypertension,,53
+INST011,2024,C010,Hypertension,Stroke,,,39
+INST011,2024,C011,Chronic liver disease,Type 2 diabetes mellitus,,,35
+INST011,2024,C012,Depression,Generalized anxiety disorder,,,40
+INST011,2024,C013,Osteoarthritis,Obesity,,,63
+INST011,2024,C014,Rheumatoid arthritis,Osteoporosis,,,27
+INST011,2024,C015,Pneumonia,Diabetes,,,99
+INST011,2024,C016,COVID-19,Diabetes,,,27
+INST011,2024,C017,COVID-19,Hypertension,,,44
+INST011,2024,C018,COVID-19,Diabetes,Hypertension,,50
+INST011,2024,C019,Tuberculosis,Diabetes,,,13
+INST011,2024,C020,Urinary tract infection,Diabetes,,,45
+INST011,2024,C021,Diabetes,Chronic kidney disease,Hypertension,,83
+INST011,2024,C022,Ischemic heart disease,Diabetes,Hypertension,,90
+INST011,2024,C023,Asthma,Obesity,,,39
+INST011,2024,C024,COPD,Diabetes,,,29
+INST011,2024,C025,Hyperlipidemia,Hypertension,,,85
+INST011,2025,C001,Diabetes,Hypertension,,,118
+INST011,2025,C002,Diabetes,Chronic kidney disease,,,99
+INST011,2025,C003,Hypertension,Ischemic heart disease,,,74
+INST011,2025,C004,Diabetes,Obesity,,,65
+INST011,2025,C005,Diabetes,Hypertension,Obesity,,118
+INST011,2025,C006,COPD,Hypertension,,,34
+INST011,2025,C007,Asthma,Allergic/atopic disease,,,24
+INST011,2025,C008,Heart failure,Chronic kidney disease,,,38
+INST011,2025,C009,Diabetes,Hyperlipidemia,Hypertension,,68
+INST011,2025,C010,Hypertension,Stroke,,,18
+INST011,2025,C011,Chronic liver disease,Type 2 diabetes mellitus,,,40
+INST011,2025,C012,Depression,Generalized anxiety disorder,,,58
+INST011,2025,C013,Osteoarthritis,Obesity,,,39
+INST011,2025,C014,Rheumatoid arthritis,Osteoporosis,,,28
+INST011,2025,C015,Pneumonia,Diabetes,,,93
+INST011,2025,C016,COVID-19,Diabetes,,,64
+INST011,2025,C017,COVID-19,Hypertension,,,51
+INST011,2025,C018,COVID-19,Diabetes,Hypertension,,38
+INST011,2025,C019,Tuberculosis,Diabetes,,,33
+INST011,2025,C020,Urinary tract infection,Diabetes,,,54
+INST011,2025,C021,Diabetes,Chronic kidney disease,Hypertension,,97
+INST011,2025,C022,Ischemic heart disease,Diabetes,Hypertension,,70
+INST011,2025,C023,Asthma,Obesity,,,96
+INST011,2025,C024,COPD,Diabetes,,,71
+INST011,2025,C025,Hyperlipidemia,Hypertension,,,60
+INST011,2026,C001,Diabetes,Hypertension,,,73
+INST011,2026,C002,Diabetes,Chronic kidney disease,,,70
+INST011,2026,C003,Hypertension,Ischemic heart disease,,,59
+INST011,2026,C004,Diabetes,Obesity,,,131
+INST011,2026,C005,Diabetes,Hypertension,Obesity,,65
+INST011,2026,C006,COPD,Hypertension,,,77
+INST011,2026,C007,Asthma,Allergic/atopic disease,,,21
+INST011,2026,C008,Heart failure,Chronic kidney disease,,,33
+INST011,2026,C009,Diabetes,Hyperlipidemia,Hypertension,,147
+INST011,2026,C010,Hypertension,Stroke,,,14
+INST011,2026,C011,Chronic liver disease,Type 2 diabetes mellitus,,,27
+INST011,2026,C012,Depression,Generalized anxiety disorder,,,37
+INST011,2026,C013,Osteoarthritis,Obesity,,,100
+INST011,2026,C014,Rheumatoid arthritis,Osteoporosis,,,22
+INST011,2026,C015,Pneumonia,Diabetes,,,107
+INST011,2026,C016,COVID-19,Diabetes,,,37
+INST011,2026,C017,COVID-19,Hypertension,,,31
+INST011,2026,C018,COVID-19,Diabetes,Hypertension,,27
+INST011,2026,C019,Tuberculosis,Diabetes,,,22
+INST011,2026,C020,Urinary tract infection,Diabetes,,,52
+INST011,2026,C021,Diabetes,Chronic kidney disease,Hypertension,,85
+INST011,2026,C022,Ischemic heart disease,Diabetes,Hypertension,,82
+INST011,2026,C023,Asthma,Obesity,,,83
+INST011,2026,C024,COPD,Diabetes,,,68
+INST011,2026,C025,Hyperlipidemia,Hypertension,,,84
+INST012,2015,C001,Diabetes,Hypertension,,,117
+INST012,2015,C002,Diabetes,Chronic kidney disease,,,25
+INST012,2015,C003,Hypertension,Ischemic heart disease,,,72
+INST012,2015,C004,Diabetes,Obesity,,,54
+INST012,2015,C005,Diabetes,Hypertension,Obesity,,90
+INST012,2015,C006,COPD,Hypertension,,,49
+INST012,2015,C007,Asthma,Allergic/atopic disease,,,27
+INST012,2015,C008,Heart failure,Chronic kidney disease,,,26
+INST012,2015,C009,Diabetes,Hyperlipidemia,Hypertension,,76
+INST012,2015,C010,Hypertension,Stroke,,,36
+INST012,2015,C011,Chronic liver disease,Type 2 diabetes mellitus,,,35
+INST012,2015,C012,Depression,Generalized anxiety disorder,,,62
+INST012,2015,C013,Osteoarthritis,Obesity,,,78
+INST012,2015,C014,Rheumatoid arthritis,Osteoporosis,,,12
+INST012,2015,C015,Pneumonia,Diabetes,,,59
+INST012,2015,C016,COVID-19,Diabetes,,,25
+INST012,2015,C017,COVID-19,Hypertension,,,8
+INST012,2015,C018,COVID-19,Diabetes,Hypertension,,16
+INST012,2015,C019,Tuberculosis,Diabetes,,,12
+INST012,2015,C020,Urinary tract infection,Diabetes,,,28
+INST012,2015,C021,Diabetes,Chronic kidney disease,Hypertension,,63
+INST012,2015,C022,Ischemic heart disease,Diabetes,Hypertension,,55
+INST012,2015,C023,Asthma,Obesity,,,36
+INST012,2015,C024,COPD,Diabetes,,,49
+INST012,2015,C025,Hyperlipidemia,Hypertension,,,83
+INST012,2016,C001,Diabetes,Hypertension,,,86
+INST012,2016,C002,Diabetes,Chronic kidney disease,,,27
+INST012,2016,C003,Hypertension,Ischemic heart disease,,,60
+INST012,2016,C004,Diabetes,Obesity,,,46
+INST012,2016,C005,Diabetes,Hypertension,Obesity,,62
+INST012,2016,C006,COPD,Hypertension,,,46
+INST012,2016,C007,Asthma,Allergic/atopic disease,,,14
+INST012,2016,C008,Heart failure,Chronic kidney disease,,,32
+INST012,2016,C009,Diabetes,Hyperlipidemia,Hypertension,,105
+INST012,2016,C010,Hypertension,Stroke,,,17
+INST012,2016,C011,Chronic liver disease,Type 2 diabetes mellitus,,,38
+INST012,2016,C012,Depression,Generalized anxiety disorder,,,77
+INST012,2016,C013,Osteoarthritis,Obesity,,,71
+INST012,2016,C014,Rheumatoid arthritis,Osteoporosis,,,20
+INST012,2016,C015,Pneumonia,Diabetes,,,78
+INST012,2016,C016,COVID-19,Diabetes,,,13
+INST012,2016,C017,COVID-19,Hypertension,,,10
+INST012,2016,C018,COVID-19,Diabetes,Hypertension,,15
+INST012,2016,C019,Tuberculosis,Diabetes,,,26
+INST012,2016,C020,Urinary tract infection,Diabetes,,,33
+INST012,2016,C021,Diabetes,Chronic kidney disease,Hypertension,,32
+INST012,2016,C022,Ischemic heart disease,Diabetes,Hypertension,,77
+INST012,2016,C023,Asthma,Obesity,,,51
+INST012,2016,C024,COPD,Diabetes,,,32
+INST012,2016,C025,Hyperlipidemia,Hypertension,,,40
+INST012,2017,C001,Diabetes,Hypertension,,,122
+INST012,2017,C002,Diabetes,Chronic kidney disease,,,55
+INST012,2017,C003,Hypertension,Ischemic heart disease,,,86
+INST012,2017,C004,Diabetes,Obesity,,,75
+INST012,2017,C005,Diabetes,Hypertension,Obesity,,119
+INST012,2017,C006,COPD,Hypertension,,,45
+INST012,2017,C007,Asthma,Allergic/atopic disease,,,18
+INST012,2017,C008,Heart failure,Chronic kidney disease,,,50
+INST012,2017,C009,Diabetes,Hyperlipidemia,Hypertension,,111
+INST012,2017,C010,Hypertension,Stroke,,,28
+INST012,2017,C011,Chronic liver disease,Type 2 diabetes mellitus,,,24
+INST012,2017,C012,Depression,Generalized anxiety disorder,,,37
+INST012,2017,C013,Osteoarthritis,Obesity,,,83
+INST012,2017,C014,Rheumatoid arthritis,Osteoporosis,,,37
+INST012,2017,C015,Pneumonia,Diabetes,,,35
+INST012,2017,C016,COVID-19,Diabetes,,,26
+INST012,2017,C017,COVID-19,Hypertension,,,12
+INST012,2017,C018,COVID-19,Diabetes,Hypertension,,12
+INST012,2017,C019,Tuberculosis,Diabetes,,,32
+INST012,2017,C020,Urinary tract infection,Diabetes,,,49
+INST012,2017,C021,Diabetes,Chronic kidney disease,Hypertension,,73
+INST012,2017,C022,Ischemic heart disease,Diabetes,Hypertension,,34
+INST012,2017,C023,Asthma,Obesity,,,51
+INST012,2017,C024,COPD,Diabetes,,,38
+INST012,2017,C025,Hyperlipidemia,Hypertension,,,93
+INST012,2018,C001,Diabetes,Hypertension,,,85
+INST012,2018,C002,Diabetes,Chronic kidney disease,,,60
+INST012,2018,C003,Hypertension,Ischemic heart disease,,,42
+INST012,2018,C004,Diabetes,Obesity,,,78
+INST012,2018,C005,Diabetes,Hypertension,Obesity,,63
+INST012,2018,C006,COPD,Hypertension,,,38
+INST012,2018,C007,Asthma,Allergic/atopic disease,,,29
+INST012,2018,C008,Heart failure,Chronic kidney disease,,,24
+INST012,2018,C009,Diabetes,Hyperlipidemia,Hypertension,,65
+INST012,2018,C010,Hypertension,Stroke,,,23
+INST012,2018,C011,Chronic liver disease,Type 2 diabetes mellitus,,,43
+INST012,2018,C012,Depression,Generalized anxiety disorder,,,88
+INST012,2018,C013,Osteoarthritis,Obesity,,,80
+INST012,2018,C014,Rheumatoid arthritis,Osteoporosis,,,31
+INST012,2018,C015,Pneumonia,Diabetes,,,87
+INST012,2018,C016,COVID-19,Diabetes,,,22
+INST012,2018,C017,COVID-19,Hypertension,,,25
+INST012,2018,C018,COVID-19,Diabetes,Hypertension,,19
+INST012,2018,C019,Tuberculosis,Diabetes,,,21
+INST012,2018,C020,Urinary tract infection,Diabetes,,,63
+INST012,2018,C021,Diabetes,Chronic kidney disease,Hypertension,,73
+INST012,2018,C022,Ischemic heart disease,Diabetes,Hypertension,,77
+INST012,2018,C023,Asthma,Obesity,,,61
+INST012,2018,C024,COPD,Diabetes,,,37
+INST012,2018,C025,Hyperlipidemia,Hypertension,,,30
+INST012,2019,C001,Diabetes,Hypertension,,,109
+INST012,2019,C002,Diabetes,Chronic kidney disease,,,59
+INST012,2019,C003,Hypertension,Ischemic heart disease,,,81
+INST012,2019,C004,Diabetes,Obesity,,,122
+INST012,2019,C005,Diabetes,Hypertension,Obesity,,67
+INST012,2019,C006,COPD,Hypertension,,,41
+INST012,2019,C007,Asthma,Allergic/atopic disease,,,47
+INST012,2019,C008,Heart failure,Chronic kidney disease,,,48
+INST012,2019,C009,Diabetes,Hyperlipidemia,Hypertension,,71
+INST012,2019,C010,Hypertension,Stroke,,,13
+INST012,2019,C011,Chronic liver disease,Type 2 diabetes mellitus,,,35
+INST012,2019,C012,Depression,Generalized anxiety disorder,,,22
+INST012,2019,C013,Osteoarthritis,Obesity,,,64
+INST012,2019,C014,Rheumatoid arthritis,Osteoporosis,,,21
+INST012,2019,C015,Pneumonia,Diabetes,,,31
+INST012,2019,C016,COVID-19,Diabetes,,,16
+INST012,2019,C017,COVID-19,Hypertension,,,11
+INST012,2019,C018,COVID-19,Diabetes,Hypertension,,17
+INST012,2019,C019,Tuberculosis,Diabetes,,,12
+INST012,2019,C020,Urinary tract infection,Diabetes,,,89
+INST012,2019,C021,Diabetes,Chronic kidney disease,Hypertension,,68
+INST012,2019,C022,Ischemic heart disease,Diabetes,Hypertension,,33
+INST012,2019,C023,Asthma,Obesity,,,43
+INST012,2019,C024,COPD,Diabetes,,,37
+INST012,2019,C025,Hyperlipidemia,Hypertension,,,41
+INST012,2020,C001,Diabetes,Hypertension,,,142
+INST012,2020,C002,Diabetes,Chronic kidney disease,,,33
+INST012,2020,C003,Hypertension,Ischemic heart disease,,,89
+INST012,2020,C004,Diabetes,Obesity,,,133
+INST012,2020,C005,Diabetes,Hypertension,Obesity,,119
+INST012,2020,C006,COPD,Hypertension,,,70
+INST012,2020,C007,Asthma,Allergic/atopic disease,,,37
+INST012,2020,C008,Heart failure,Chronic kidney disease,,,52
+INST012,2020,C009,Diabetes,Hyperlipidemia,Hypertension,,94
+INST012,2020,C010,Hypertension,Stroke,,,18
+INST012,2020,C011,Chronic liver disease,Type 2 diabetes mellitus,,,35
+INST012,2020,C012,Depression,Generalized anxiety disorder,,,74
+INST012,2020,C013,Osteoarthritis,Obesity,,,80
+INST012,2020,C014,Rheumatoid arthritis,Osteoporosis,,,30
+INST012,2020,C015,Pneumonia,Diabetes,,,40
+INST012,2020,C016,COVID-19,Diabetes,,,57
+INST012,2020,C017,COVID-19,Hypertension,,,194
+INST012,2020,C018,COVID-19,Diabetes,Hypertension,,73
+INST012,2020,C019,Tuberculosis,Diabetes,,,21
+INST012,2020,C020,Urinary tract infection,Diabetes,,,71
+INST012,2020,C021,Diabetes,Chronic kidney disease,Hypertension,,27
+INST012,2020,C022,Ischemic heart disease,Diabetes,Hypertension,,72
+INST012,2020,C023,Asthma,Obesity,,,70
+INST012,2020,C024,COPD,Diabetes,,,26
+INST012,2020,C025,Hyperlipidemia,Hypertension,,,95
+INST012,2021,C001,Diabetes,Hypertension,,,65
+INST012,2021,C002,Diabetes,Chronic kidney disease,,,30
+INST012,2021,C003,Hypertension,Ischemic heart disease,,,88
+INST012,2021,C004,Diabetes,Obesity,,,151
+INST012,2021,C005,Diabetes,Hypertension,Obesity,,66
+INST012,2021,C006,COPD,Hypertension,,,54
+INST012,2021,C007,Asthma,Allergic/atopic disease,,,13
+INST012,2021,C008,Heart failure,Chronic kidney disease,,,46
+INST012,2021,C009,Diabetes,Hyperlipidemia,Hypertension,,114
+INST012,2021,C010,Hypertension,Stroke,,,17
+INST012,2021,C011,Chronic liver disease,Type 2 diabetes mellitus,,,39
+INST012,2021,C012,Depression,Generalized anxiety disorder,,,92
+INST012,2021,C013,Osteoarthritis,Obesity,,,73
+INST012,2021,C014,Rheumatoid arthritis,Osteoporosis,,,35
+INST012,2021,C015,Pneumonia,Diabetes,,,65
+INST012,2021,C016,COVID-19,Diabetes,,,203
+INST012,2021,C017,COVID-19,Hypertension,,,111
+INST012,2021,C018,COVID-19,Diabetes,Hypertension,,170
+INST012,2021,C019,Tuberculosis,Diabetes,,,29
+INST012,2021,C020,Urinary tract infection,Diabetes,,,31
+INST012,2021,C021,Diabetes,Chronic kidney disease,Hypertension,,73
+INST012,2021,C022,Ischemic heart disease,Diabetes,Hypertension,,84
+INST012,2021,C023,Asthma,Obesity,,,90
+INST012,2021,C024,COPD,Diabetes,,,26
+INST012,2021,C025,Hyperlipidemia,Hypertension,,,77
+INST012,2022,C001,Diabetes,Hypertension,,,75
+INST012,2022,C002,Diabetes,Chronic kidney disease,,,36
+INST012,2022,C003,Hypertension,Ischemic heart disease,,,57
+INST012,2022,C004,Diabetes,Obesity,,,54
+INST012,2022,C005,Diabetes,Hypertension,Obesity,,108
+INST012,2022,C006,COPD,Hypertension,,,69
+INST012,2022,C007,Asthma,Allergic/atopic disease,,,10
+INST012,2022,C008,Heart failure,Chronic kidney disease,,,30
+INST012,2022,C009,Diabetes,Hyperlipidemia,Hypertension,,65
+INST012,2022,C010,Hypertension,Stroke,,,17
+INST012,2022,C011,Chronic liver disease,Type 2 diabetes mellitus,,,36
+INST012,2022,C012,Depression,Generalized anxiety disorder,,,66
+INST012,2022,C013,Osteoarthritis,Obesity,,,59
+INST012,2022,C014,Rheumatoid arthritis,Osteoporosis,,,18
+INST012,2022,C015,Pneumonia,Diabetes,,,49
+INST012,2022,C016,COVID-19,Diabetes,,,55
+INST012,2022,C017,COVID-19,Hypertension,,,215
+INST012,2022,C018,COVID-19,Diabetes,Hypertension,,65
+INST012,2022,C019,Tuberculosis,Diabetes,,,18
+INST012,2022,C020,Urinary tract infection,Diabetes,,,69
+INST012,2022,C021,Diabetes,Chronic kidney disease,Hypertension,,70
+INST012,2022,C022,Ischemic heart disease,Diabetes,Hypertension,,74
+INST012,2022,C023,Asthma,Obesity,,,38
+INST012,2022,C024,COPD,Diabetes,,,43
+INST012,2022,C025,Hyperlipidemia,Hypertension,,,42
+INST012,2023,C001,Diabetes,Hypertension,,,171
+INST012,2023,C002,Diabetes,Chronic kidney disease,,,47
+INST012,2023,C003,Hypertension,Ischemic heart disease,,,91
+INST012,2023,C004,Diabetes,Obesity,,,127
+INST012,2023,C005,Diabetes,Hypertension,Obesity,,158
+INST012,2023,C006,COPD,Hypertension,,,29
+INST012,2023,C007,Asthma,Allergic/atopic disease,,,32
+INST012,2023,C008,Heart failure,Chronic kidney disease,,,27
+INST012,2023,C009,Diabetes,Hyperlipidemia,Hypertension,,41
+INST012,2023,C010,Hypertension,Stroke,,,22
+INST012,2023,C011,Chronic liver disease,Type 2 diabetes mellitus,,,21
+INST012,2023,C012,Depression,Generalized anxiety disorder,,,37
+INST012,2023,C013,Osteoarthritis,Obesity,,,64
+INST012,2023,C014,Rheumatoid arthritis,Osteoporosis,,,16
+INST012,2023,C015,Pneumonia,Diabetes,,,51
+INST012,2023,C016,COVID-19,Diabetes,,,43
+INST012,2023,C017,COVID-19,Hypertension,,,19
+INST012,2023,C018,COVID-19,Diabetes,Hypertension,,23
+INST012,2023,C019,Tuberculosis,Diabetes,,,24
+INST012,2023,C020,Urinary tract infection,Diabetes,,,45
+INST012,2023,C021,Diabetes,Chronic kidney disease,Hypertension,,64
+INST012,2023,C022,Ischemic heart disease,Diabetes,Hypertension,,72
+INST012,2023,C023,Asthma,Obesity,,,57
+INST012,2023,C024,COPD,Diabetes,,,51
+INST012,2023,C025,Hyperlipidemia,Hypertension,,,75
+INST012,2024,C001,Diabetes,Hypertension,,,151
+INST012,2024,C002,Diabetes,Chronic kidney disease,,,82
+INST012,2024,C003,Hypertension,Ischemic heart disease,,,36
+INST012,2024,C004,Diabetes,Obesity,,,122
+INST012,2024,C005,Diabetes,Hypertension,Obesity,,78
+INST012,2024,C006,COPD,Hypertension,,,48
+INST012,2024,C007,Asthma,Allergic/atopic disease,,,15
+INST012,2024,C008,Heart failure,Chronic kidney disease,,,42
+INST012,2024,C009,Diabetes,Hyperlipidemia,Hypertension,,75
+INST012,2024,C010,Hypertension,Stroke,,,32
+INST012,2024,C011,Chronic liver disease,Type 2 diabetes mellitus,,,48
+INST012,2024,C012,Depression,Generalized anxiety disorder,,,45
+INST012,2024,C013,Osteoarthritis,Obesity,,,86
+INST012,2024,C014,Rheumatoid arthritis,Osteoporosis,,,27
+INST012,2024,C015,Pneumonia,Diabetes,,,103
+INST012,2024,C016,COVID-19,Diabetes,,,58
+INST012,2024,C017,COVID-19,Hypertension,,,24
+INST012,2024,C018,COVID-19,Diabetes,Hypertension,,57
+INST012,2024,C019,Tuberculosis,Diabetes,,,13
+INST012,2024,C020,Urinary tract infection,Diabetes,,,61
+INST012,2024,C021,Diabetes,Chronic kidney disease,Hypertension,,29
+INST012,2024,C022,Ischemic heart disease,Diabetes,Hypertension,,42
+INST012,2024,C023,Asthma,Obesity,,,90
+INST012,2024,C024,COPD,Diabetes,,,30
+INST012,2024,C025,Hyperlipidemia,Hypertension,,,55
+INST012,2025,C001,Diabetes,Hypertension,,,143
+INST012,2025,C002,Diabetes,Chronic kidney disease,,,52
+INST012,2025,C003,Hypertension,Ischemic heart disease,,,57
+INST012,2025,C004,Diabetes,Obesity,,,86
+INST012,2025,C005,Diabetes,Hypertension,Obesity,,38
+INST012,2025,C006,COPD,Hypertension,,,57
+INST012,2025,C007,Asthma,Allergic/atopic disease,,,31
+INST012,2025,C008,Heart failure,Chronic kidney disease,,,47
+INST012,2025,C009,Diabetes,Hyperlipidemia,Hypertension,,32
+INST012,2025,C010,Hypertension,Stroke,,,21
+INST012,2025,C011,Chronic liver disease,Type 2 diabetes mellitus,,,28
+INST012,2025,C012,Depression,Generalized anxiety disorder,,,64
+INST012,2025,C013,Osteoarthritis,Obesity,,,34
+INST012,2025,C014,Rheumatoid arthritis,Osteoporosis,,,36
+INST012,2025,C015,Pneumonia,Diabetes,,,70
+INST012,2025,C016,COVID-19,Diabetes,,,43
+INST012,2025,C017,COVID-19,Hypertension,,,29
+INST012,2025,C018,COVID-19,Diabetes,Hypertension,,21
+INST012,2025,C019,Tuberculosis,Diabetes,,,30
+INST012,2025,C020,Urinary tract infection,Diabetes,,,54
+INST012,2025,C021,Diabetes,Chronic kidney disease,Hypertension,,65
+INST012,2025,C022,Ischemic heart disease,Diabetes,Hypertension,,61
+INST012,2025,C023,Asthma,Obesity,,,65
+INST012,2025,C024,COPD,Diabetes,,,64
+INST012,2025,C025,Hyperlipidemia,Hypertension,,,51
+INST012,2026,C001,Diabetes,Hypertension,,,114
+INST012,2026,C002,Diabetes,Chronic kidney disease,,,47
+INST012,2026,C003,Hypertension,Ischemic heart disease,,,112
+INST012,2026,C004,Diabetes,Obesity,,,69
+INST012,2026,C005,Diabetes,Hypertension,Obesity,,134
+INST012,2026,C006,COPD,Hypertension,,,66
+INST012,2026,C007,Asthma,Allergic/atopic disease,,,31
+INST012,2026,C008,Heart failure,Chronic kidney disease,,,57
+INST012,2026,C009,Diabetes,Hyperlipidemia,Hypertension,,84
+INST012,2026,C010,Hypertension,Stroke,,,23
+INST012,2026,C011,Chronic liver disease,Type 2 diabetes mellitus,,,39
+INST012,2026,C012,Depression,Generalized anxiety disorder,,,87
+INST012,2026,C013,Osteoarthritis,Obesity,,,54
+INST012,2026,C014,Rheumatoid arthritis,Osteoporosis,,,11
+INST012,2026,C015,Pneumonia,Diabetes,,,72
+INST012,2026,C016,COVID-19,Diabetes,,,57
+INST012,2026,C017,COVID-19,Hypertension,,,55
+INST012,2026,C018,COVID-19,Diabetes,Hypertension,,59
+INST012,2026,C019,Tuberculosis,Diabetes,,,31
+INST012,2026,C020,Urinary tract infection,Diabetes,,,37
+INST012,2026,C021,Diabetes,Chronic kidney disease,Hypertension,,87
+INST012,2026,C022,Ischemic heart disease,Diabetes,Hypertension,,119
+INST012,2026,C023,Asthma,Obesity,,,34
+INST012,2026,C024,COPD,Diabetes,,,38
+INST012,2026,C025,Hyperlipidemia,Hypertension,,,126

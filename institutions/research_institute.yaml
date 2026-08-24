@@ -1,0 +1,13 @@
+institution: research_institute
+name: Research Institute
+privacy:
+  minimum_cohort: 15
+  differential_privacy: true
+  epsilon: 0.5
+allowed_roles:
+  - researcher
+  - admin
+allowed_query_types:
+  - aggregate_count
+canonical_model_version: "1.0"
+schema_version: "1.0"

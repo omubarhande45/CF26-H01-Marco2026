@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>FCQF — All screens</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root { --bg:#F6F8FB; --s:#fff; --p:#2563EB; --t:#172033; --m:#667085; --b:#E4E7EC; --ok:#16A34A; --okb:#ECFDF3; --w:#D97706; --wb:#FFFAEB; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:Inter,system-ui,sans-serif; background:var(--bg); color:var(--t); }
+    .wrap { max-width:1100px; margin:0 auto; padding:32px 20px 80px; }
+    h1 { font-size:28px; margin:0 0 6px; }
+    .lead { color:var(--m); margin-bottom:28px; }
+    .screen { background:var(--s); border:1px solid var(--b); border-radius:14px; margin:28px 0; overflow:hidden; box-shadow:0 4px 12px rgba(16,24,40,.06); }
+    .bar { background:#0F172A; color:#fff; font-size:12px; padding:8px 14px; display:flex; justify-content:space-between; }
+    .inner { display:flex; min-height:320px; }
+    .side { width:200px; border-right:1px solid var(--b); padding:16px; font-size:12px; background:#fff; }
+    .side .logo { font-weight:700; margin-bottom:12px; }
+    .side a { display:block; padding:5px 8px; border-radius:6px; color:#344054; text-decoration:none; }
+    .side a.on { background:#EFF6FF; color:var(--p); font-weight:600; }
+    .g { font-size:10px; color:#98A2B3; letter-spacing:.1em; margin:10px 0 4px; }
+    .main { flex:1; padding:20px; }
+    .kpis { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; }
+    .kpi { border:1px solid var(--b); border-radius:12px; padding:12px; }
+    .kpi b { display:block; font-size:22px; }
+    .kpi span { font-size:10px; color:var(--m); text-transform:uppercase; }
+    .cards { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin-top:14px; }
+    .card { border:1px solid var(--b); border-radius:12px; padding:12px; font-size:13px; }
+    .ok { background:var(--okb); color:var(--ok); border-radius:99px; font-size:11px; padding:2px 8px; font-weight:600; }
+    .warn { background:var(--wb); color:var(--w); border-radius:99px; font-size:11px; padding:2px 8px; font-weight:600; }
+    table { width:100%; border-collapse:collapse; font-size:12px; margin-top:10px; }
+    th { text-align:left; color:var(--m); border-bottom:1px solid var(--b); padding:8px; }
+    td { border-bottom:1px solid #EEF1F5; padding:8px; }
+    .login { max-width:360px; margin:40px auto; border:1px solid var(--b); border-radius:14px; padding:28px; }
+    input, select { width:100%; height:40px; border:1px solid #D0D5DD; border-radius:8px; margin:6px 0 12px; padding:0 10px; }
+    .btn { background:var(--p); color:#fff; border:0; height:40px; border-radius:8px; width:100%; font-weight:600; }
+    h2 { font-size:16px; margin:0 0 10px; }
+    .toc { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:8px; }
+    .toc a { font-size:12px; background:#fff; border:1px solid var(--b); border-radius:99px; padding:6px 10px; color:var(--p); text-decoration:none; }
+    .pipe { font-size:13px; color:var(--m); line-height:1.8; }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <h1>FCQF — all application screens</h1>
+  <p class="lead">Light enterprise UI. Live app: port <strong>5173</strong>. Data: 12 institutions · 50 ICD-10 diseases · 2015–2026.</p>
+  <div class="toc">
+    <a href="#login">Login</a>
+    <a href="#dash">Overview</a>
+    <a href="#qb">Query builder</a>
+    <a href="#res">Query result</a>
+    <a href="#hist">History</a>
+    <a href="#fed">Federation</a>
+    <a href="#inst">Institutions</a>
+    <a href="#priv">Privacy</a>
+    <a href="#audit">Audit</a>
+    <a href="#prov">Provenance</a>
+    <a href="#bench">Benchmarks</a>
+    <a href="#health">System health</a>
+    <a href="#docs">Docs</a>
+    <a href="#set">Settings</a>
+  </div>
+
+  <div class="screen" id="login">
+    <div class="bar"><span>5173 /login</span><span>Unauthenticated</span></div>
+    <div class="login">
+      <div style="font-weight:700">FCQF</div>
+      <div style="font-size:12px;color:#667085">Federated Clinical Query Fabric</div>
+      <h2 style="margin-top:16px">Institutional sign-in</h2>
+      <label style="font-size:12px;color:#667085">Username</label><input />
+      <label style="font-size:12px;color:#667085">Password</label><input type="password" />
+      <button class="btn">Sign in</button>
+      <p style="font-size:11px;color:#98A2B3">No demo accounts shown. Organizational credentials only.</p>
+    </div>
+  </div>
+
+  <div class="screen" id="dash">
+    <div class="bar"><span>/dashboard</span><span>Researcher</span></div>
+    <div class="inner">
+      <aside class="side">
+        <div class="logo">FCQF</div>
+        <a class="on">Overview</a>
+        <div class="g">QUERY</div>
+        <a>Query Builder</a><a>Query History</a>
+        <div class="g">FEDERATION</div>
+        <a>Federation Monitor</a><a>Institutions</a>
+        <div class="g">PRIVACY</div>
+        <a>Privacy Center</a>
+      </aside>
+      <div class="main">
+        <h2>Good evening, Researcher</h2>
+        <p style="color:#667085;font-size:13px;margin:0 0 12px">Federated analytics across 12 institutions.</p>
+        <div class="kpis">
+          <div class="kpi"><span>Active institutions</span><b>12</b></div>
+          <div class="kpi"><span>Online agents</span><b>3 / 3</b></div>
+          <div class="kpi"><span>Queries today</span><b>live</b></div>
+          <div class="kpi"><span>Avg time</span><b>ms</b></div>
+        </div>
+        <div class="cards">
+          <div class="card">Hospital A <span class="ok">ONLINE</span><br/>Pune cluster · schema 1.2</div>
+          <div class="card">Hospital B <span class="ok">ONLINE</span><br/>Research cluster · schema 1.1</div>
+          <div class="card">Diagnostic Lab <span class="ok">ONLINE</span><br/>Lab cluster · schema 1.0</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="screen" id="qb">
+    <div class="bar"><span>/query-builder</span><span>Epidemiology query</span></div>
+    <div class="inner">
+      <aside class="side"><div class="logo">FCQF</div><a>Overview</a><a class="on">Query Builder</a></aside>
+      <div class="main" style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+        <div class="card">
+          <h2>Clinical criteria</h2>
+          Year <select><option>2024</option></select>
+          Primary condition <select><option>Type 2 diabetes mellitus (E11)</option></select>
+          Co-condition <select><option>Hypertension</option></select>
+          <button class="btn">Run federated query</button>
+        </div>
+        <div class="card">
+          <h2>Preview</h2>
+          <div class="pipe">Year 2024<br/>Type 2 diabetes mellitus<br/>12 source institutions on 3 agents<br/>k = 10 · no patient IDs</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="screen" id="res">
+    <div class="bar"><span>/query/:id</span><span>COMPLETE</span></div>
+    <div class="inner">
+      <aside class="side"><div class="logo">FCQF</div><a class="on">Query result</a></aside>
+      <div class="main">
+        <span class="ok">COMPLETE</span> · 3 / 3 agents · 100% completeness
+        <div class="card" style="margin-top:12px;text-align:center">
+          <div style="font-size:12px;color:#667085">Eligible federated cohort (2024 T2DM)</div>
+          <div style="font-size:40px;font-weight:700">6820</div>
+          <div style="font-size:12px;color:#667085">Matches validated Q001 · no raw records</div>
+        </div>
+        <div class="cards">
+          <div class="card">Hospital A · 3218</div>
+          <div class="card">Hospital B · 1935</div>
+          <div class="card">Diagnostic Lab · 1667</div>
+        </div>
+        <div class="card" style="margin-top:10px;background:#FFFAEB">
+          <span class="warn">PARTIAL example</span> — if one agent is offline: 2/3, 66.7%, completeness not guaranteed.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="screen" id="hist">
+    <div class="bar"><span>/query-history</span></div>
+    <div class="inner">
+      <aside class="side"><div class="logo">FCQF</div><a class="on">Query History</a></aside>
+      <div class="main">
+        <table>
+          <tr><th>Query</th><th>Year</th><th>Status</th><th>Count</th></tr>
+          <tr><td>Type 2 diabetes mellitus</td><td>2024</td><td><span class="ok">COMPLETE</span></td><td>6820</td></tr>
+          <tr><td>Diabetes + Hypertension</td><td>2024</td><td><span class="ok">COMPLETE</span></td><td>1375+</td></tr>
+          <tr><td>Small cohort</td><td>2015</td><td><span class="warn">SUPPRESSED</span></td><td>—</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="screen" id="fed">
+    <div class="bar"><span>/federation</span></div>
+    <div class="inner">
+      <aside class="side"><div class="logo">FCQF</div><a class="on">Federation Monitor</a></aside>
+      <div class="main">
+        <div class="card" style="text-align:center;font-size:13px;color:#667085">
+          Coordinator<br/>╱&nbsp;&nbsp;|&nbsp;&nbsp;╲<br/>
+          <span class="ok">A</span> &nbsp; <span class="ok">B</span> &nbsp; <span class="ok">Lab</span>
+        </div>
+        <div class="cards">
+          <div class="card">Hospital A<br/>INST001,004,005,006,010,011</div>
+          <div class="card">Hospital B<br/>INST003,008,009</div>
+          <div class="card">Lab<br/>INST002,007,012</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="screen" id="inst">
+    <div class="bar"><span>/institutions</span></div>
+    <div class="inner">
+      <aside class="side"><div class="logo">FCQF</div><a class="on">Institutions</a></aside>
+      <div class="main">
+        <div class="cards">
+          <div class="card"><b>HealthCare Institute 001</b><br/>Hospital · Pune</div>
+          <div class="card"><b>HealthCare Institute 002</b><br/>Diagnostic Lab · Nagpur</div>
+          <div class="card"><b>HealthCare Institute 003</b><br/>Research · Mumbai</div>
+          <div class="card"><b>… through INST012</b><br/>Kochi · 12 total</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="screen" id="priv">
+    <div class="bar"><span>/privacy</span></div>
+    <div class="inner">
+      <aside class="side"><div class="logo">FCQF</div><a class="on">Privacy Center</a></aside>
+      <div class="main">
+        <div class="pipe">✓ Raw records remain local<br/>✓ k-anonymity (k≥10)<br/>✓ Optional differential privacy<br/>✓ Privacy budget tracked<br/><br/>Local records → Local aggregate → k ≥ 10 → DP → Federated result</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="screen" id="audit">
+    <div class="bar"><span>/audit</span><span>Auditor role</span></div>
+    <div class="inner">
+      <aside class="side"><div class="logo">FCQF</div><a class="on">Audit Log</a></aside>
+      <div class="main">
+        <table>
+          <tr><th>Time</th><th>Actor</th><th>Action</th><th>Query</th></tr>
+          <tr><td>ISO timestamp</td><td>researcher</td><td>execute</td><td>uuid</td></tr>
+          <tr><td>ISO timestamp</td><td>researcher</td><td>POLICY_APPROVED</td><td>uuid</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="screen" id="prov">
+    <div class="bar"><span>/provenance</span></div>
+    <div class="inner">
+      <aside class="side"><div class="logo">FCQF</div><a class="on">Provenance</a></aside>
+      <div class="main pipe">
+        ● Query created<br/>● Policy approved<br/>● Agents completed<br/>● Privacy applied<br/>● Aggregation completed<br/>● Result digest stored
+      </div>
+    </div>
+  </div>
+
+  <div class="screen" id="bench">
+    <div class="bar"><span>/benchmarks</span></div>
+    <div class="inner">
+      <aside class="side"><div class="logo">FCQF</div><a class="on">Benchmarks</a></aside>
+      <div class="main"><div class="card">Measured latency from <code>scripts/benchmark.py</code> — never invented in the UI.</div></div>
+    </div>
+  </div>
+
+  <div class="screen" id="health">
+    <div class="bar"><span>/system-health</span></div>
+    <div class="inner">
+      <aside class="side"><div class="logo">FCQF</div><a class="on">System Health</a></aside>
+      <div class="main">
+        <div class="card">Gateway <span class="ok">Healthy</span></div>
+        <div class="card">Hospital A / B / Lab <span class="ok">Healthy</span></div>
+        <div class="card">Auth · Policy · Audit <span class="ok">Healthy</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="screen" id="docs">
+    <div class="bar"><span>/docs</span></div>
+    <div class="inner">
+      <aside class="side"><div class="logo">FCQF</div><a class="on">Documentation</a></aside>
+      <div class="main"><div class="card">Catalog from <code>docs/*.md</code> via gateway.</div></div>
+    </div>
+  </div>
+
+  <div class="screen" id="set">
+    <div class="bar"><span>/settings</span></div>
+    <div class="inner">
+      <aside class="side"><div class="logo">FCQF</div><a class="on">Settings</a></aside>
+      <div class="main"><div class="card">Profile + role (read-only). No secrets, no demo passwords.</div></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

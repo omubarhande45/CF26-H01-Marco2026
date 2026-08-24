@@ -1,0 +1,14 @@
+institution: diagnostic_lab
+name: Diagnostic Laboratory
+privacy:
+  minimum_cohort: 10
+  differential_privacy: true
+  epsilon: 1.0
+allowed_roles:
+  - researcher
+  - clinician
+  - admin
+allowed_query_types:
+  - aggregate_count
+canonical_model_version: "1.0"
+schema_version: "1.0"
