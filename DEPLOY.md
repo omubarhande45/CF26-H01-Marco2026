@@ -15,7 +15,23 @@ Do **not** put nodes or SQLite on Vercel.
 
 ---
 
-## Railway (one GitHub service)
+## Vercel (UI only — do not choose FastAPI)
+
+Vercel’s import wizard may suggest **FastAPI** because of `requirements.txt`. **Do not use FastAPI.** This site is a **Vite React** app.
+
+**Import settings**
+
+| Field | Value |
+|--------|--------|
+| Framework | **Vite** (or Other). Never FastAPI |
+| Root Directory | `frontend` **or** leave empty (repo root) |
+| Build | `npm run build` (if root = `frontend`) |
+| Output | `dist` (if root = `frontend`) |
+| Env | `GATEWAY_URL` = `https://YOUR-APP.up.railway.app` |
+
+If Root Directory is empty, root `vercel.json` already sets Vite + `frontend/dist`.
+
+After import: **Settings → Environment Variables → `GATEWAY_URL`** → Redeploy.
 
 Railway failed before because there was **no root Dockerfile** and Nixpacks did not know how to start four processes.
 

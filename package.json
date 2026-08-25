@@ -1,0 +1,12 @@
+{
+  "name": "cf26-h01-marco2026",
+  "private": true,
+  "description": "FCQF dashboard (Vite). API runs on Railway, not Vercel.",
+  "scripts": {
+    "build": "npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run preview --prefix frontend"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
