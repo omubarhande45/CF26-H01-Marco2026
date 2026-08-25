@@ -25,9 +25,11 @@ export async function api<T = unknown>(path: string, token?: string | null, init
   const timer = window.setTimeout(() => ctrl.abort(), 25000);
   let res: Response;
   try {
+    const cross = BASE.startsWith("http");
     res = await fetch(BASE + path, {
       ...init,
-      credentials: "include",
+      credentials: cross ? "omit" : "same-origin",
+      mode: "cors",
       signal: ctrl.signal,
       headers: {
         Accept: "application/json",
@@ -43,7 +45,12 @@ export async function api<T = unknown>(path: string, token?: string | null, init
     });
   } catch (e) {
     window.clearTimeout(timer);
-    throw new ApiError(503, e instanceof Error && e.name === "AbortError" ? "Request timed out" : "Backend unavailable");
+    throw new ApiError(
+      503,
+      e instanceof Error && e.name === "AbortError"
+        ? "Request timed out"
+        : "Network error talking to the API. On Vercel set GATEWAY_URL to your Railway gateway (https://….up.railway.app) and redeploy. Do not use localhost. Do not set NEXT_PUBLIC_API_URL.",
+    );
   }
   window.clearTimeout(timer);
   const text = await res.text();

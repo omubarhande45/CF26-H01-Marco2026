@@ -90,17 +90,19 @@ ROLE_PERMS = {
 authz = build_provider()
 ledger = PrivacyBudgetLedger(default_budget=BUDGET)
 
-_origins = [o.strip() for o in os.environ.get("ALLOWED_ORIGINS", "http://localhost:5173,http://127.0.0.1:5173").split(",")]
-if FCQF_ENV == "development" and "*" not in _origins:
+_origins = [o.strip() for o in os.environ.get("ALLOWED_ORIGINS", "http://localhost:5173,http://127.0.0.1:5173").split(",") if o.strip()]
+if "*" not in _origins:
     _origins = list({*_origins, "*"})
 
 app = FastAPI(title="FCQF Gateway", version="0.11.0")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=_origins,
-    allow_methods=["GET", "POST", "OPTIONS"],
-    allow_headers=["Authorization", "Content-Type", "X-FCQF-Token"],
+    allow_origins=["*"],
+    allow_origin_regex=r"https://.*\.(vercel\.app|railway\.app)",
+    allow_methods=["GET", "POST", "OPTIONS", "PUT", "DELETE"],
+    allow_headers=["*"],
     allow_credentials=False,
+    expose_headers=["*"],
 )
 
 QUERIES: dict[str, dict[str, Any]] = {}
@@ -156,7 +158,7 @@ class QueryCreate(ClinicalQuery):
 
 @app.middleware("http")
 async def rate_limit(request: Request, call_next):
-    if request.url.path in ("/", "/health", "/docs", "/openapi.json", "/metrics"):
+    if request.method == "OPTIONS" or request.url.path in ("/", "/health", "/docs", "/openapi.json", "/metrics"):
         return await call_next(request)
     ip = request.client.host if request.client else "unknown"
     now = time.time()
